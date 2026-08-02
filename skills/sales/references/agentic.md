@@ -1,0 +1,116 @@
+# Agentic (Additive Overlay)
+
+Purpose: State what changes when an AI agent runs prospecting, qualification, or a deal motion
+itself — deciding and sending — without a human reviewing each instance. **This is an overlay**: it
+stacks on [outbound-and-prospecting.md](outbound-and-prospecting.md)'s disclosure rule and
+evasion-category rule, and on [icp-and-qualification.md](icp-and-qualification.md); it never replaces
+either. Nothing about the underlying policy changes because a model runs the loop — if anything, an
+agent that can contact prospects faster than a human reviews it makes the disclosure and evasion
+rules more load-bearing, not less.
+
+Read when:
+- An AI SDR or agent drafts, sends, or follows up on outbound without per-message human review.
+- Evaluating an AI-SDR vendor's claims before adopting or citing them.
+- Deciding what autonomy ceiling to grant an agent running any part of a sales motion.
+
+Skip when:
+- A human reviews and approves each agent-drafted message before it sends — that's the base policy
+  in [outbound-and-prospecting.md](outbound-and-prospecting.md), not this overlay.
+- The question is retrieval, prompt design, the agent's turn loop, or eval methodology — that's `ai`'s
+  territory throughout; this file owns policy, not mechanics.
+- The question is a deterministic ceiling on a non-sales agentic step (an experiment, a support
+  agent) — see growth's, success's, and automation's own agentic overlays; this file scopes to sales
+  motions specifically.
+
+Inputs: the disclosure rule and evasion-category boundary already set in
+[outbound-and-prospecting.md](outbound-and-prospecting.md); which decisions in a sales motion
+(prospecting, follow-up cadence, qualification, first-contact messaging) are model-decided rather than
+human-approved per instance.
+
+Produces: an honest reality check on AI-SDR vendor claims; the disclosure rule enforced as
+configuration rather than left to prompt discretion; a structural ceiling on unattended agent action.
+
+## Contents
+- [AI-SDR reality, honestly](#ai-sdr-reality-honestly)
+- [Disclosure becomes structural, not instructional](#disclosure-becomes-structural-not-instructional)
+- [Guardrails for autonomous outbound](#guardrails-for-autonomous-outbound)
+- [The evasion rule binds tools that don't exist yet](#the-evasion-rule-binds-tools-that-dont-exist-yet)
+- [Where mechanics live](#where-mechanics-live)
+- [Failure modes](#failure-modes)
+
+## AI-SDR reality, honestly
+
+Every AI-SDR vendor claim — Artisan, 11x, Clay, Regie.ai, AiSDR, Qualified — grades
+VENDOR-SELF-REPORTED. The one case an outside party actually checked did not hold up: TechCrunch
+(2025-03-24), drawing on "nearly two dozen sources," found 11x displaying customer logos for companies
+that were not customers. ZoomInfo ran only a one-month trial and is on record: *"We did not give them
+permission to use our logo"*; the product *"performed significantly worse than our SDR employees."*
+Airtable: *"It was never used in production and never rolled out to our sales team"* — yet its logo
+kept appearing after the denial. **Never cite one side of a contested pair alone**: ARR "approaching
+$10M" (company) vs. ~$3M (employee source); retention 79% (company) vs. "losing 70–80% of customers"
+(employee source) — both figures sit in the same article. AI-SDR market-size figures ("$5.8B,
+compounding at over 20% a year") are unsourced and **never ship**.
+
+The standing, unanswered challenge belongs in this pack as the evidentiary bar: *"I've still yet to
+see a real world example where an AI SDR agent has booked a qualified call"*
+(x.com/salesxsaas/status/2019037210805403922). Cite it as an open challenge nobody in this research
+met — not as proof AI-SDR doesn't work, just as proof nobody has shown that it does at the bar the
+challenge sets. The same account's dog-that-didn't-bark observation is a separate, checkable diligence
+heuristic worth teaching on its own: *"every AI SDR company still uses human SDRs to sell their own
+product"* (x.com/salesxsaas/status/2080037249631076775) — distinct from the unsourced market-size
+figure attached to the same post, which never ships.
+
+## Disclosure becomes structural, not instructional
+
+[outbound-and-prospecting.md](outbound-and-prospecting.md)'s rule — disclose the agent, clearly, at
+first contact — is written for a human sending AI-drafted outbound. Once an agent sends without
+per-instance review, the same move the family's other agentic overlays make applies here:
+**pre-commit the rule before the run, enforce it structurally, not by instruction.** A disclosure
+line a prompt merely "should" include is unaudited by construction. Require it as a field the agent
+cannot omit from a first-contact message — the same pattern as a required, logged typed field
+elsewhere in the family for auditable agent decisions — and log every send against it, so disclosure
+compliance is reviewable after the fact, not just hoped for at generation time.
+
+## Guardrails for autonomous outbound
+
+- **A volume ceiling** on how many prospects per day an agent may contact unsupervised, enforced by
+  the sending platform's own rate control — not a prompt asking the agent to pace itself.
+- **A kill switch independent of the agent's own reasoning**, able to silence a campaign or account
+  from outside its decision loop.
+- **A human review gate** before an agent-initiated conversation advances past first contact into
+  anything binding — pricing, contract terms, a scheduled call the agent alone confirmed. Cite
+  [proposals-pricing-and-negotiation.md](proposals-pricing-and-negotiation.md) and automation's own
+  irreversible-action approval gate for the mechanism; don't re-derive an approval workflow here.
+
+## The evasion rule binds tools that don't exist yet
+
+[outbound-and-prospecting.md](outbound-and-prospecting.md)'s rule against manufacturing false
+engagement signals to defeat filtering applies with more force to an autonomous agent, because an
+agent can produce the evasion at a volume and consistency a human copy-pasting cannot. The rule is
+written against the *category* — copy-spinning, simulated engagement, account farming — specifically
+so it still binds a capability that doesn't exist yet. An agent framework offering "vary this message
+N ways to avoid detection" is offering evasion tooling regardless of how the feature is marketed; this
+overlay does not carve out an exception for agent-native versions of the same three exhibits.
+
+## Where mechanics live
+
+`ai` owns retrieval, prompt design, the agent loop, and eval instrumentation for any agent operating
+in a sales motion. This overlay owns the policy question — whether an agent may act unsupervised,
+what it must disclose, and what it may never do to defeat a receiving system's filters.
+`louisblythe/sales-skills` (122 skills, **no license file — cite only, never lift**) is the deepest
+AI-SDR-mechanics treatment found in this research: bot behaviors like voicemail-drop-optimization,
+ghost-recovery, and response-latency-management. Useful as a map of what "mechanics" covers; not
+content to adapt.
+
+## Failure modes
+
+- Citing an AI-SDR vendor's ARR or retention claim without its contested counter-figure from the same
+  source.
+- A disclosure line left to prompt discretion rather than a required, logged field.
+- Treating salesxsaas's unanswered challenge as proof AI-SDR doesn't work, rather than as a bar
+  nobody in this research met.
+- Teaching a "vary the message" or "simulate engagement" capability without naming it as the evasion
+  category it is, because an agent generated it rather than a human.
+- A volume or kill-switch guardrail enforced only by prompt instruction rather than the platform's own
+  control — the same gap the family's other agentic overlays flag as the highest-consequence one.
+- The real ask is agent mechanics, retrieval, or eval design → `ai`.
