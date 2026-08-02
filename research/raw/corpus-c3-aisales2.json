@@ -1,0 +1,432 @@
+{
+  "schema": "github-relay/corpus@1",
+  "intent": "agent-hydrated repos",
+  "generatedAt": "2026-08-02T22:28:54.897Z",
+  "queries": [],
+  "count": 4,
+  "repos": [
+    {
+      "full_name": "iPythoning/b2b-sdr-agent-template",
+      "ghid": "R_kgDORudINw",
+      "aliases": [],
+      "source": "agent",
+      "signals": {
+        "commits90d": {
+          "value": 382,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-06-07T10:40:49Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "closedIssues": {
+          "value": 8,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "openPRs": {
+          "value": 5,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "mentionableUsers": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "watchers": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "diskUsage": {
+          "value": 371662,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "homepageUrl": {
+          "value": "https://pulseagent.io",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "fundingLinksCount": {
+          "value": 3,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        }
+      },
+      "stars": 150,
+      "forks": 46,
+      "pushedAt": "2026-07-13T23:19:23Z",
+      "createdAt": "2026-03-23T12:55:44Z",
+      "license": "MIT",
+      "topics": [
+        "ai-agent",
+        "ai-sales",
+        "ai-sdr",
+        "b2b",
+        "b2b-sales",
+        "cold-email",
+        "crm",
+        "export-business",
+        "lead-generation",
+        "openclaw"
+      ],
+      "language": "Shell",
+      "archived": false,
+      "description": "Open-source AI SDR template for B2B export. 10-stage sales pipeline, 10 cron jobs, 4-engine memory, multi-channel (WhatsApp+Telegram+Email). Built on OpenClaw."
+    },
+    {
+      "full_name": "brightdata/ai-sdr-bdr-agent",
+      "ghid": "R_kgDOP5u6MQ",
+      "aliases": [],
+      "source": "agent",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "mentionableUsers": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "diskUsage": {
+          "value": 140,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "homepageUrl": {
+          "value": "https://brightdata.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        }
+      },
+      "stars": 11,
+      "forks": 4,
+      "pushedAt": "2025-09-30T13:49:11Z",
+      "createdAt": "2025-09-30T13:27:46Z",
+      "topics": [
+        "ai-agent",
+        "bright-data",
+        "crewai",
+        "data",
+        "nodejs",
+        "openai",
+        "python",
+        "streamlit",
+        "web-scraping"
+      ],
+      "language": "Python",
+      "archived": false,
+      "description": "AI-powered BDR/SDR system that automates lead discovery, trigger detection, contact research, personalized outreach, and CRM integration in real time."
+    },
+    {
+      "full_name": "personizeai/revenue-os",
+      "ghid": "R_kgDORlml2g",
+      "aliases": [],
+      "source": "agent",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-03-26T22:43:08Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "openPRs": {
+          "value": 6,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "mergedPRs": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "mentionableUsers": {
+          "value": 4,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "diskUsage": {
+          "value": 1179,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        }
+      },
+      "stars": 11,
+      "forks": 5,
+      "pushedAt": "2026-04-23T19:42:41Z",
+      "createdAt": "2026-03-12T22:11:53Z",
+      "license": "MIT",
+      "topics": [],
+      "language": "TypeScript",
+      "archived": false,
+      "description": " Open-source alternative to HubSpot Prospecting Agent, Artisan, 11x, and AI SDRs — with full customizability at a fraction of the cost."
+    },
+    {
+      "full_name": "codyschneiderx/waterfall-gtm",
+      "ghid": "R_kgDORE_Vkw",
+      "aliases": [],
+      "source": "agent",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "mentionableUsers": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "diskUsage": {
+          "value": 383,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:28:51.392Z"
+        }
+      },
+      "stars": 34,
+      "forks": 11,
+      "pushedAt": "2026-01-31T00:17:40Z",
+      "createdAt": "2026-01-30T15:48:10Z",
+      "license": "MIT",
+      "topics": [],
+      "language": "Python",
+      "archived": false,
+      "description": "Lead enrichment system with waterfall data providers, AI personalization, and HubSpot sync"
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "schema": "github-relay/corpus@1",
+  "intent": "agent-hydrated repos",
+  "generatedAt": "2026-08-02T22:27:43.526Z",
+  "queries": [],
+  "count": 7,
+  "repos": [
+    {
+      "full_name": "filip-michalsky/SalesGPT",
+      "ghid": "R_kgDOJa3IBw",
+      "aliases": [],
+      "source": "agent",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "releasePublishedAt": {
+          "value": "2024-03-25T01:48:46Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "openIssues": {
+          "value": 51,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "closedIssues": {
+          "value": 38,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "openPRs": {
+          "value": 8,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "mergedPRs": {
+          "value": 65,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "closedPRs": {
+          "value": 12,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "mentionableUsers": {
+          "value": 8,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "watchers": {
+          "value": 55,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "diskUsage": {
+          "value": 13619,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "homepageUrl": {
+          "value": "https://salesgpt.vercel.app",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        }
+      },
+      "stars": 2713,
+      "forks": 597,
+      "pushedAt": "2024-09-17T00:03:26Z",
+      "createdAt": "2023-04-24T20:05:04Z",
+      "license": "MIT",
+      "topics": [],
+      "language": "HTML",
+      "archived": false,
+      "description": "Context-aware AI Sales Agent to automate sales outreach."
+    },
+    {
+      "full_name": "eracle/OpenOutreach",
+      "ghid": "MDEwOlJlcG9zaXRvcnk3MDI3MTE4Mg==",
+      "aliases": [],
+      "source": "agent",
+      "signals": {
+        "commits90d": {
+          "value": 198,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "openIssues": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "closedIssues": {
+          "value": 55,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "openPRs": {
+          "value": 116,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "mergedPRs": {
+          "value": 34,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "closedPRs": {
+          "value": 715,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "mentionableUsers": {
+          "value": 7,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "watchers": {
+          "value": 44,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "diskUsage": {
+          "value": 14679,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "homepageUrl": {
+          "value": "https://openoutreach.app",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "fundingLinksCount": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "pseudoLicense": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        }
+      },
+      "stars": 2590,
+      "forks": 486,
+      "pushedAt": "2026-08-02T17:39:56Z",
+      "createdAt": "2016-10-07T18:10:30Z",
+      "license": "NOASSERTION",
+      "topics": [
+        "bot",
+        "scraping",
+        "agent",
+        "agentic",
+        "automated-outreach",
+        "automation",
+        "llm",
+        "marketing",
+        "marketing-automation",
+        "marketing-outreach"
+      ],
+      "language": "Python",
+      "archived": false,
+      "description": "Agentic Email Automation Tool: Describe your product. Define your target market. The AI finds the leads for you."
+    },
+    {
+      "full_name": "growchief/growchief",
+      "ghid": "R_kgDOPhqB7A",
+      "aliases": [],
+      "source": "agent",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "releasePublishedAt": {
+          "value": "2025-09-05T12:31:45Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "openIssues": {
+          "value": 8,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "closedIssues": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "openPRs": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "mergedPRs": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "mentionableUsers": {
+          "value": 3,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "watchers": {
+          "value": 4,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "diskUsage": {
+          "value": 853,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "homepageUrl": {
+          "value": "https://growchief.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        }
+      },
+      "stars": 3401,
+      "forks": 255,
+      "pushedAt": "2025-10-13T05:36:00Z",
+      "createdAt": "2025-08-21T08:06:06Z",
+      "license": "AGPL-3.0",
+      "topics": [
+        "automation",
+        "n8n",
+        "nestjs",
+        "nodejs",
+        "outreach",
+        "social-media",
+        "temporal"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "The Ultimate all-in social media automation (outreach) tool 🤖"
+    },
+    {
+      "full_name": "zubair-trabzada/ai-sales-team-claude",
+      "ghid": "R_kgDORiz60g",
+      "aliases": [],
+      "source": "agent",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "openPRs": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "closedPRs": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "mentionableUsers": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "watchers": {
+          "value": 10,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "diskUsage": {
+          "value": 191,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "homepageUrl": {
+          "value": "https://www.skool.com/aiworkshop",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        }
+      },
+      "stars": 890,
+      "forks": 300,
+      "pushedAt": "2026-03-27T02:55:21Z",
+      "createdAt": "2026-03-10T00:18:25Z",
+      "license": "MIT",
+      "topics": [],
+      "language": "Python",
+      "archived": false,
+      "description": "AI-powered sales team for Claude Code. Research prospects, qualify leads (BANT + MEDDIC), find decision makers, generate outreach sequences, prepare for meetings, write proposals, and produce PDF pipeline reports — 14 skills, 5 parallel agents."
+    },
+    {
+      "full_name": "linvo-io/linvo-scraper",
+      "ghid": "R_kgDOIKAWYQ",
+      "aliases": [],
+      "source": "agent",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "mergedPRs": {
+          "value": 5,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "closedPRs": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "mentionableUsers": {
+          "value": 6,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "watchers": {
+          "value": 6,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "diskUsage": {
+          "value": 148,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "homepageUrl": {
+          "value": "https://linvo.io",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        }
+      },
+      "stars": 628,
+      "forks": 70,
+      "pushedAt": "2024-12-11T17:20:18Z",
+      "createdAt": "2022-10-07T14:58:23Z",
+      "license": "MIT",
+      "topics": [
+        "automation",
+        "linkedin",
+        "puppeteer",
+        "scraper",
+        "hacktoberfest",
+        "hactoberfest-accepted"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "Linkedin Automation Bot with every possible scraping! Valid for 2022 used by Linvo.io"
+    },
+    {
+      "full_name": "relaticle/relaticle",
+      "ghid": "R_kgDOM3Fj4w",
+      "aliases": [],
+      "source": "agent",
+      "signals": {
+        "commits90d": {
+          "value": 63,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-29T21:19:45Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "openIssues": {
+          "value": 6,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "closedIssues": {
+          "value": 47,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "openPRs": {
+          "value": 10,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "mergedPRs": {
+          "value": 304,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "closedPRs": {
+          "value": 44,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "mentionableUsers": {
+          "value": 8,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "watchers": {
+          "value": 10,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "diskUsage": {
+          "value": 40105,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "homepageUrl": {
+          "value": "https://relaticle.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        }
+      },
+      "stars": 1482,
+      "forks": 166,
+      "pushedAt": "2026-07-31T15:28:20Z",
+      "createdAt": "2024-09-25T16:56:14Z",
+      "license": "AGPL-3.0",
+      "topics": [
+        "crm",
+        "filament",
+        "laravel",
+        "livewire",
+        "saas",
+        "contacts",
+        "people",
+        "sales",
+        "task",
+        "team"
+      ],
+      "language": "PHP",
+      "archived": false,
+      "description": "Open-source CRM with native AI agent support. 30 MCP tools, REST API, self-hosted. Built with Laravel & Filament"
+    },
+    {
+      "full_name": "Salesably/awesome-ai-agents-for-sales",
+      "ghid": "R_kgDOQ6wBfw",
+      "aliases": [],
+      "source": "agent",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "openIssues": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "openPRs": {
+          "value": 15,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "closedPRs": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "mentionableUsers": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "diskUsage": {
+          "value": 10,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:27:39.102Z"
+        }
+      },
+      "stars": 31,
+      "forks": 22,
+      "pushedAt": "2026-01-16T01:17:19Z",
+      "createdAt": "2026-01-16T01:09:33Z",
+      "topics": [],
+      "language": null,
+      "archived": false,
+      "description": "A curated list of AI agents, tools, and resources transforming B2B sales"
+    }
+  ]
+}

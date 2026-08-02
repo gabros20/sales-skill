@@ -1,0 +1,5773 @@
+{
+  "schema": "github-relay/corpus@1",
+  "intent": "agent-hydrated repos",
+  "generatedAt": "2026-08-02T22:21:59.963Z",
+  "queries": [
+    "topic:crm sort:stars",
+    "topic:sales-crm sort:stars"
+  ],
+  "count": 50,
+  "repos": [
+    {
+      "full_name": "twentyhq/twenty",
+      "ghid": "R_kgDOIicM-w",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 2219,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-31T12:05:32Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 86,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 6657,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 47,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 13620,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 2176,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 700,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 213,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 1539680,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://twenty.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 54108,
+      "forks": 8304,
+      "pushedAt": "2026-08-02T19:14:01Z",
+      "createdAt": "2022-12-01T13:04:40Z",
+      "license": "NOASSERTION",
+      "topics": [
+        "crm",
+        "customer",
+        "graphql",
+        "marketing",
+        "react",
+        "sales",
+        "typescript",
+        "crm-system",
+        "nestjs",
+        "reactjs"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "The open alternative to Salesforce, designed for AI."
+    },
+    {
+      "full_name": "espocrm/espocrm",
+      "ghid": "MDEwOlJlcG9zaXRvcnkyNDQ1OTQ0MQ==",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 535,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-17T12:31:09Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 47,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 2943,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 10,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 353,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 335,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 57,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 106,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 90834,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://www.espocrm.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 3185,
+      "forks": 918,
+      "pushedAt": "2026-07-30T07:31:19Z",
+      "createdAt": "2014-09-25T13:38:46Z",
+      "license": "AGPL-3.0",
+      "topics": [
+        "crm",
+        "php",
+        "single-page-application",
+        "customer-portal",
+        "calendar",
+        "kanban",
+        "open-source",
+        "platform",
+        "sales-automation",
+        "customizable"
+      ],
+      "language": "PHP",
+      "archived": false,
+      "description": "EspoCRM – Open Source CRM Application"
+    },
+    {
+      "full_name": "odoo/odoo",
+      "ghid": "MDEwOlJlcG9zaXRvcnkxOTc0NTAwNA==",
+      "aliases": [],
+      "source": "agent",
+      "signals": {
+        "commits90d": {
+          "value": 1774,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 3768,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 15322,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 6535,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 6183,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 246229,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 4111,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 1530,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 17019578,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://www.odoo.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 53431,
+      "forks": 33319,
+      "pushedAt": "2026-08-02T22:02:03Z",
+      "createdAt": "2014-05-13T15:38:58Z",
+      "license": "NOASSERTION",
+      "topics": [
+        "odoo",
+        "python",
+        "business",
+        "management",
+        "odoo-apps",
+        "erp",
+        "apps"
+      ],
+      "language": "Python",
+      "archived": false,
+      "description": "Odoo. Open Source Apps To Grow Your Business."
+    },
+    {
+      "full_name": "SuiteCRM/SuiteCRM",
+      "ghid": "MDEwOlJlcG9zaXRvcnkxMzA0NDYwMA==",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 48,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-31T13:37:50Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 1148,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 4222,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 263,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 3302,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 1872,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 208,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 255,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 148047,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://www.suitecrm.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 5613,
+      "forks": 2387,
+      "pushedAt": "2026-07-31T13:37:50Z",
+      "createdAt": "2013-09-23T19:10:08Z",
+      "license": "AGPL-3.0",
+      "topics": [
+        "crm",
+        "php",
+        "agplv3",
+        "accounts",
+        "contacts",
+        "workflow",
+        "reports",
+        "leads",
+        "quotes",
+        "opportunities"
+      ],
+      "language": "PHP",
+      "archived": false,
+      "description": "SuiteCRM - Open source CRM for the world"
+    },
+    {
+      "full_name": "krayin/laravel-crm",
+      "ghid": "MDEwOlJlcG9zaXRvcnkzNzQxMzIzNTk=",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 146,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-23T11:54:15Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 87,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 953,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 37,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 1239,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 199,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 45,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 60,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 53324,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://krayincrm.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 23584,
+      "forks": 1550,
+      "pushedAt": "2026-07-31T13:35:52Z",
+      "createdAt": "2021-06-05T14:18:48Z",
+      "license": "MIT",
+      "topics": [
+        "php",
+        "laravel",
+        "laravel-package",
+        "laravel-framework",
+        "laravel-crm",
+        "vuejs",
+        "laravel-application",
+        "opensource",
+        "vue",
+        "opensource-crm-framework"
+      ],
+      "language": "PHP",
+      "archived": false,
+      "description": "Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management."
+    },
+    {
+      "full_name": "monicahq/monica",
+      "ghid": "MDEwOlJlcG9zaXRvcnk4MjIzODE2OA==",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2024-05-04T08:06:50Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 725,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 1340,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 60,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 4104,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 1585,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 40,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 288,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 152694,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://beta.monicahq.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 3,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 24938,
+      "forks": 2561,
+      "pushedAt": "2026-04-24T19:52:26Z",
+      "createdAt": "2017-02-17T00:02:58Z",
+      "license": "AGPL-3.0",
+      "topics": [
+        "laravel",
+        "crm",
+        "friends",
+        "family",
+        "social",
+        "prm",
+        "php",
+        "hacktoberfest"
+      ],
+      "language": "PHP",
+      "archived": false,
+      "description": "Personal CRM. Remember everything about your friends, family and business relationships."
+    },
+    {
+      "full_name": "marmelab/atomic-crm",
+      "ghid": "R_kgDOMCvTzA",
+      "aliases": [],
+      "source": "agent",
+      "signals": {
+        "commits90d": {
+          "value": 182,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-03-10T10:17:54Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 27,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 9,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 224,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 73,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 26,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 10,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 47128,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "http://marmelab.com/atomic-crm/",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 1179,
+      "forks": 752,
+      "pushedAt": "2026-07-31T14:46:06Z",
+      "createdAt": "2024-05-30T14:40:44Z",
+      "license": "MIT",
+      "topics": [
+        "crm",
+        "react",
+        "react-admin",
+        "supabase",
+        "react-hook-form",
+        "react-query",
+        "react-router",
+        "shadcn-ui"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "A full-featured CRM built with React, shadcn/ui, and Supabase."
+    },
+    {
+      "full_name": "frappe/erpnext",
+      "ghid": "MDEwOlJlcG9zaXRvcnkxODY0MjMz",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 2693,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-30T05:19:23Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 1843,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 16682,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 72,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 31754,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 5491,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 754,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 672,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 1795045,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://frappe.io/erpnext",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 37520,
+      "forks": 12304,
+      "pushedAt": "2026-08-02T19:33:13Z",
+      "createdAt": "2011-06-08T08:20:56Z",
+      "license": "GPL-3.0",
+      "topics": [
+        "manufacturing",
+        "erpnext",
+        "python",
+        "healthcare",
+        "support",
+        "asset-management",
+        "accounting",
+        "distribution",
+        "retail",
+        "crm"
+      ],
+      "language": "Python",
+      "archived": false,
+      "description": "Free and Open Source Enterprise Resource Planning (ERP)"
+    },
+    {
+      "full_name": "hcengineering/platform",
+      "ghid": "MDEwOlJlcG9zaXRvcnkzOTIwNzMyNDM=",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 102,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-05T03:43:54Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 785,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 2106,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 59,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 7430,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 517,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 120,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 78,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 313957,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://huly.io",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 39,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 27191,
+      "forks": 2068,
+      "pushedAt": "2026-08-01T01:32:14Z",
+      "createdAt": "2021-08-02T19:39:23Z",
+      "license": "EPL-2.0",
+      "topics": [
+        "applicant-tracking-system",
+        "chat-application",
+        "crm",
+        "crm-platform",
+        "hrms",
+        "human-resources",
+        "issue-management",
+        "issue-tracker",
+        "project-management",
+        "qms"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "Huly — All-in-One Project Management Platform (alternative to Linear, Jira, Slack, Notion, Motion)"
+    },
+    {
+      "full_name": "nocobase/nocobase",
+      "ghid": "MDEwOlJlcG9zaXRvcnkzMDY4Mjk2ODg=",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 1345,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-08-01T16:23:17Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 102,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 1402,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 184,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 6878,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 919,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 113,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 170,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 348280,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://www.nocobase.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 9,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 23524,
+      "forks": 2806,
+      "pushedAt": "2026-08-02T16:41:15Z",
+      "createdAt": "2020-10-24T07:27:48Z",
+      "license": "NOASSERTION",
+      "topics": [
+        "no-code",
+        "low-code",
+        "nocode",
+        "internal-tools",
+        "internal-tool",
+        "airtable",
+        "admin-dashboard",
+        "crud",
+        "workflows",
+        "self-hosted"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "NocoBase is an open-source AI + no-code platform for building business systems fast. Instead of generating everything from scratch, AI works on top of production-proven infrastructure and a WYSIWYG no-code interface, so you get both speed and reliability."
+    },
+    {
+      "full_name": "akaunting/akaunting",
+      "ghid": "MDEwOlJlcG9zaXRvcnk5NTAxMTk3NA==",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 130,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-21T16:21:23Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 1312,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 5,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 1700,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 236,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 107,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 217,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 86593,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://akaunting.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 10015,
+      "forks": 2960,
+      "pushedAt": "2026-07-28T07:42:13Z",
+      "createdAt": "2017-06-21T14:17:56Z",
+      "license": "NOASSERTION",
+      "topics": [
+        "php",
+        "laravel",
+        "accounting",
+        "invoices",
+        "payments",
+        "expenses",
+        "laravel-application",
+        "invoicing",
+        "billing",
+        "budget"
+      ],
+      "language": "PHP",
+      "archived": false,
+      "description": "Online Accounting Software"
+    },
+    {
+      "full_name": "idurar/idurar-erp-crm",
+      "ghid": "MDEwOlJlcG9zaXRvcnkzMDQ5ODEzNDA=",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-03-16T19:17:57Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 234,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 293,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 249,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 480,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 177,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 85,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 73,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 23361,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://cloud.idurarapp.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 8595,
+      "forks": 3092,
+      "pushedAt": "2026-05-12T12:32:31Z",
+      "createdAt": "2020-10-17T22:38:36Z",
+      "license": "AGPL-3.0",
+      "topics": [
+        "accounting",
+        "erp",
+        "erp-application",
+        "invoice",
+        "crm",
+        "crm-system",
+        "invoicing",
+        "invoicing-application",
+        "invoicing-software",
+        "crm-platform"
+      ],
+      "language": "JavaScript",
+      "archived": false,
+      "description": "Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React"
+    },
+    {
+      "full_name": "Dolibarr/dolibarr",
+      "ghid": "MDEwOlJlcG9zaXRvcnkxOTU3NDU2",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 1782,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-05-17T23:21:49Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 634,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 9787,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 467,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 23635,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 4786,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 812,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 271,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 1716048,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://www.dolibarr.org",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 3,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 7470,
+      "forks": 3463,
+      "pushedAt": "2026-08-02T18:00:33Z",
+      "createdAt": "2011-06-26T21:55:03Z",
+      "license": "GPL-3.0",
+      "topics": [
+        "erp",
+        "crm",
+        "accounting",
+        "quotations",
+        "invoicing",
+        "stocks",
+        "agenda",
+        "human-resource-managment",
+        "php",
+        "mysql"
+      ],
+      "language": "PHP",
+      "archived": false,
+      "description": "Dolibarr ERP CRM is a modern software package to manage your company or foundation's activity (contacts, suppliers, invoices, orders, stocks, agenda, accounting, ...). it's an open source Web application (written in PHP) designed for businesses of any sizes, foundations and freelancers."
+    },
+    {
+      "full_name": "openblocks-dev/openblocks",
+      "ghid": "R_kgDOIbi-HQ",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2023-03-23T11:01:12Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 119,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 158,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 9,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 93,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 22,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 17,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 40,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 136433,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://cloud.openblocks.dev",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 6235,
+      "forks": 407,
+      "pushedAt": "2023-10-19T06:42:16Z",
+      "createdAt": "2022-11-14T09:04:00Z",
+      "license": "AGPL-3.0",
+      "topics": [
+        "admin-dashboard",
+        "app-builder",
+        "app-development",
+        "business-intelligence",
+        "clickhouse",
+        "crm",
+        "crud-application",
+        "dashboard",
+        "data-source",
+        "gui"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "🔥 🔥 🔥 The Open Source Retool Alternative"
+    },
+    {
+      "full_name": "Volmarg/personal-management-system",
+      "ghid": "MDEwOlJlcG9zaXRvcnkxNzc4NjA5NDc=",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 36,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-04-25T10:05:04Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 4,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 80,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 13,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 57,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 7,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 33,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 149987,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "http://personal-management-system.pl/",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 4114,
+      "forks": 340,
+      "pushedAt": "2026-07-26T16:03:12Z",
+      "createdAt": "2019-03-26T20:08:02Z",
+      "license": "MIT",
+      "topics": [
+        "dashboard",
+        "dashboards",
+        "manager",
+        "symfony",
+        "mit",
+        "self-hosted",
+        "php",
+        "productivity",
+        "privacy",
+        "free"
+      ],
+      "language": "PHP",
+      "archived": false,
+      "description": "Your web application for managing personal data."
+    },
+    {
+      "full_name": "ever-co/ever-gauzy",
+      "ghid": "MDEwOlJlcG9zaXRvcnkxODk4MjkzOTI=",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 240,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-04T20:25:10Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 414,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 1551,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 38,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 7316,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 548,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 86,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 57,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 236905,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://gauzy.co",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 3801,
+      "forks": 791,
+      "pushedAt": "2026-08-02T21:07:04Z",
+      "createdAt": "2019-06-02T09:47:13Z",
+      "license": "AGPL-3.0",
+      "topics": [
+        "hr",
+        "salary",
+        "accounting",
+        "expenses",
+        "billing",
+        "productivity",
+        "time-tracker",
+        "team-management",
+        "invoices",
+        "invoicing"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co"
+    },
+    {
+      "full_name": "Peppermint-Lab/peppermint",
+      "ghid": "MDEwOlJlcG9zaXRvcnkzMTA0MjY2NTY=",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2024-11-14T23:42:34Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 86,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 189,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 15,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 151,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 31,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 45,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 40,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 111836,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://peppermint.sh",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 3157,
+      "forks": 384,
+      "pushedAt": "2025-09-21T10:59:09Z",
+      "createdAt": "2020-11-05T21:56:53Z",
+      "license": "NOASSERTION",
+      "topics": [
+        "self-hosted",
+        "docker",
+        "javascript",
+        "nodejs",
+        "full-stack",
+        "ticketing-system",
+        "ticket-management",
+        "react",
+        "customer-relationship-management",
+        "crm"
+      ],
+      "language": "TypeScript",
+      "archived": true,
+      "description": "An open source issue management & help desk solution. A zendesk & jira alternative"
+    },
+    {
+      "full_name": "ONLYOFFICE/CommunityServer",
+      "ghid": "MDEwOlJlcG9zaXRvcnkyMTUyNTE4Nw==",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-05-05T09:49:52Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 168,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 276,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 38,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 10,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 12,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 27,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 135,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 266243,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "http://www.onlyoffice.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 3152,
+      "forks": 672,
+      "pushedAt": "2026-05-05T09:52:35Z",
+      "createdAt": "2014-07-05T17:57:33Z",
+      "license": "Apache-2.0",
+      "topics": [
+        "onlyoffice",
+        "collaboration",
+        "dms",
+        "document-management",
+        "project-management",
+        "crm",
+        "file-sharing",
+        "csharp",
+        "tsql"
+      ],
+      "language": "C#",
+      "archived": false,
+      "description": "Free open source office suite with business productivity tools: document and project management, CRM, mail aggregator."
+    },
+    {
+      "full_name": "InvoicePlane/InvoicePlane",
+      "ghid": "MDEwOlJlcG9zaXRvcnkyMDAyMTAzOA==",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 141,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-30T19:46:34Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 55,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 388,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 17,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 743,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 342,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 138,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 134,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 33851,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://www.invoiceplane.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 3099,
+      "forks": 867,
+      "pushedAt": "2026-08-02T19:30:55Z",
+      "createdAt": "2014-05-21T12:52:29Z",
+      "license": "NOASSERTION",
+      "topics": [
+        "php",
+        "invoices",
+        "invoicing",
+        "open-source",
+        "crm",
+        "billing",
+        "invoiceplane",
+        "codeigniter"
+      ],
+      "language": "PHP",
+      "archived": false,
+      "description": "A self-hosted open source application for managing your invoices, clients and payments."
+    },
+    {
+      "full_name": "frappe/crm",
+      "ghid": "R_kgDOJ9PpSQ",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 801,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-30T11:51:39Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 241,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 465,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 42,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 1631,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 202,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 122,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 33,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 109094,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://frappe.io/crm",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 3057,
+      "forks": 1279,
+      "pushedAt": "2026-08-02T10:59:15Z",
+      "createdAt": "2023-07-19T08:53:35Z",
+      "license": "AGPL-3.0",
+      "topics": [
+        "crm",
+        "crm-connections",
+        "crm-platform",
+        "crm-system",
+        "customer",
+        "frappe",
+        "frappe-app",
+        "javascript",
+        "marketing",
+        "open-source"
+      ],
+      "language": "Vue",
+      "archived": false,
+      "description": "Fully featured, open source CRM"
+    },
+    {
+      "full_name": "1Panel-dev/CordysCRM",
+      "ghid": "R_kgDOPjLI-Q",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 855,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-27T04:19:03Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 219,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 260,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 2554,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 141,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 62,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 12,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 51685,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://cordys.cn",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 2575,
+      "forks": 526,
+      "pushedAt": "2026-07-31T10:45:46Z",
+      "createdAt": "2025-08-24T02:54:30Z",
+      "license": "NOASSERTION",
+      "topics": [
+        "ai-crm",
+        "crm-system",
+        "salesforce",
+        "cordys",
+        "crm",
+        "dataease",
+        "openclaw",
+        "crm-skills"
+      ],
+      "language": "Java",
+      "archived": false,
+      "description": "🔥 Cordys 是由飞致云匠心打造的新一代的开源 AI CRM 系统，深度融合信息化、数字化与智能化能力，支持私有化部署，全面保障企业数据安全与主权。"
+    },
+    {
+      "full_name": "frappe/frappe_docker",
+      "ghid": "MDEwOlJlcG9zaXRvcnk5OTIyNDE5NA==",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 89,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-03T17:15:02Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 9,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 832,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 832,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 248,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 228,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 63,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 10719,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://frappe.github.io/frappe_docker/",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 2486,
+      "forks": 2652,
+      "pushedAt": "2026-07-31T08:23:25Z",
+      "createdAt": "2017-08-03T11:10:41Z",
+      "license": "MIT",
+      "topics": [
+        "frappe",
+        "erpnext",
+        "containers",
+        "apps",
+        "docker",
+        "business-software",
+        "docker-compose",
+        "erp",
+        "self-hosted",
+        "crm"
+      ],
+      "language": "Python",
+      "archived": false,
+      "description": "Docker environment for developing, deploying, and running Frappe applications (ERPNext and custom apps) in production and development"
+    },
+    {
+      "full_name": "WuKongOpenSource/WukongCRM-11.0-JAVA",
+      "ghid": "MDEwOlJlcG9zaXRvcnkzNTUxNTU5MzI=",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 20,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 4,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 4,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 66,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 114411,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://www.5kcrm.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 2440,
+      "forks": 320,
+      "pushedAt": "2021-08-27T10:21:39Z",
+      "createdAt": "2021-04-06T10:58:55Z",
+      "license": "NOASSERTION",
+      "topics": [
+        "crm",
+        "crm-system",
+        "wukongcrm"
+      ],
+      "language": "Java",
+      "archived": false,
+      "description": "悟空CRM-基于Spring Cloud Alibaba微服务架构 +vue ElementUI的前后端分离CRM系统"
+    },
+    {
+      "full_name": "metasfresh/metasfresh",
+      "ghid": "MDEwOlJlcG9zaXRvcnk0Mzc2MDEwNA==",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 1700,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2023-06-27T13:26:51Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 2795,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 3166,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 165,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 14101,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 2521,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 68,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 79,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 369959,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "http://metasfresh.com/en",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 2390,
+      "forks": 804,
+      "pushedAt": "2026-08-02T18:09:25Z",
+      "createdAt": "2015-10-06T15:38:11Z",
+      "topics": [
+        "metasfresh",
+        "javascript",
+        "react",
+        "java",
+        "management",
+        "business",
+        "erp",
+        "manufacturing",
+        "accounting",
+        "crm"
+      ],
+      "language": "Java",
+      "archived": false,
+      "description": "We do Open Source ERP - Fast, Flexible & Free Software to scale your Business."
+    },
+    {
+      "full_name": "Django-CRM/Django-CRM",
+      "ghid": "MDEwOlJlcG9zaXRvcnk5MjI4NDAxOA==",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 81,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-08-02T04:27:34Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 59,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 307,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 251,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 75,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 37,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 111,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 30559,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://bottlecrm.io",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 2368,
+      "forks": 1026,
+      "pushedAt": "2026-08-02T14:39:19Z",
+      "createdAt": "2017-05-24T11:15:47Z",
+      "license": "MIT",
+      "topics": [
+        "django",
+        "crm",
+        "django-crm",
+        "open-source",
+        "cpq",
+        "invoice-management",
+        "invoicing",
+        "lead-management",
+        "multitenancy",
+        "saas"
+      ],
+      "language": "Python",
+      "archived": false,
+      "description": "Open Source CRM for Startups and enterprises. Django + SvelteKit · Self-hosted · Multi-tenant · Free forever"
+    },
+    {
+      "full_name": "Bottelet/DaybydayCRM",
+      "ghid": "MDEwOlJlcG9zaXRvcnk0OTY4MDE4Nw==",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 102,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2021-12-01T15:47:04Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 14,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 154,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 9,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 171,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 99,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 25,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 129,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 21949,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://daybydaycrm.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 2323,
+      "forks": 768,
+      "pushedAt": "2026-07-26T05:53:03Z",
+      "createdAt": "2016-01-14T22:43:51Z",
+      "topics": [
+        "crm",
+        "laravel",
+        "managaement",
+        "task-manager",
+        "tracking",
+        "daybyday",
+        "daybydaycrm",
+        "crm-system",
+        "crm-platform",
+        "hacktoberfest"
+      ],
+      "language": "JavaScript",
+      "archived": false,
+      "description": "DaybydayCRM an open-source CRM, to help you keep track of your daily workflow."
+    },
+    {
+      "full_name": "FJ-OMS/oms-erp",
+      "ghid": "R_kgDOHZ2xxw",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2022-08-25T15:28:27Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 3,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 5,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 4,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 92,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 5640,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://www.k8s9.com/",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 1904,
+      "forks": 355,
+      "pushedAt": "2025-12-24T06:23:05Z",
+      "createdAt": "2022-05-27T05:36:23Z",
+      "license": "Apache-2.0",
+      "topics": [
+        "crm",
+        "oms",
+        "tms",
+        "wms",
+        "springcloud",
+        "k8s",
+        "java",
+        "nacos",
+        "omni-channel",
+        "erp"
+      ],
+      "language": "Java",
+      "archived": false,
+      "description": "一站式全渠道业务中台系统包括订单管理系统OMS/电商ERP、库存WMS统一管理系统和SAP财务管理系统等，实现快速部署，并帮助企业后续自主进行开发迭代，实现数字化转型，并有多个经典案例。中台系统包括：通用业务中台、强大的技术中台Springcloud/Istio、后续开发方案的设计，技术(K8S,SERVERLESS)及管理人员的培训等。"
+    },
+    {
+      "full_name": "ArnasDon/wacrm",
+      "ghid": "R_kgDOSEZTlQ",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 483,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 6,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 70,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 10,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 288,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 83,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 12,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 26,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 4001,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://wacrm.tech",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 1805,
+      "forks": 4770,
+      "pushedAt": "2026-07-30T07:37:06Z",
+      "createdAt": "2026-04-16T14:04:40Z",
+      "license": "MIT",
+      "topics": [
+        "crm",
+        "nextjs",
+        "no-code",
+        "sales-pipeline",
+        "self-hosted",
+        "shared-inbox",
+        "supabase",
+        "typescript",
+        "whatsapp",
+        "whatsapp-business-api"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "Self-hostable CRM template for WhatsApp — shared inbox, contacts, sales pipelines, broadcasts, and no-code automations. Fork it, brand it, host it."
+    },
+    {
+      "full_name": "avo-hq/avo",
+      "ghid": "MDEwOlJlcG9zaXRvcnkyNTg5OTA5MTE=",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 270,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-31T14:31:25Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 233,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 1471,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 11,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 2393,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 319,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 150,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 13,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 30125,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://avohq.io",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 1795,
+      "forks": 312,
+      "pushedAt": "2026-07-31T21:42:59Z",
+      "createdAt": "2020-04-26T09:31:53Z",
+      "license": "NOASSERTION",
+      "topics": [
+        "rails",
+        "ruby",
+        "admin",
+        "crud",
+        "fast",
+        "maintainable",
+        "ruby-on-rails",
+        "open-source",
+        "hacktoberfest",
+        "admin-dashboard"
+      ],
+      "language": "Ruby",
+      "archived": false,
+      "description": "The Essential Toolkit for building Internal Tools and admin panels with Ruby on Rails"
+    },
+    {
+      "full_name": "YetiForceCompany/YetiForceCRM",
+      "ghid": "MDEwOlJlcG9zaXRvcnkyODA2MDI0Ng==",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2023-11-02T13:21:34Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 76,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 7378,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 7,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 6179,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 2527,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 65,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 7,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 419522,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://yetiforce.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 1793,
+      "forks": 773,
+      "pushedAt": "2024-09-13T11:43:27Z",
+      "createdAt": "2014-12-15T22:55:47Z",
+      "license": "NOASSERTION",
+      "topics": [
+        "crm",
+        "crm-platform",
+        "crm-system",
+        "php",
+        "php7",
+        "accounts",
+        "contacts",
+        "workflow",
+        "leads",
+        "mulit-lang"
+      ],
+      "language": "PHP",
+      "archived": true,
+      "description": "We've moved! For more information, visit https://github.com/YetiForceCompany/YetiForce"
+    },
+    {
+      "full_name": "open-mercato/open-mercato",
+      "ghid": "R_kgDOPtV_vA",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 2418,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-17T08:18:29Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 656,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 1204,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 83,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 2214,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 678,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 129,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 15,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 237443,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://www.openmercato.com/",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": true,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "dependents": {
+          "value": 0,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 1536,
+      "forks": 339,
+      "pushedAt": "2026-08-02T22:05:05Z",
+      "createdAt": "2025-09-10T13:27:45Z",
+      "license": "MIT",
+      "topics": [
+        "crm",
+        "typescript",
+        "admin-panel",
+        "ai-agents",
+        "ai-coding",
+        "framework",
+        "agentic",
+        "erp",
+        "nextjs",
+        "open-source"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "AI-Engineering Foundation Framework built with AI and designed for AI. Hundreds of architectural and domain decisions (multi-tenancy, RBAC,  event flow, pricing, sales pipeline,CRM/ERP processes) are already made conventions and specs so agents (Cursor, Claude Code, Codex) arch. decisions without reinventing.  Ship production grade with AI Agents."
+    },
+    {
+      "full_name": "relaticle/relaticle",
+      "ghid": "R_kgDOM3Fj4w",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 63,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-29T21:19:45Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 6,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 47,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 10,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 304,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 44,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 8,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 10,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 40105,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://relaticle.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 1482,
+      "forks": 166,
+      "pushedAt": "2026-07-31T15:28:20Z",
+      "createdAt": "2024-09-25T16:56:14Z",
+      "license": "AGPL-3.0",
+      "topics": [
+        "crm",
+        "filament",
+        "laravel",
+        "livewire",
+        "saas",
+        "contacts",
+        "people",
+        "sales",
+        "task",
+        "team"
+      ],
+      "language": "PHP",
+      "archived": false,
+      "description": "Open-source CRM with native AI agent support. 30 MCP tools, REST API, self-hosted. Built with Laravel & Filament"
+    },
+    {
+      "full_name": "horilla/horilla-crm",
+      "ghid": "R_kgDOQWLO3g",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 414,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-31T13:10:41Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 6,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 3,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 34570,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://www.horilla.com/",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 86,
+      "forks": 47,
+      "pushedAt": "2026-07-31T13:10:41Z",
+      "createdAt": "2025-11-15T10:37:41Z",
+      "license": "LGPL-2.1",
+      "topics": [
+        "crm",
+        "crm-platform",
+        "crm-system",
+        "django",
+        "django-application",
+        "django-project",
+        "django-rest-framework",
+        "python",
+        "horilla",
+        "horilla-crm"
+      ],
+      "language": "Python",
+      "archived": false,
+      "description": "Horilla is a free and open source HR and CRM software."
+    },
+    {
+      "full_name": "ConvoBrains/zero-cost-crm",
+      "ghid": "R_kgDOTa8Qkg",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 44,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 18,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 12,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 15,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 15,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 14,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 8,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 1534,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://github.com/ConvoBrains/zero-cost-crm#readme",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 9,
+      "forks": 15,
+      "pushedAt": "2026-07-31T21:50:38Z",
+      "createdAt": "2026-07-16T22:44:31Z",
+      "license": "MIT",
+      "topics": [
+        "contact-management",
+        "crm",
+        "docker",
+        "express",
+        "lead-management",
+        "open-source-crm",
+        "postgresql",
+        "react",
+        "sales-crm",
+        "sales-pipeline"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "A self-hosted, open-source CRM for small sales teams—pipeline, contacts, follow-ups, activity tracking, lead imports, and optional call recordings."
+    },
+    {
+      "full_name": "rixwankhan/sales-crm",
+      "ghid": "R_kgDOKnLLWg",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 162,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "http://sales-crm.apipilot.com",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 1,
+      "forks": 1,
+      "pushedAt": "2023-10-30T23:37:24Z",
+      "createdAt": "2023-10-30T23:34:50Z",
+      "topics": [
+        "crm",
+        "crm-platform",
+        "crm-system",
+        "laravel",
+        "laravel-crm",
+        "sales-crm",
+        "salesforce",
+        "smb"
+      ],
+      "language": "Blade",
+      "archived": false,
+      "description": "Laravel Sales CRM for SMB"
+    },
+    {
+      "full_name": "Reaishma/CRM-Arena",
+      "ghid": "R_kgDORsuqSQ",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 182,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://reaishma.github.io/CRM-Arena/",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 1,
+      "forks": 0,
+      "pushedAt": "2026-03-21T05:53:34Z",
+      "createdAt": "2026-03-21T05:33:53Z",
+      "license": "MIT",
+      "topics": [
+        "business-analytics",
+        "crm-simulator",
+        "customer-management",
+        "freshsales",
+        "hubspot-crm",
+        "lead-management",
+        "pipedrive",
+        "sales-crm",
+        "sales-pipeline",
+        "workflow-automation"
+      ],
+      "language": "HTML",
+      "archived": false,
+      "description": "A multi-platform CRM simulator inspired by HubSpot, Zoho CRM, Freshsales, and Pipedrive, showcasing marketing automation, sales pipelines, and customer management workflows."
+    },
+    {
+      "full_name": "AshishKapoor/sales",
+      "ghid": "R_kgDOOSlbeA",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 1862,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://sales-crm.sannty.in",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 1,
+      "forks": 0,
+      "pushedAt": "2026-04-21T06:34:16Z",
+      "createdAt": "2025-04-02T06:02:22Z",
+      "topics": [
+        "sales-crm",
+        "sales-crm-pipeline-lite"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "Sales CRM by Sannty | Stop losing deals in spreadsheets"
+    },
+    {
+      "full_name": "codewithleo1/ai-sales-crm",
+      "ghid": "R_kgDOTd0NFQ",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 22,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-23T05:38:59Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 1308,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://ai-sales-crm-nu.vercel.app",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 1,
+      "forks": 0,
+      "pushedAt": "2026-07-23T09:24:20Z",
+      "createdAt": "2026-07-20T07:21:56Z",
+      "topics": [
+        "ai",
+        "crm",
+        "fastapi",
+        "groq",
+        "llm",
+        "python",
+        "react",
+        "sales-crm",
+        "supabase",
+        "tailwindcss"
+      ],
+      "language": "JavaScript",
+      "archived": false,
+      "description": "AI-powered Sales CRM — pipeline analytics, churn prediction, and one-click email drafting via Groq LLaMA 3. Built with FastAPI, React, Supabase, and Resend. Full-stack portfolio project deployed on Vercel + Render."
+    },
+    {
+      "full_name": "CodingWCal/liaison-mvp",
+      "ghid": "R_kgDORKkKDA",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 229,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 80,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 20,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 3912,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://liaison-mvp.vercel.app",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 1,
+      "forks": 0,
+      "pushedAt": "2026-08-01T21:20:17Z",
+      "createdAt": "2026-02-07T05:04:40Z",
+      "topics": [
+        "crm-platform",
+        "networking",
+        "nextjs",
+        "outreach",
+        "relationship-management",
+        "sales-support",
+        "shadn-ui",
+        "tailwindcss",
+        "typescript",
+        "sales-crm"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "Liaison is an outreach and sales engagement app for internal use at Resilient Coders to maintain sales prospects, partnerships and leads."
+    },
+    {
+      "full_name": "elonerajeev/flowsyc",
+      "ghid": "R_kgDORwfvdw",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 56,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 3,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 4,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 25,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 4,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 3268,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://flowsyc-svuj-elone-rajeevs-projects.vercel.app/",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 1,
+      "forks": 2,
+      "pushedAt": "2026-07-07T09:10:31Z",
+      "createdAt": "2026-03-25T14:00:09Z",
+      "topics": [
+        "b2b",
+        "business-management",
+        "client-management",
+        "crm",
+        "crm-software",
+        "dashboard",
+        "deal-tracking",
+        "hr-management",
+        "invoicing",
+        "lead-management"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "Flowsyc - Enterprise CRM for modern businesses. Manage clients, leads, deals, projects, tasks, invoices, HR & analytics in one powerful dashboard. Built with React, TypeScript, Prisma."
+    },
+    {
+      "full_name": "PHP-Sources/SuiteCRM",
+      "ghid": "R_kgDOR-Mzlg",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://phpsources.net/scripts/php/crm/versions/24_suitecrm",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-04-09T14:48:47Z",
+      "createdAt": "2026-04-09T14:48:19Z",
+      "topics": [
+        "crm",
+        "customer-relationship-management",
+        "open-source",
+        "php",
+        "phpsources",
+        "sales-crm",
+        "suitecrm"
+      ],
+      "language": null,
+      "archived": false,
+      "description": "SuiteCRM - Solution open source professionnelle de CRM (Customer Relationship Management)"
+    },
+    {
+      "full_name": "Sidgit11/TradeCRM",
+      "ghid": "R_kgDOSFh7zA",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 444,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-04-17T18:48:34Z",
+      "createdAt": "2026-04-17T18:21:59Z",
+      "license": "Apache-2.0",
+      "topics": [
+        "ai-enrichment",
+        "b2b-crm",
+        "commodity-trading",
+        "crm",
+        "export-import",
+        "fastapi",
+        "nextjs",
+        "outreach",
+        "pipeline-management",
+        "sales-crm"
+      ],
+      "language": "Python",
+      "archived": false,
+      "description": "The CRM built for cross-border commodity traders. AI-powered enrichment, multi-channel outreach (Email + WhatsApp), pipeline management, and shipment intelligence."
+    },
+    {
+      "full_name": "Sainihanth2017/liaison-mvp",
+      "ghid": "R_kgDORVzI5Q",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-02-22T02:41:54Z",
+      "createdAt": "2026-02-22T02:41:54Z",
+      "topics": [
+        "2d",
+        "android",
+        "android-architecture",
+        "crm-platform",
+        "latex",
+        "liaison",
+        "mvp",
+        "nat-traversal",
+        "sales-crm",
+        "sales-support"
+      ],
+      "language": null,
+      "archived": false,
+      "description": "🔗 Manage professional relationships with clarity and control, focusing on outreach workflows for sales, partnerships, and recruiting."
+    },
+    {
+      "full_name": "DeepakKushwaha6/crm-management-system",
+      "ghid": "R_kgDOS6nGNA",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 7,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 183,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 0,
+      "forks": 1,
+      "pushedAt": "2026-06-15T14:02:32Z",
+      "createdAt": "2026-06-14T17:30:40Z",
+      "topics": [
+        "ai",
+        "analytics-dashboard",
+        "crm",
+        "customer-management",
+        "django",
+        "docker",
+        "lead-scoring",
+        "machine-learning",
+        "nextjs",
+        "postgresql"
+      ],
+      "language": "Python",
+      "archived": false,
+      "description": "AI-Powered CRM SaaS Platform built with Next.js, Django REST Framework, PostgreSQL, Docker, and AI-driven analytics. Features lead management, customer tracking, sales pipeline, task management, reporting dashboard, authentication, AI lead scoring, churn prediction, revenue forecasting, sentiment analysis, and automated follow-up recommendations."
+    },
+    {
+      "full_name": "vugarfamiloglu/salespulse-crm",
+      "ghid": "R_kgDOS6bcTQ",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 101,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-06-14T13:06:15Z",
+      "createdAt": "2026-06-14T13:06:12Z",
+      "license": "Apache-2.0",
+      "topics": [
+        "better-sqlite3",
+        "crm",
+        "customer-health",
+        "dashboard",
+        "data-visualization",
+        "deals",
+        "forecasting",
+        "kanban",
+        "lead-management",
+        "leaderboard"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "Sales CRM with a stage-lane pipeline, conversion analytics, a 30-day AI sales forecast and customer health scoring. Next.js + SQLite."
+    },
+    {
+      "full_name": "PHP-Sources/EspoCRM",
+      "ghid": "R_kgDOR-NB5Q",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 4,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://phpsources.net/scripts/php/crm/versions/1011_espocrm",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-05-04T09:16:10Z",
+      "createdAt": "2026-04-09T14:52:28Z",
+      "topics": [
+        "crm",
+        "customer-relationship-management",
+        "espocrm",
+        "open-source",
+        "php",
+        "phpsources",
+        "sales-crm"
+      ],
+      "language": null,
+      "archived": false,
+      "description": "EspoCRM 9.3.6 - Solution CRM open source moderne, flexible et puissante | Miroir officiel phpsources.net"
+    },
+    {
+      "full_name": "MathTrajan/CRM-Syntra",
+      "ghid": "R_kgDOScbDrQ",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 14,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 394,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-07-22T20:27:41Z",
+      "createdAt": "2026-05-13T13:39:36Z",
+      "topics": [
+        "automation",
+        "crm",
+        "hibernate",
+        "java",
+        "lead-management",
+        "postgresql",
+        "sales-crm",
+        "spring-boot",
+        "webhook"
+      ],
+      "language": "Java",
+      "archived": false,
+      "description": "CRM de gestão de leads desenvolvido com Spring Boot, focado em automação comercial, pipeline de vendas e integrações via webhook."
+    },
+    {
+      "full_name": "PHP-Sources/Vtiger",
+      "ghid": "R_kgDOR-ORaQ",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "homepageUrl": {
+          "value": "https://phpsources.net/scripts/php/crm/versions/2040_vtiger",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": true,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-04-09T15:15:40Z",
+      "createdAt": "2026-04-09T15:15:12Z",
+      "topics": [
+        "crm",
+        "customer-relationship-management",
+        "open-source",
+        "php",
+        "phpsources",
+        "sales-crm",
+        "vtiger"
+      ],
+      "language": null,
+      "archived": false,
+      "description": "Vtiger CRM - Solution open source professionnelle de gestion de la relation client (CRM) "
+    },
+    {
+      "full_name": "ZhenyuanPAN822/ai-vertical-workbenches",
+      "ghid": "R_kgDOTkAHqA",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 2,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 4762,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "pseudoLicense": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-07-26T13:22:17Z",
+      "createdAt": "2026-07-26T13:20:47Z",
+      "license": "MIT",
+      "topics": [
+        "ai-tools",
+        "byok",
+        "chinese",
+        "content-creation",
+        "ecommerce-analytics",
+        "education",
+        "legal-tech",
+        "llm",
+        "local-first",
+        "monorepo"
+      ],
+      "language": "Python",
+      "archived": false,
+      "description": "Five local-first BYOK AI workbenches in one repo - legal case retrieval, lesson prep, shop analytics, sales follow-up, content creation. Python stdlib only, 389 tests, offline mock mode."
+    },
+    {
+      "full_name": "gtexglobalturkey-crypto/ATLAS-CRM-v2",
+      "ghid": "R_kgDOTe3k9Q",
+      "aliases": [],
+      "source": "search",
+      "signals": {
+        "commits90d": {
+          "value": 12,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "releasePublishedAt": {
+          "value": "2026-07-21T08:15:46Z",
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedIssues": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "openPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mergedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "closedPRs": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "mentionableUsers": {
+          "value": 1,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "watchers": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "diskUsage": {
+          "value": 172,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "fundingLinksCount": {
+          "value": 0,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isFork": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isTemplate": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "isDisabled": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "orgOwned": {
+          "value": false,
+          "source": "github-graphql",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        },
+        "packaged": {
+          "value": false,
+          "source": "deps.dev",
+          "fetchedAt": "2026-08-02T22:21:26.373Z"
+        }
+      },
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-07-21T08:20:09Z",
+      "createdAt": "2026-07-21T08:00:54Z",
+      "topics": [
+        "ai",
+        "crm",
+        "react",
+        "sales",
+        "sales-crm",
+        "supabase",
+        "typescript",
+        "vite",
+        "workflow"
+      ],
+      "language": "TypeScript",
+      "archived": false,
+      "description": "AI-powered Sales Operating System for international exhibition sales teams."
+    }
+  ]
+}

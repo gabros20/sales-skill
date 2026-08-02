@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "command": "skim",
+  "data": {
+    "repo": "marmelab/atomic-crm",
+    "sha": "167a4cdb652b1ab2b4b030831cfa7adcf2099321",
+    "truncatedTree": false,
+    "tree": {
+      "totalFiles": 784,
+      "topLevelDirs": [
+        ".claude",
+        ".devcontainer",
+        ".github",
+        ".husky",
+        ".storybook",
+        "demo",
+        "doc",
+        "docs",
+        "e2e",
+        "public",
+        "scripts",
+        "src",
+        "supabase",
+        "test-data"
+      ],
+      "extensionCounts": {
+        "md": 74,
+        "json": 26,
+        "mjs": 89,
+        "sh": 6,
+        "ts": 121,
+        "development": 1,
+        "e2e": 1,
+        "yml": 2,
+        "tsx": 290,
+        "ico": 2,
+        "svg": 8,
+        "mdx": 19,
+        "png": 88,
+        "jpg": 3,
+        "css": 3,
+        "js": 1,
+        "html": 4,
+        "txt": 1,
+        "csv": 2,
+        "toml": 2,
+        "sql": 31
+      }
+    },
+    "signals": {
+      "hasCi": true,
+      "hasTests": true,
+      "hasDocs": true,
+      "hasExamples": false,
+      "hasLicenseFile": true,
+      "readmeInstall": true,
+      "readmeUsage": false,
+      "readmeExample": false
+    },
+    "readme": {
+      "head": "# Atomic CRM\n\nA full-featured CRM built with React, shadcn-admin-kit, and Supabase.\n\n<https://github.com/user-attachments/assets/0d7554b5-49ef-41c6-bcc9-a76214fc5c99>\n\nAtomic CRM is free and open-source. You can test it online at <https://marmelab.com/atomic-crm-demo>.\n\n## Features\n\n- 📇 **Organize Contacts**: Keep all your contacts in one easily accessible place.\n- ⏰ **Create Tasks & Set Reminders**: Never miss a follow-up or deadline.\n- 📝 **Take Notes**: Capture important details and insights effortlessly.\n- ✉️ **Capture Emails**: CC Atomic CRM to automatically save communications as notes.\n- 📊 **Manage Deals**: Visualize and track your sales pipeline in a Kanban board.\n- 🔄 **Import & Export Data**: Easily transfer contacts in and out of the system.\n- 🔐 **Control Access**: Log in with Google, Azure, Keycloak, and Auth0.\n- 📜 **Track Activity History**: View all interactions in aggregated activity logs.\n- 🔗 **Integrate via API**: Connect seamlessly with other systems using our API.\n- 🛠️ **Customize Everything**: Add custom fields, change the theme, and replace any component to fit your needs.\n\n## Installation\n\nTo run this project locally, you will need the following tools installed on your computer:\n\n- Make\n- Node 22 LTS\n- Docker (required by Supabase)\n\nFork the [`marmelab/atomic-crm`](https://github.com/marmelab/atomic-crm) repository to your user/organization, then clone it locally:\n\n```sh\ngit clone https://github.com/[username]/atomic-crm.git\n```\n\nInstall dependencies:\n\n```sh\ncd atomic-crm\nmake install\n```\n\nThis will install the dependencies for the frontend and the backend, including a local Supabase instance.\n\nOnce your app is configured, start the app locally with the following command:\n\n```sh\nmake start\n```\n\nThis will start the Vite dev server for the frontend, the local Supabase instance for the API, and a Postgres database (thanks to Docker).\n\nYou can then access the app via [http://localhost:5173/](http://localhost:5173/). You will be prompted to create the first user.\n\nIf you need debug the backend, you can access the following services:\n\n- Supabase dashboard: [http://localhost:54323/](http://localhost:54323/)\n- REST API: [http://127.0.0.1:54321](http://127.0.0.1:54321)\n- Attachments storage: [http://localhost:54323/project/default/storage/buckets/attachments](http://localhost:54323/project/default/storage/buckets/attachments)\n- Inbucket email testing service: [http://localhost:54324/](http://localhost:54324/)\n\n## Documentation\n\nThe user and developer documentation for this project is available [in the `doc/` directory](./doc/). You can also read it online at [https://marmelab.com/atomic-crm/doc/](https://marmelab.com/atomic-crm/doc/).\n\n## Testing Changes\n\nThis project contains unit tests and e2e. \nRun unit test with the following command:\n\n```sh\nmake test\n```\n\nRun e2e test with:\n\n```sh\nmake test-e2e\n```\n\nNote: the `make test-e2e` will run the the e2e test in ui mode against a vite server with hot reload for ease of development. On the CI the e2e test will be run against the built app. If you need to run the test against the built file instead. You can run:\n\n```sh\nmake start-e2e-ci # To launch the CI e2e environment (serving the built app)\n# followed by\nnpx playwright test --ui\n```\n\nYou can add your own unit tests powered by Jest anywhere in the `src` directory. The test files should be named `*.test.tsx` or `*.test.ts`.\nAnd you can also add your own e2e test. The e2e test files should be placed inside the `./e2e` folder\n\n## Getting Updates\n\nAtomic CRM components are published as a Shadcn Registry file. This means you can update your installation by calling the following command:\n\n```sh\nnpx shadcn add https://marmelab.com/atomic-crm/r/atomic-crm.json -o\n```\n\n## Registry\n\nThe Registry file is kept au to date when files are added or removed:\n\n- The `registry.json` file is automatically generated by the `scripts/generate-registry.mjs` script as a pre-commit hook.\n- The `http://marmelab.com/atomic-crm/r/atomic-crm.json` file is automatically published by the CI/CD pipeline\n\n> [!WARNING]  \n> If the `registry.json` misses some changes you made, you MUST update the `scripts/generate-registry.mjs` to include those changes.\n\n## License\n\nThis project is licensed under the MIT License, courtesy of [Marmelab](https://marmelab.com). See the [LICENSE.md](./LICENSE.md) file for details.\n",
+      "truncated": false
+    }
+  }
+}
