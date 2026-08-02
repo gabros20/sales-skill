@@ -29,9 +29,10 @@ concealment · 4. The living-artifact discipline · 5. Building without borrowed
 ## 1. Sales enablement is ours
 
 Marketing's cession is explicit and carries no hedge word anywhere near it: *"Three adjacent
-disciplines belong to `sales`, not to this pack... revenue operations, sales enablement
-(battlecards, objection handling, pricing negotiation guidance), and cold outbound/prospecting."*
-(marketing's `surface-b2b-sales-assisted.md:51–53`, repeated verbatim at its `handoff.md:42` and
+disciplines belong to `sales`, not to this pack, and should be named explicitly rather than absorbed
+by default: revenue operations, sales enablement (battlecards, objection handling, pricing
+negotiation guidance), and cold outbound/prospecting."* (marketing's
+`surface-b2b-sales-assisted.md:51-53`, and drawn again in that pack's own `handoff.md:42` and
 `SKILL.md:107`, line-verified as of 2026-08-03). Marketing states why, not just what: the incumbent
 genre routinely blends these into marketing, and the family's seam is real only if drawn here
 explicitly. Mirroring that cession with a hedge would weaken a boundary marketing deliberately drew
@@ -52,8 +53,8 @@ zero primary sources for any of it — a different category of gap than an unsou
 since this is prescriptive template content rather than a numeric one, but it is still doctrine
 presented with the confidence of evidence. **Cite the shape as a genuinely useful organizing
 device; do not reproduce battlecard talk-track content itself** — the standing cite-never-reproduce
-rule (R11), with the awesome-copilot MEDDICC letter-by-letter reproduction as the cautionary
-exhibit for exactly this move.
+rule, with the awesome-copilot MEDDICC letter-by-letter reproduction as the cautionary exhibit for
+exactly this move.
 
 A related failure pattern worth naming on sight: methodology credibility built from personal
 credentials rather than a test of the method. One author names his own methodology's evidence base
@@ -112,13 +113,13 @@ propose a second maintenance ritual on top of that loop — borrow it rather tha
 ## 6. Never-ship
 
 - A Solution Selling conversion-lift claim circulating with the word "proven" attached and no study
-  named — the figure itself is truncated in the source and must not be re-quoted from a projection
-  cut short by "…" (R6); "proven" carries no study attached regardless of what the missing digit
+  named. The figure is itself truncated in the source — a projection cut off mid-number — so it
+  cannot be re-quoted at all, and "proven" carries no study regardless of what the missing digit
   turns out to be ([@iuditg](https://x.com/iuditg/status/1691365238598492161), FOLKLORE).
 - Credentials-as-evidence framing (§2's FidelCacheFlow exhibit) presented as a stand-in for a
   tested method.
 - Any battlecard or objection-library content reproduced letter-for-letter from a named incumbent —
-  cite structure, never text (R11).
+  cite structure, never text.
 
 ## Validation
 
@@ -127,7 +128,7 @@ propose a second maintenance ritual on top of that loop — borrow it rather tha
 - No objection-handling or battlecard claim ships with an implied outcome (win rate, close rate)
   unless a method is attached (§2).
 - Battlecard and objection-library structure is cited by shape only, never reproduced verbatim from
-  a named incumbent (R11).
+  a named incumbent.
 
 ## Failure modes and handoff
 

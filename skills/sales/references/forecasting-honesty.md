@@ -41,9 +41,11 @@ produce a commit/best-case/pipe-only number, and its own description says so:
 
 and, from the body: "The assumption block is non-optional. If you remove it, the forecast becomes
 theatre." It ships a runnable `scripts/bookings_forecaster.py` with a stated last-4Q/last-12Q 70/30
-weighting.
-(https://github.com/alirezarezvani/claude-skills/blob/aa8d778811a557a2c28ccadda4cf3d0bd028a4cc/commercial/skills/commercial-forecaster/SKILL.md,
-PRIMARY, MIT.) Claiming novelty on assumption-disclosure would ship a defect.
+weighting. (`alirezarezvani/claude-skills`,
+`commercial/skills/commercial-forecaster/SKILL.md`, read at pinned commit
+`aa8d778811a557a2c28ccadda4cf3d0bd028a4cc`; PRIMARY, MIT under the repo's root grant — note the
+tree carries five distinct copyright holders, so run a per-directory check before adapting
+anything.) Claiming novelty on assumption-disclosure would ship a defect.
 
 What this pack adds is narrower: the peer-reviewed evidence for *why* forecasts drift (§2); a
 no-accuracy-measurement null that survives this incumbent intact (§3); the small-numbers argument
@@ -102,13 +104,11 @@ none resting on a dead search:
    (https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/46180fa3686c8baa55f91bf32c6e1d676eefd475/content/handbook/sales/sales-operating-procedures/retain-and-expand.md,
    PRIMARY) — is an instruction to *be* accurate, not a measurement of it.
 2. **Sourcegraph publishes the method GitLab hides, and still measures nothing.** Its forecasting
-   handbook splits the forecast into stage, forecast category, amount, and close date, with two
+   handbook splits the forecast into stage, forecast category, amount, and close date, and runs two
    taxonomies — one per opportunity (Won/Commit/Best Case/Pipeline/Omitted) and one for the roll-up
-   (Commit/Best Case/Call) — and states outright that Commit is summed while Call is what the rep
-   "feel[s] will come in"
-   (https://github.com/sourcegraph/handbook/blob/5752928b213a3ddbc7cee4459524f404a5b96fb4/content/departments/sales/process/forecasting.md,
-   PRIMARY — content dated 2022/FY23, repo archived 2024-07-02; cite as history, not current
-   practice). No accuracy figure anywhere on the page.
+   (Commit/Best Case/Call), quoted in full in §6. It is the most complete published method in this
+   research, and it carries **no accuracy figure anywhere on the page** (PRIMARY — content dated
+   2022/FY23, repo archived 2024-07-02; cite as history, not current practice).
 3. **Eight open-source CRMs, zero accuracy claims.** Grepping the actual probability-computation
    code, not marketing copy: Odoo's 2,890-line `crm_lead.py`, a genuine Naive Bayes win-probability
    model, contains zero occurrences of "accuracy" anywhere in the file
@@ -218,7 +218,7 @@ ceiling, then the Call is the number in between that you are forecasting as the 
 outcome." Commit is summed from records; Call is what the rep "feel[s] will come in" — the document
 says so itself, making explicit that the headline number is a judgment, not a derivation
 (https://github.com/sourcegraph/handbook/blob/5752928b213a3ddbc7cee4459524f404a5b96fb4/content/departments/sales/process/forecasting.md,
-archived-2024 caveat applies as in §3).
+PRIMARY; Apache-2.0, repo archived 2024-07-02 — the staleness caveat travels with every citation).
 
 **Disclose what fraction of your pipeline total is a real number.** GitLab's own booking-metrics
 documentation states that a deal's dollar value is an estimate until a formal quote exists:

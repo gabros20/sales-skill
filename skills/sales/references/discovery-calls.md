@@ -19,8 +19,8 @@ Skip when:
 - The question is what happens after discovery — presenting a solution back to the buyer →
   `demo-and-narrative.md`.
 - The question is who to call in the first place — ICP, account selection, buying-group mapping →
-  `icp-and-qualification.md`, which inherits ICP from marketing (R16); this file assumes the call is
-  already booked.
+  `icp-and-qualification.md`, which inherits ICP from marketing rather than redefining it; this file
+  assumes the call is already booked.
 - The question is turning a discovery finding into a battlecard or objection response →
   `objections-and-enablement.md`.
 - The question is reading a buyer's stated reason *after* a deal closes → `win-loss-learning.md` —

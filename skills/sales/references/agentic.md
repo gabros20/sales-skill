@@ -36,6 +36,7 @@ configuration rather than left to prompt discretion; a structural ceiling on una
 - [Guardrails for autonomous outbound](#guardrails-for-autonomous-outbound)
 - [The evasion rule binds tools that don't exist yet](#the-evasion-rule-binds-tools-that-dont-exist-yet)
 - [Where mechanics live](#where-mechanics-live)
+- [Validation](#validation)
 - [Failure modes](#failure-modes)
 
 ## AI-SDR reality, honestly
@@ -101,6 +102,14 @@ what it must disclose, and what it may never do to defeat a receiving system's f
 AI-SDR-mechanics treatment found in this research: bot behaviors like voicemail-drop-optimization,
 ghost-recovery, and response-latency-management. Useful as a map of what "mechanics" covers; not
 content to adapt.
+
+## Validation
+
+- This overlay is stacked on a named base surface, never used as one.
+- Disclosure is enforced as a required, logged field the agent cannot omit — not as prompt wording.
+- Every AI-SDR vendor figure ships VENDOR-SELF-REPORTED, and every contested pair ships both halves.
+- The volume ceiling and kill switch sit outside the agent's own reasoning loop.
+- The evasion-category rule is applied to the capability, not to the named tool that implements it.
 
 ## Failure modes
 

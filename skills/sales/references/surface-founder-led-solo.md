@@ -107,7 +107,8 @@ RESULT with arithmetic that checks:
 
 4/50 = 8%, verified. This is a complete founder-led micro-loop at n=1 — manual outreach, booked
 calls, ICP revision — and it is honest about its denominator, which is exactly the discipline this
-pack asks for everywhere else (see [win-loss-learning](win-loss-learning.md)'s denominator rule).
+pack asks for everywhere else (the denominator rule lives in
+[forecasting-honesty](forecasting-honesty.md) §4 and `assets/coverage_calc.py`).
 The outcome reported is *learning* (ICP revision, positioning clarity), not revenue — which is
 what founder-led discovery calls are actually for at this scale, more than closing itself.
 
@@ -127,6 +128,16 @@ infrastructure, a CRM, or a forecast this surface's jobs would otherwise recomme
 | [crm-and-pipeline](crm-and-pipeline.md) | No settled tool exists; a spreadsheet with explicit stage exit criteria beats an unconfigured CRM |
 | [forecasting-honesty](forecasting-honesty.md) | The small-numbers gate binds hardest here — a handful of deals cannot support a calibrated stage-weight forecast; see that file's small-numbers section |
 | [win-loss-learning](win-loss-learning.md) | patio11's prediction-then-score loop (write the expected loss reason before the outcome) is adoptable with zero tooling at this scale |
+
+## Validation
+
+- Any recommendation to build sales machinery names which gate justified it, at this scale, rather
+  than importing an enterprise default.
+- Every first-person exhibit here (arvidkahl, alexabelonix) is cited with its grade and its own
+  denominator, never as a portable benchmark.
+- The no-settled-solo-CRM finding is stated as a real gap, not filled with a tool recommendation.
+- Wherever AI drafts sales work, the human review step is named explicitly; if it is absent, the
+  reader is routed to [agentic](agentic.md) rather than kept on this surface.
 
 ## Failure modes
 

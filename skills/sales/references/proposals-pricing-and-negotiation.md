@@ -99,6 +99,7 @@ that converts an estimate into a quote** — which is why building the proposal 
 file rather than in `crm-and-pipeline.md`; the pipeline-hygiene consequences of the
 estimated/quoted split (what a CRM record should track, how a total should be reported) belong
 there — cite this exhibit if writing that section, rather than re-deriving it.
+`assets/stage_exit_criteria_audit.md` audits the split stage by stage and points back here.
 
 ## 5. Discounting discipline
 

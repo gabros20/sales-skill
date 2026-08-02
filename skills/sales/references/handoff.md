@@ -27,6 +27,7 @@ restatement of the artifact itself.
 - The sales↔success worked example: GitLab's parallel roles
 - `product` and `automation`: deliberate silence, not absence
 - Dunning and billing: routed, never claimed as sales's own position
+- Validation
 - Failure modes
 
 ## The seam map
@@ -36,9 +37,9 @@ mirrors each one back, matching its hedge exactly rather than flattening or re-h
 
 | Sibling | What `sales` hands it | What `sales` consumes from it | The line `sales` does not cross |
 |---|---|---|---|
-| `marketing` | Pipeline and close-rate signal that feeds positioning and message iteration | Qualified demand — a defined fit-plus-intent signal on a named account or contact — plus the assets sales pulls from (case studies, competitive positioning) | Sales does not create or capture demand, and does not own the ICP *definition* — it inherits marketing's ICP-as-a-funnel model and applies it to account selection (see [icp-and-qualification](icp-and-qualification.md)). Sales cites marketing's deliverability and consent doctrine, never restates it (`marketing/references/surface-b2b-sales-assisted.md:58`) |
+| `marketing` | Pipeline and close-rate signal that feeds positioning and message iteration | Qualified demand — a defined fit-plus-intent signal on a named account or contact — plus the assets sales pulls from (case studies, competitive positioning) | Sales does not create or capture demand, and does not own the ICP *definition* — it inherits marketing's ICP-as-a-funnel model and applies it to account selection (see [icp-and-qualification](icp-and-qualification.md)). Marketing's own line: it "does not run the outbound sequence or own the CRM pipeline stage" (`marketing/references/surface-b2b-sales-assisted.md:58`). Sales cites marketing's shipped deliverability and consent doctrine, never restates it (`marketing/references/lifecycle-and-email.md` §1, `marketing/assets/email-compliance-checklist.md`) |
 | `growth` (provisional) | Pipeline and qualification signal shaping which stage of a sales-assisted funnel is worth testing | An experiment readout on a funnel stage that touches a sales-assisted deal | This seam is drawn provisionally, the way marketing drew its own — cold outbound, CRM stages, and deal mechanics stay `sales`'s **regardless of which funnel stage an experiment touches** (`growth/references/handoff.md:42`). Sales does not read a funnel-stage result's confidence into a deal-stage outcome growth didn't test (`growth/references/surface-b2b-sales-assisted.md:110-112`) |
-| `success` (contested) | The expansion sale itself, closed by sales in a sales-assisted motion | The renewal workflow, up to a complex deal that needs negotiation | Contested, not settled, exactly as success's own file states it: sales closes the expansion sale in a sales-assisted motion, **and** Lincoln Murphy's complexity-gated CS-native position is live and citable — a CSM renews by default, only genuinely complex renewals route to a dedicated CS-native resource, explicitly *not* "Account Management carryover." Sales does not adjudicate the industry fight either (`success/references/renewals-and-expansion.md:117-124`, a checked invariant at `:154`) |
+| `success` (contested) | The expansion sale itself, closed by sales in a sales-assisted motion | The renewal workflow, up to a complex deal that needs negotiation | Contested, not settled, exactly as success's own file states it: sales closes the expansion sale in a sales-assisted motion, **and** Lincoln Murphy's complexity-gated CS-native position is live and citable — a CSM renews by default, only genuinely complex renewals route to a dedicated CS-native resource, explicitly *not* "Account Management carryover." Sales does not adjudicate the industry fight either (`success/references/renewals-and-expansion.md:117-124`; the provisional mark is a checked invariant in success's own Validation sections, `renewals-and-expansion.md:138-139` and `surface-b2b-high-touch.md:154`) |
 
 The hedge is written twice for each hedged row, never once: as the parenthetical after the pack
 name, and restated in prose opening the fourth column. Marketing's row carries no hedge because
@@ -84,11 +85,22 @@ not be read as an oversight.
 ## Dunning and billing: routed, never claimed as sales's own position
 
 If a deal stalls on a failed payment, route it to `product` — but **per success's and marketing's
-documented position, not as sales's own finding.** `success/SKILL.md:99` and
-`marketing/references/lifecycle-and-email.md:17` both assign dunning/billing-failure recovery to
+documented position, not as sales's own finding.** `success/SKILL.md:95` and
+`marketing/references/lifecycle-and-email.md:15` both assign dunning/billing-failure recovery to
 `product`; `product`'s own pack contains zero occurrences of either word. This is not sales's
 territory to claim either way — cite the two siblings that made the assignment, never state that
 product says so itself.
+
+## Validation
+
+- Each hedged row writes its hedge twice — as the parenthetical after the pack name, and again in
+  prose opening the fourth column — and the unhedged `marketing` row writes none.
+- The `success` row carries both positions and states that sales does not adjudicate between them.
+- Any citation of GitLab's stage split or retain-and-expand section carries the "run parallel"
+  sentence.
+- Every sibling file:line cite was re-grepped against the live sibling pack before shipping —
+  quotes survive drift, line numbers don't.
+- Dunning routing is attributed to success and marketing, never to `product` itself.
 
 ## Failure modes
 

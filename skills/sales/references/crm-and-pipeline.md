@@ -21,8 +21,8 @@ record for deal state, not a communications tool), and an honest verdict on hygi
 
 ## Contents
 1. Structure is ours, sync is automation's · 2. The exit-criteria gap · 3. Stage design patterns
-worth stealing · 4. Hygiene: no forward evidence, only backward · 5. Disqualification as a stage ·
-6. Loss reasons as structured data
+worth stealing · 4. Hygiene: no forward evidence, only backward · 5. Disqualification as a
+first-class pipeline state · 6. Loss reasons as structured data
 
 ---
 
@@ -146,9 +146,10 @@ category names are public — but the structure is the citable part: a required 
 dollar threshold for detail is adoptable at any scale.
 
 Krayin's `lost_reason` field is the equivalent at open-source-CRM scale: a structured (not free-text)
-lookup tied to the same pattern as its lead-source list
-(https://github.com/krayin/laravel-crm/blob/6ad119ee031636c6e250668a73483110a26f7ad3/packages/Webkul/Lead/src/Models/Lead.php,
-PRIMARY, MIT). Structured loss reasons feed win-loss learning directly — see `win-loss-learning.md`
+lookup tied to the same pattern as its lead-source list (`krayin/laravel-crm`,
+`packages/Webkul/Lead/src/Models/Lead.php`, read at pinned commit
+`6ad119ee031636c6e250668a73483110a26f7ad3`; PRIMARY, MIT). Structured loss reasons feed win-loss
+learning directly — see `win-loss-learning.md`
 for what to do with them once collected, since a loss-reason field only captures a stated reason,
 and a stated reason is not the same thing as the actual cause.
 

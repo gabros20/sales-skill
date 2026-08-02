@@ -42,8 +42,8 @@ rule against manufactured engagement signals that binds tools that don't exist y
 Marketing ceded this ground with no hedge word, three times over: *"Three adjacent disciplines belong
 to `sales`, not to this pack, and should be named explicitly rather than absorbed by default: revenue
 operations, sales enablement (battlecards, objection handling, pricing negotiation guidance), and
-cold outbound/prospecting"* (marketing's `surface-b2b-sales-assisted.md:51-53`), repeated in that
-pack's own `handoff.md:42` and `SKILL.md:107`. Marketing states why, and it matters for how this pack
+cold outbound/prospecting"* (marketing's `surface-b2b-sales-assisted.md:51-53`), and drawn again in
+that pack's own `handoff.md:42` and `SKILL.md:107`. Marketing states why, and it matters for how this pack
 should read its own differentiation: *"nearly every surveyed competitor pack folds prospecting and
 cold-email into 'marketing,' and the family's declared seam is a real differentiator only if it is
 drawn here explicitly, not assumed"* (`:54-56`). The same file draws the line precisely at the
@@ -64,8 +64,12 @@ honest and shows all their work. Never ship the specific figure as a benchmark.
 
 ## Deliverability: cite, never restate
 
-Marketing owns deliverability doctrine and consent regimes; this pack cites the anchor and moves on.
-Two numbers must always travel together for Gmail, never collapsed to one: **0.30%** is the hard
+Marketing owns deliverability doctrine and consent regimes, and has already shipped both:
+`marketing/references/lifecycle-and-email.md` §1 ("Deliverability is engineering, not copywriting" —
+SPF/DKIM/DMARC, the RFC layer, per-mailbox-provider behavior) and its runnable
+`marketing/assets/email-compliance-checklist.md`. Cite those; do not restate them here. What this
+file adds is the outbound-specific reading of two numbers that must always travel together for
+Gmail, never collapsed to one: **0.30%** is the hard
 compliance requirement ("Keep spam rates reported in Postmaster Tools below 0.30%"), **0.10%** is
 Google's own recommended target ("avoid ever reaching a spam rate of 0.30% or higher" — stay under
 0.10% for margin). Reporting only the first loses the actionable guidance; reporting only the second

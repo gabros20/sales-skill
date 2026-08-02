@@ -29,6 +29,7 @@ discipline, and the enterprise instance of the sales↔success handoff.
 - The buying group: the figure never ships without its second clause
 - RepVue: quota attainment, always with its subject attached
 - The handoff at enterprise scale
+- Validation
 - Failure modes
 
 ## 1. The stage-gate exhibit: GitLab's published opportunity stages
@@ -57,9 +58,9 @@ page's own nine section headers (`content/handbook/sales/meddppicc.md`,
 https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/46180fa3686c8baa55f91bf32c6e1d676eefd475/content/handbook/sales/meddppicc.md,
 GitLab handbook, CC BY-SA 4.0) — a distinct variant from the generic MEDDIC/MEDDPICC discussed in
 [icp-and-qualification](icp-and-qualification.md), where the frameworks-vs-methods taxonomy and
-the MEDDPICC legal ruling (generic for business-education services; summary judgment granted in
-part; case live as of 2026-07; McMahon testimony excluded) are the full treatment — this file cites
-GitLab's operational instance of the framework, not the ruling. Safe to cite: the nine-letter
+the MEDDPICC legal ruling (generic for business education services **and content**; summary judgment
+granted in part; case live as of 2026-07; McMahon testimony excluded) are the full treatment — this
+file cites GitLab's operational instance of the framework, not the ruling. Safe to cite: the nine-letter
 expansion and GitLab's own one-line gloss per letter. Not safe to reproduce: the qualifying-question
 banks GitLab publishes under each letter — those shade into the trademarked methodology's actual
 training content even where GitLab itself published them; paraphrase or omit. MEDDPPICC fields are
@@ -77,9 +78,8 @@ https://github.com/sourcegraph/handbook/blob/5752928b213a3ddbc7cee4459524f404a5b
 Apache-2.0). **This citation does not travel without its staleness caveat: the repo is archived as
 of 2024-07-02, and its own content carries Sourcegraph's own warning that it was migrated to Notion
 and may be out of date — cite it as "a snapshot of a since-archived handbook," never as current
-Sourcegraph practice.** Commit is summed from
-records; Call is what a rep judges "will come in" — a published forecast that is explicit its
-headline number is a judgment, not a derivation. See
+Sourcegraph practice.** Commit is summed from records; Call is what a rep judges "will come in" — a
+published forecast that is explicit its headline number is a judgment, not a derivation. See
 [forecasting-honesty](forecasting-honesty.md) for the flagship treatment; this file cites it
 specifically as the enterprise-scale worked exhibit.
 
@@ -92,9 +92,9 @@ six to 10 decision makers, each armed with four or five pieces of information th
 independently and must deconflict with the group"* (Gartner,
 `gartner.com/en/sales/insights/b2b-buying-journey` — the live page 403s every direct fetch; the
 quote is verified against a 2020-04-21 Wayback Machine snapshot, not a reconstructed archive.org
-URL). The teachable point is
-the reconciliation work inside the group, not the headcount. **Ship the figure only with this
-second clause attached — the number alone is not the teaching, the deconfliction is.**
+URL). The teachable point is the reconciliation work inside the group, not the headcount. **Ship the
+figure only with this second clause attached — the number alone is not the teaching, the
+deconfliction is.**
 
 ## 5. RepVue: quota attainment, always with its subject attached
 
@@ -104,9 +104,9 @@ The best-sourced quota data available anywhere in this pack's research names its
 (https://x.com/thaAdamLittle/status/2008940390385152153, self-defines the metric and labels the
 rule of thumb explicitly "rough heuristic," the positive model of metric hygiene this pack points
 to). Company-specific instances carry the same subject: $SNOW closing 25% bigger deals in 25% less
-time with team quota attainment holding at 57% (https://x.com/thaAdamLittle/status/2037542426160648422),
-Medallia 19.5%. **No quota-attainment figure attributed to
-KBCM/KeyBanc ships anywhere in this pack** — the sibling corpus verified KBCM's subject, not its
+time with team quota attainment holding at 57%
+(https://x.com/thaAdamLittle/status/2037542426160648422), Medallia 19.5%. **No quota-attainment
+figure attributed to KBCM/KeyBanc ships anywhere in this pack** — the sibling corpus verified KBCM's subject, not its
 value, and no permalink exists. Any bare "70%" attached to quota in this corpus has at least three
 distinct subjects across the research — read the subject before citing any figure near this topic.
 
@@ -119,6 +119,17 @@ surface-specific rule — see [handoff](handoff.md) for the full worked example 
 enterprise deal is exactly the shape GitLab's exhibit describes (sales-assisted, high-ACV,
 multi-role). Do not extend it further than that — it says nothing about lower-touch or CS-native
 motions, which is precisely the ground Murphy's contested position occupies.
+
+## Validation
+
+- The buying-group figure appears only with its deconfliction clause, and the teaching is the
+  reconciliation work, not the headcount.
+- Every quota figure names "share of reps at quota" as its subject before the number is read.
+- Every Sourcegraph citation carries the archived-2024 caveat; every GitLab citation carries
+  CC BY-SA 4.0 and, where it is a close derivative, the ShareAlike consequence.
+- MEDDPPICC is cited by its nine-letter expansion and GitLab's own gloss only — no qualifying-
+  question bank is reproduced.
+- Nothing in this file is presented as adjudicating the contested sales↔success seam.
 
 ## Failure modes
 

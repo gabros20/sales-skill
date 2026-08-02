@@ -33,6 +33,7 @@ next.
 
 - [The four gates that disagree](#the-four-gates-that-disagree)
 - [The gate moving from below](#the-gate-moving-from-below)
+- [The decision-already-made genre](#the-decision-already-made-genre)
 - [The complexity moat, and its own falsification condition](#the-complexity-moat-and-its-own-falsification-condition)
 - [The PLG boundary: a usage threshold, not a demand signal](#the-plg-boundary-a-usage-threshold-not-a-demand-signal)
 - [Validation](#validation)
@@ -92,6 +93,44 @@ moving target, not a fixed threshold you set once and revisit never. Treat this 
 account for, not a resolved forecast; no source in this corpus measures how fast or how far the
 erosion runs.
 
+## The decision-already-made genre
+
+The claim that the buyer has largely decided before sales gets involved is the most-repeated
+argument in this territory, and it arrives in at least three numbers doing one rhetorical job:
+"57% of the buying decision happens before you talk to sales," "9 in 10 buyers rule a firm out
+before contact," and "70–80% of the outcome is determined before you arrive." **One of the three has
+a real primary. The other two have no traceable source at all** — which is why the useful skill here
+is recognising the shape in published material, not debunking any single figure.
+
+The 57% traces cleanly. CEB Marketing Leadership Council, in partnership with Google, *The Digital
+Evolution in B2B Marketing* (2012), surveyed more than 1,500 customer contacts across 22 large B2B
+organizations in 10 industries
+(https://www.thinkwithgoogle.com/_qs/documents/677/the-digital-evolution-in-b2b-marketing_research-studies.pdf,
+PRIMARY, read in full):
+
+> "In a striking finding, the survey revealed that the average customer had completed more than
+> one-half of the purchase decision-making process prior to engaging a supplier sales rep directly
+> (Figure 1). At the upper limit, that number ran as high as 70% (Figure 2)."
+
+Figure 1 gives the exact number, 57% complete, sourced to CEB's own 2011 customer-purchase survey.
+**Three things get lost downstream, and each changes what the figure means.** It is
+*self-reported progress through a decision process* — not a decision already made; the paper's own
+average leaves 43% still to run. Its cutoff is specifically a *supplier's sales rep*, not any
+contact with the supplier, so visiting a website is on the near side of the line. And the 70% is the
+maximum of a *supplier-level* average across the 22 organizations, a materially different quantity
+from "the average buyer" — which is how a legitimate finding becomes a bigger, wronger number.
+
+Two further mutations are worth recognising on sight: the study gets misattributed to **Gartner**,
+which acquired CEB in 2017, five years after publication; and Gartner's separate "buyers spend 17%
+of their time with suppliers" figure gets cited as corroboration when it measures *time allocation*,
+a different quantity entirely (same lead researcher, and the live page no longer carries it).
+
+**How to use this here:** the genre is a real pressure on the existence gate — it argues the
+buying conversation starts later than a seller assumes — and it points the same direction as the
+erosion above. Cite the CEB primary with its subject attached if the point needs a number at all.
+Never cite the derivatives, and never treat any of the three as evidence that a sales motion is
+unnecessary; none of them measures that.
+
 ## The complexity moat, and its own falsification condition
 
 The counter-pressure, from the seller's side. @arvidkahl, 2025-06-14
@@ -149,6 +188,9 @@ narrower question than "does a sales motion exist for this product at all."
 - Janz and Lemkin are never cited as two independent confirmations of the same claim.
 - Shpigford's and arvidkahl's tweets are cited as OPINION with their falsification condition
   intact where relevant, never as settled prediction.
+- Any decision-already-made figure is cited to the CEB/Google primary with its subject attached —
+  self-reported progress before first engagement with a supplier *sales rep* — and never in its
+  derivative forms, its Gartner misattribution, or as evidence a sales motion is unnecessary.
 - The PostHog PLG threshold is cited as a usage-signal exhibit, never as evidence that settles
   marketing's MQL definition.
 
@@ -160,6 +202,8 @@ narrower question than "does a sales motion exist for this product at all."
   Lemkin from memory inside his own post.
 - Citing arvidkahl's complexity-moat tweet as a settled prediction and dropping its own stated
   falsification condition.
+- Repeating "57%" (or "9 in 10," or "70–80%") as a decision-is-already-made claim — the primary
+  measures progress, not completion, and two of the three numbers have no source at all.
 - Citing PostHog's $1,000/mo handover threshold as if it were a universal PLG rule, or as if it
   resolved marketing's MQL definition, rather than one company's own criterion.
 - Once a motion is judged to apply, defaulting straight to enterprise-team vocabulary and

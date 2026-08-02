@@ -95,13 +95,13 @@ full stage-design and stage-naming discussion lives in `crm-and-pipeline.md`.
   lines, "demo scripts by call type") demonstrates that structured demo scripting is a real,
   worthwhile artifact to maintain. Cite the existence and shape of that category; do not reproduce
   its script content — the same cite-never-reproduce discipline this pack applies to every named
-  methodology (R11's standing rule; the awesome-copilot MEDDICC reproduction is the cautionary
-  exhibit for what happens when a pack skips this step).
+  methodology (the awesome-copilot MEDDICC reproduction is the cautionary exhibit for what happens
+  when a pack skips this step).
 - The rapport evidence covered in `discovery-calls.md` (Huang 2017, Yeomans 2019, *JPSP* —
   question-asking increases liking, studied in non-sales dyads) transfers to a demo only this far:
   asking a clarifying question mid-demo may build rapport. It is not evidence the demo itself
   changed the outcome, and a demo script may not borrow those papers' authority any more than a
-  branded discovery-call methodology may (R10).
+  branded discovery-call methodology may.
 - Close the loop: whatever the demo was built to answer becomes the thing checked against the
   actual result in win/loss review (`win-loss-learning.md`'s predict-then-score primitive) — did
   the answer the demo gave actually address what the discovery call found, or was the demo
@@ -116,7 +116,7 @@ full stage-design and stage-naming discussion lives in `crm-and-pipeline.md`.
   evidence the stage predicts anything — see `crm-and-pipeline.md` for the stage-naming vs
   stage-validation distinction this pack draws everywhere.
 - The JPSP question-asking papers (§5) cited as proof that a demo methodology, script, or framework
-  improves win rates — they measure liking in conversation, not sales outcomes (R10).
+  improves win rates — they measure liking in conversation, not sales outcomes.
 
 ## Validation
 
@@ -135,4 +135,4 @@ full stage-design and stage-naming discussion lives in `crm-and-pipeline.md`.
 - **What happens after a demo that lands (quote, proposal)** — →
   `proposals-pricing-and-negotiation.md`.
 - **Whether question-asking evidence validates a demo or discovery-call methodology** — →
-  `discovery-calls.md` (R10 governs both).
+  `discovery-calls.md`, which carries the full rapport-vs-win-rate distinction for both.

@@ -1,13 +1,13 @@
 ---
 name: sales
 description: >-
-  Win business and know whether you are winning — sales-motion existence, ICP account selection +
-  qualification, cold outbound/prospecting + AI-outbound disclosure, discovery calls, demos,
-  objections/enablement, pricing presentation + negotiation, CRM structure + pipeline, forecasting
-  honesty, win/loss, expansion close. Use for discovery, pipeline forecasts, win/loss audits. Not
-  demand creation (→ marketing), funnel experiments (→ growth), renewals (→ success, contested),
-  pricing design/dunning (→ product), agent mechanics (→ ai), CRM sync (→ automation),
-  pricing-page psychology (→ design).
+  Win business and know whether you are winning. Use for sales-motion existence, ICP account
+  selection + qualification, cold outbound/prospecting, AI-outbound policy, discovery calls, demos,
+  objections + battlecards (sales enablement), proposals + pricing presentation + negotiation, CRM
+  structure + deal pipeline, forecasting honesty, win/loss audits, and expansion-sale close. Not
+  demand creation (→ marketing), funnel experiments (→ growth), renewals + expansion metrics
+  (→ success, contested), pricing design/page psychology/dunning (→ product), agent mechanics
+  (→ ai), CRM sync (→ automation).
 ---
 
 # Sales
@@ -40,9 +40,8 @@ who fits a different gate.
 production code**. Named methodologies (MEDDIC, MEDDPICC, SPIN, Challenger, Sandler) are cited and
 taught by their evidence, never reproduced. See "Not this skill" below.
 
-Use compatible upstream artifacts (marketing's qualified-demand signal, product's pricing tiers, an
-ICP already defined) without silently overriding established decisions. Do not invoke adjacent
-skills automatically unless the user explicitly requested a composition workflow.
+Use compatible upstream artifacts without silently overriding established decisions. Do not invoke
+adjacent skills automatically unless the user explicitly requested a composition workflow.
 
 ## Route before acting
 
@@ -57,8 +56,7 @@ skills automatically unless the user explicitly requested a composition workflow
    without a human reviewing that instance.
 4. **Grade every figure inline** — primary > practitioner-report > vendor-claim, and mark
    FOLKLORE/CONTESTED/CONFOUNDED explicitly. A vendor number stays vendor-claim even when quoted to
-   refute it. **KBCM ships nowhere in this pack**; any bare "70%" gets its subject stated inline;
-   a win rate never ships without its denominator.
+   refute it. Check any figure against "Universal invariants" and the never-ship table below.
 5. **Never re-teach a sibling's owned mechanic.** ICP is inherited from `marketing`, not redefined;
    deliverability doctrine is `marketing`'s, cited not restated; agent mechanics and evals are
    `ai`'s; CRM sync/write-path mechanics are `automation`'s.
@@ -70,7 +68,7 @@ skills automatically unless the user explicitly requested a composition workflow
 | User intent | Read | Contribution |
 |---|---|---|
 | Decide whether an assisted sales motion applies yet, and which gate governs | [when-sales-applies](references/when-sales-applies.md) | **The Existence Gate** — four incompatible practitioner gates (stage-count, price-tier, purchasing-friction, founder-effort) taught as disagreement; the gate eroding from below; the complexity moat with its own falsification condition; the PLG usage-threshold boundary |
-| Select or prioritize accounts, or set up a qualification framework | [icp-and-qualification](references/icp-and-qualification.md) | ICP **inherited** from `marketing`, never redefined; frameworks (MEDDIC/MEDDPICC/BANT) vs methods (SPIN/Challenger/Sandler) taxonomy; the MEDDPICC federal-opinion ruling, generic for business-education services/content |
+| Select or prioritize accounts, or set up a qualification framework | [icp-and-qualification](references/icp-and-qualification.md) | ICP **inherited** from `marketing`, never redefined; frameworks (MEDDIC/MEDDPICC/BANT) vs methods (SPIN/Challenger/Sandler) taxonomy; the MEDDPICC federal-opinion ruling, generic for business education services and content |
 | Design or run cold outbound, or set an AI-outbound policy | [outbound-and-prospecting](references/outbound-and-prospecting.md) | Cold outbound owned per `marketing`'s unhedged cession; deliverability cited, never restated; the disclose-at-first-contact rule; the false-engagement-signal category rule; "email is cooked" taught CONTESTED |
 | Run or structure a discovery call | [discovery-calls](references/discovery-calls.md) | The rapport-evidence-vs-branded-method gap: real evidence question-asking builds liking in non-sales dyads; no published evidence any branded methodology improves win rate |
 | Build or run a product demo | [demo-and-narrative](references/demo-and-narrative.md) | Thin evidence stated honestly — no benchmark figure survives the family's figure-survival rule; demo as the answer to discovery, not a script |
@@ -100,10 +98,9 @@ and `success`, and a note that `product`'s and `automation`'s silence on sales i
 | Demand creation, positioning, content, lifecycle email, deliverability and consent doctrine, competitive assets sales pulls from | `marketing`. Marketing cedes cold outbound, sales enablement, and revenue operations to sales explicitly, with no hedge — but owns qualified-demand definition, ICP, and the assets sales consumes |
 | Funnel experiments, including on a sales-assisted funnel stage | `growth`. Growth hedges *where* the funnel/deal line sits, never *whether* deal mechanics are sales's — regardless of which funnel stage an experiment touches |
 | Renewals, expansion metrics (NRR), the CS-native renewal position | `success` — **CONTESTED, not settled**. Sales closes the expansion sale in a sales-assisted motion; success's Murphy-sourced position holds a CSM renews by default and only genuinely complex renewals route out. Sales does not adjudicate this fight; see [handoff](references/handoff.md) |
-| Pricing-tier design, the commercial-lifecycle model, dunning/billing-failure recovery, pricing-*page* psychology | `product`. Product designs and models; sales presents and negotiates *inside a live deal*. Stalled-payment deals route to product per `success`'s and `marketing`'s documented position — sales never claims product says so itself |
+| Pricing-tier design, the commercial-lifecycle model, dunning/billing-failure recovery, and pricing-*page* visitor psychology (anchoring, decoy effect, tier-count conversion) | `product`. Product designs and models the price, including how a visitor reads tiers on a page; sales presents and negotiates a number *inside a live deal*. Same mechanisms, different context — state which on first use. Stalled-payment deals route to product per `success`'s and `marketing`'s documented position — sales never claims product says so itself |
 | Agent mechanics, retrieval, prompts, eval instrumentation behind an AI-SDR or sales assistant | `ai`. Sales sets the AI-outbound disclosure policy and the false-engagement-signal category rule; `ai` measures compliance with them |
 | CRM sync, write-path mechanics, workflow automation | `automation`. Sales owns which stages and fields exist; automation owns how they get written and kept in sync |
-| Pricing-page visitor psychology (anchoring, decoy effect, tier-count conversion) | `design`. Design owns a visitor reading tiers on a website; sales owns a rep presenting a quote inside a live deal — same mechanisms, different context, state which on first use |
 | Implementing any of it in production code | `frontend` · `backend` · `ai`. Sales ships gates, playbooks, policies, and workflows, never code |
 
 ## Universal invariants
@@ -120,8 +117,10 @@ and `success`, and a note that `product`'s and `automation`'s silence on sales i
   Vendor AI-SDR claims (Gong, 11x, Aviso) are VENDOR-SELF-REPORTED and never cited without the
   method-absence statement attached; contested pairs (11x's ARR/retention figures) never ship one
   side alone.
-- **A disclaimed figure is still a figure.** Never name a never-ship number in order to forbid it;
-  state the mechanism and point at the primary source instead.
+- **A disclaimed figure is still a figure.** In working prose, never name a never-ship number in
+  order to forbid it — state the mechanism and point at the primary source instead. The one
+  exception is the never-ship table below, whose whole job is recognition: a number appears there
+  only where a reader will meet it in the wild and must be able to correct it.
 - **Trademarked methodologies are named, cited, and taught by their evidence — never reproduced.**
   Practitioner opinion on MEDDIC/MEDDPICC/BANT/SPIN/Challenger/Sandler is split; claim no consensus
   in either direction.
@@ -135,18 +134,32 @@ and `success`, and a note that `product`'s and `automation`'s silence on sales i
   Art. 50 + CA SB 1001, the safe-harbour reading). Never manufacture false engagement signals to
   defeat filtering — a category rule, not a single-tool ban.
 
-## Never-ship figures (partial — integrator consolidates the full family sweep)
+## Never-ship figures
 
-| Figure / claim | Why it never ships as stated | Ship instead |
-|---|---|---|
-| "3x pipeline coverage" (or any fixed coverage multiple) as a portable rule | It is 1/win-rate restated with the derivation hidden; no source backtests it | The derivation, and a coverage figure computed from the reader's own win rate |
-| Any stage-probability default (e.g., "Proposal = 60%") presented as researched | No source in this corpus backtests stage-weighted probabilities against outcomes; it is always a hand-set assumption, sometimes executed as code | Name it an assumption; log it; check it against outcomes (see [forecasting-honesty](references/forecasting-honesty.md)) |
-| "92% of buyers give up after 4 follow-up nos" (or "80% need 5 follow-ups") | Pure folklore — anonymous dead-blog origin, no study named, internal contradictions between circulating versions | Do not cite; if the point is persistence, cite a first-person exhibit instead |
-| Any KBCM/KeyBanc quota-attainment percentage | R3: verified-subject, never verified-value; no permalink exists in this corpus | Cite RepVue's verified figures only, with "share of reps at quota" attached |
-| A bare "70%" with no stated subject | Three different subjects circulate behind this figure in this corpus alone | State the subject inline every time |
-| A win rate with no denominator | 21% and 47% can both be "correct" on different denominators | Always state the denominator next to the rate |
-| GitLab's "33% win rate" cited as measured accuracy | GitLab states it is a planning-only assumption, explicitly not a measurement, and publishes no forecast-category percentages | Cite it only as "a planning-only assumption, explicitly not a measurement" |
-| A vendor forecast-accuracy claim (Gong 95%, Aviso 29 quarters, "20% more precision") without the method-absence statement | All are VENDOR-SELF-REPORTED with no disclosed method | Attach the method-absence statement every time the figure is quoted |
+**Sales strips split three ways, and the split is itself the finding** — a figure that survives at
+its origin needs a different correction from pure folklore, which needs a different correction again
+from a vendor study with a real N and no disclosed method. Read the class before correcting.
+
+| Figure / claim | Class | Why it never ships as stated | Ship instead |
+|---|---|---|---|
+| The decision-already-made genre: "57% of the buying decision happens before you talk to sales," and its cousins "9 in 10 buyers rule a firm out before contact" and "70–80% of the outcome is determined before you arrive" | **Survives at origin** | The 57% has a sound primary (CEB Marketing Leadership Council with Google, *The Digital Evolution in B2B Marketing*, 2012; n=1,500 contacts at 22 B2B organizations). The derivatives do not: the number gets misattributed to Gartner, "% of the way through the process" becomes "the decision is already made," and the cousins have no traceable source at all | Cite the primary, with its subject: self-reported progress through the purchase decision *before first serious engagement with a supplier sales rep*. Strip the derivatives, never the original — and teach the shape as a genre, since three different numbers do one rhetorical job |
+| "92% of buyers give up after 4 follow-up nos" (or "80% need 5 follow-ups") | **Pure folklore** | Anonymous dead-blog origin naming no study, and the circulating versions contradict each other's own breakdowns | Do not cite; if the point is persistence, cite a first-person exhibit instead |
+| "Always be closing" cited as sales pedigree | **Pure folklore** | Its famous instance is a speech written for a satirical antagonist in the 1992 film of *Glengarry Glen Ross* — the character is absent from Mamet's play, and the film is criticizing the posture the phrase is used to celebrate | Cite the lineage, or drop the phrase; never present it as an inherited principle |
+| BANT's IBM origin | **Pure folklore** | No primary IBM record of any kind exists; sources disagree on the decade | Use BANT as a term freely; never assert its origin story |
+| "Contact within 5 minutes = 21x more likely to qualify" | **Pure folklore** | The classic misattributed speed-to-lead figure — circulates with a source *name* and no link anywhere this research looked | Do not cite; if responsiveness is the point, use a response-time field on the deal record and measure your own |
+| Methodology outcome-lift claims — SPIN's "17% higher sales volume," MEDDIC's "20–30% higher win rates" | **Pure folklore** | Vendor marketing with zero citation; SPIN's own 35,000-call study was never published, and no empirical study of MEDDIC was located at all | Teach the evidence status instead (see [icp-and-qualification](references/icp-and-qualification.md)); never grade a methodology "research-backed" or "debunked" without an empirical claim to grade |
+| AI-SDR market sizes ("$5.8B, compounding at over 20% a year") and deployment-failure rates ("85% fail within 6 months") | **Pure folklore** | Both unsourced, both circulating inside promotional material, category undefined | Do not cite either; use the standing open challenge and the vendor-claim discipline in [agentic](references/agentic.md) |
+| "3x pipeline coverage" (or any fixed coverage multiple) as a portable rule | **Pure folklore, arithmetic is the teaching** | It is 1/win-rate restated with the derivation hidden; no source backtests it, and the constant only holds at a ~33% win rate held fixed | The derivation, and a coverage figure computed from the reader's own win rate ([coverage_calc.py](assets/coverage_calc.py)) |
+| Any stage-probability default presented as researched, and the unlinked stage-conversion table that gets executed as code | **Pure folklore, arithmetic is the teaching** | No source in this corpus backtests stage-weighted probabilities against outcomes; the largest open corpus runs a 30-cell conversion table whose entire provenance is one unlinked sentence — a hand-set assumption with a runtime | Name it an assumption; log it; check it against outcomes (see [forecasting-honesty](references/forecasting-honesty.md)) |
+| A vendor forecast-accuracy claim (Gong 95%, Aviso 29 quarters, "20% more precision") without the method-absence statement | **Vendor-research genre** | All VENDOR-SELF-REPORTED, none disclosing a measurement period, a baseline, or what the metric means | Attach the method-absence statement every time the figure is quoted |
+| Gong-Labs-style "we analyzed N million calls, X correlates with Y% higher close rate" | **Vendor-research genre** | Real, large N — undisclosed sample construction (the vendor's own self-selected customer base), relative lift over unstated base rates, correlation sliding into causal language inside the same paragraph | Teach how to read the genre: name the sample, name what "correlates" is doing, and decline the causal reading |
+| "8 touches to reach a prospect" | **Vendor-research genre** | One variant has a real named study behind it (RAIN Group, 489 sellers), but "touchpoint" is undefined and the genre ranges 5–15 with most instances citing nothing | Cite the study with its scope, or state the range and its undefined unit — never "8" as a law |
+| A contested vendor pair cited one side only (11x's ARR "approaching $10M" vs ~$3M; retention 79% vs 70–80% churn) | **Vendor-research genre** | Both halves sit in the same TechCrunch piece; either half alone misrepresents what is actually known | Both sides, both attributed to source type, or neither |
+| A win rate with no denominator | **Subject/denominator failure** | 21% and 47% can both be "correct" on the same business, on different denominators | Always state the denominator next to the rate |
+| A bare "70%" with no stated subject | **Subject/denominator failure** | Three different subjects circulate behind this one number in this corpus alone | State the subject inline every time |
+| Any KBCM/KeyBanc quota-attainment percentage | **Subject/denominator failure** | The subject was verified once; the value never was, and no permalink exists in this corpus | Cite RepVue's verified figures only, with "share of reps at quota" attached |
+| GitLab's "33% win rate" cited as measured accuracy | **Subject/denominator failure** | GitLab states it is a planning-only assumption, explicitly not a measurement, and publishes no forecast-category percentages | Cite it only as "a planning-only assumption, explicitly not a measurement" |
+| "California's bot-disclosure law only applies to platforms with 10M+ monthly visitors" | **Never-ship in inverted form** | The danger here is a reader concluding they are *exempt*. The threshold gates only the service-provider carve-out, not the prohibition itself | State the disclosure rule and its two statutory anchors (see [outbound-and-prospecting](references/outbound-and-prospecting.md)) |
 
 ## Core workflow
 
@@ -183,8 +196,7 @@ Before completion:
 
 - Confirm every requested artifact exists and every claim in it has a proof source — an unsourced
   percentage is not a finished line.
-- Confirm no figure travels without its method or an explicit "method unknown."
-- Distinguish what is primary-sourced from what is practitioner-report or vendor-self-reported.
+- Confirm no figure travels without its method, its evidence grade, or an explicit "method unknown."
 - State plainly what this artifact will and will not be able to prove — especially any forecast.
 - When downstream work is expected, provide artifact paths, owners, residual risk, and a
   recommended next skill — typically `marketing` for a qualified-demand handoff, `growth` to test

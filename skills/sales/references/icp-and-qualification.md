@@ -15,8 +15,8 @@ Read when:
 
 Skip when:
 - Defining ICP from scratch — that's marketing's job
-  ([audience-and-segmentation.md](../../../../marketing-skill/skills/marketing/references/audience-and-segmentation.md)
-  in that pack); this file only applies an existing definition to account selection.
+  (`marketing/references/audience-and-segmentation.md`); this file only applies an existing
+  definition to account selection.
 - The actual discovery conversation and its evidence base — [discovery-calls.md](discovery-calls.md).
 - Whether a sales motion should exist at all for this business — [when-sales-applies.md](when-sales-applies.md).
 - Enterprise-scale qualification mechanics at ARR-gated thresholds — [surface-enterprise-team.md](surface-enterprise-team.md)
@@ -117,11 +117,9 @@ press-release-sourced account inverted this exact point; the opinion itself corr
 
 **MEDDICC** (the commercial mark, Andy Whyte, founded 2020) remains live and commercial — cite it,
 never reproduce its training materials. "MEDDIC," the original six-letter acronym, was never shown in
-this research to be currently trademark-registered to anyone.
-
-No academic critique of MEDDIC exists either — a null result in its own right, distinct from
-Challenger, which did attract a real peer-reviewed critique (Rapp, Bachrach, Panagopoulos & Ogilvie,
-2014, *JPSSM* 34(4):245–259).
+this research to be currently trademark-registered to anyone. No academic critique of MEDDIC exists
+either — a null in its own right, distinct from Challenger, which did attract a real peer-reviewed
+critique (Rapp, Bachrach, Panagopoulos & Ogilvie, 2014, *JPSSM* 34(4):245–259).
 
 ## GitLab's MEDDPPICC — the enterprise exhibit
 
@@ -176,9 +174,9 @@ clears the enterprise ARR threshold above.
 
 Real peer-reviewed evidence shows question-asking builds rapport — but in **non-sales dyads**
 (speed-dating, get-to-know-you conversations), not sales discovery calls. No published evidence shows
-any *branded* sales questioning methodology improves win rates. A qualification or discovery framework
-may never borrow the rapport-building papers' authority to imply the second, different claim — full
-treatment lives in [discovery-calls.md](discovery-calls.md); this file only flags the boundary.
+any *branded* sales questioning methodology improves win rates, and a qualification or discovery
+framework may never borrow the rapport papers' authority to imply that second, different claim. Full
+treatment: [discovery-calls.md](discovery-calls.md); this file only flags the boundary.
 
 ## Validation
 

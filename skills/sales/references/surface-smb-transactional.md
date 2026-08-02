@@ -27,6 +27,7 @@ overhead to deliberately not carry, and where to draw the aging/hygiene line.
 - Velocity as the operating discipline
 - Qualification, compressed but not skipped
 - Forecast caution: more deals is not more calibration
+- Validation
 - Failure modes
 
 ## 1. What relaxes from founder-led-solo, and why
@@ -92,6 +93,16 @@ property of a *tracked record*, not of deal count in a single quarter, and cover
 (`assets/coverage_calc.py`) still requires the reader's own win rate, not an assumed one. Velocity
 changes how fast bad pipeline gets flushed (§2's aging rules); it does not by itself make a
 hand-set stage weight any more validated.
+
+## Validation
+
+- Any decision to drop enterprise machinery cites the ARR-gated exhibit that licenses it, not a
+  house preference for less process.
+- An aging or auto-close threshold is stated as a choice fitted to this motion's own velocity, with
+  GitLab's segment-tiered clock cited as a reference point rather than copied as a rule.
+- Compressed qualification still names what would disqualify a deal; speed never substitutes for
+  the inherited ICP fit check.
+- No claim is made that deal volume improves forecast calibration.
 
 ## Failure modes
 
