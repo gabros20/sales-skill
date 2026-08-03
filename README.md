@@ -150,7 +150,7 @@ workflow wiring.
 | `quality` | Assure | [quality-skill.vercel.app](https://quality-skill.vercel.app) |
 | `operate` | Run | [operate-skill.vercel.app](https://operate-skill.vercel.app) |
 | `marketing` | Distribute | [marketing-skill.vercel.app](https://marketing-skill.vercel.app) |
-| `sales` | Distribute | [sales-skill.vercel.app](https://sales-skill.vercel.app) |
+| `sales` | Distribute | [salesskill.vercel.app](https://salesskill.vercel.app) |
 | `growth` | Improve | [growthskill.vercel.app](https://growthskill.vercel.app) |
 | `success` | Improve | [success-skill.vercel.app](https://success-skill.vercel.app) |
 

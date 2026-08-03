@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sales-skill.vercel.app/sitemap.xml
+Sitemap: https://salesskill.vercel.app/sitemap.xml

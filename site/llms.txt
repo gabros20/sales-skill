@@ -50,4 +50,4 @@ on Codex, Cursor, Antigravity, opencode, Grok Build, and Hermes too.
 
 ## Optional
 
-- [Visual guide](https://sales-skill.vercel.app): the workflow, boundaries, and reference map on one page.
+- [Visual guide](https://salesskill.vercel.app): the workflow, boundaries, and reference map on one page.
