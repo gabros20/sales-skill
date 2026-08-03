@@ -48,6 +48,9 @@ never-ship where it fails, with the honest version taught in its place.
 
 ```bash
 npx skills add gabros20/sales-skill -g -y
+
+# or, from a clone — installs into any of 8 client targets (claude, codex, …):
+./install.sh claude
 ```
 
 Or use it in Codex with `$sales`. Manual copy also works — copy `skills/sales/` into your client's
