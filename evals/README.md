@@ -13,6 +13,7 @@ boundary-arrow traps, 2 adversarial sibling-naming traps, 1 out-of-family), 10 t
 per flagship/surface/seam path, every expected/forbidden reference verified on disk), 6 output cases
 (5 artifact-contract checks plus one never-ship forbidden-string sweep), and 3 compression-ablation
 cases exercising rules at the start, middle, and end of the loaded set. Keep expected and forbidden
-reads explicit so routing regressions are diagnosable. The `never-ship-strings` output case's
-assertions intentionally quote the banned figures verbatim — that file is not agent-loaded, so
-quoting them there is not a shipping violation.
+reads explicit so routing regressions are diagnosable. Files under `evals/` intentionally quote
+never-ship figures verbatim — in the `never-ship-strings` case's assertions and in several test
+prompts (a prompt is the user's voice; quoting the folklore is the entire test). Nothing under
+`evals/` is agent-loaded, so quoting them here is not a shipping violation.

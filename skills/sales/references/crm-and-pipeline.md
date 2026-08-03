@@ -17,7 +17,8 @@ advancing past it; how many pipeline shapes you actually need (new business, ren
 not be the same shape).
 
 Produces: a stage/field design that names what a "CRM" is for in this pack (a structured system of
-record for deal state, not a communications tool), and an honest verdict on hygiene.
+record for deal state, not a communications tool), and an honest verdict on hygiene. Audit an
+existing pipeline stage-by-stage with [stage_exit_criteria_audit](../assets/stage_exit_criteria_audit.md).
 
 ## Contents
 1. Structure is ours, sync is automation's · 2. The exit-criteria gap · 3. Stage design patterns

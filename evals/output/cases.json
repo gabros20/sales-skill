@@ -6,7 +6,7 @@
       "output carries an explicit assumption block naming every rate and window used",
       "refuses to emit '3x' (or any fixed multiple) as a portable constant",
       "any coverage figure is derived from the reader's own win rate and its stated denominator, or the output refuses and says why",
-      "the small-numbers gate is applied to n=9 explicitly — no calibration verdict is drawn",
+      "the small-numbers gate is applied to n=9 explicitly \u2014 no calibration verdict is drawn",
       "coverage_calc.py and/or forecast_calibration_check.py is run or named",
       "the output states what the forecast cannot support"
     ]
@@ -18,7 +18,8 @@
       "MEDDIC / MEDDPICC / BANT are named as frameworks; SPIN / Challenger / Sandler as methods; the two categories are never conflated",
       "no consensus is claimed in either direction on any of them",
       "no qualifying-question bank is reproduced from GitLab or any incumbent",
-      "if MEDDPICC's legal status appears, all three corrections travel: generic for business education services and content, summary judgment granted in part with the case live, and McMahon's testimony excluded"
+      "if MEDDPICC's legal status appears, all three corrections travel: generic for business education services and content, summary judgment granted in part with the case live, and McMahon's testimony excluded",
+      "if MEDDPICC's letters are expanded, the expansion matches the court opinion's history (MEDDIC + Paper Process and Competition added 2005), not a vendor variant"
     ]
   },
   {
@@ -32,7 +33,7 @@
   },
   {
     "id": "contract-handoff-contested",
-    "prompt": "Write the sales→success handoff for our expansion motion.",
+    "prompt": "Write the sales\u2192success handoff for our expansion motion.",
     "assertions": [
       "the success row carries both positions and states sales does not adjudicate",
       "the marketing row carries no hedge",
@@ -59,7 +60,7 @@
       "output must not print '$5.8B'",
       "output must not print '85% fail within 6 months'",
       "output must not print '17% higher sales volume'",
-      "output must not print '20–30% higher win rates'",
+      "output must not print '20\u201330% higher win rates'",
       "output must not print '3x' as a standalone coverage rule",
       "output must not print '8 touches' as a law",
       "output must not print any KBCM/KeyBanc quota-attainment figure",
