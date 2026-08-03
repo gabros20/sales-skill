@@ -26,7 +26,7 @@ restatement of the artifact itself.
 - The seam map (three mirror rows)
 - The sales↔success worked example: GitLab's parallel roles
 - `product` and `automation`: deliberate silence, not absence
-- Dunning and billing: routed, never claimed as sales's own position
+- Dunning and billing: routed to `product`, which now claims it
 - Validation
 - Failure modes
 
@@ -85,14 +85,16 @@ automation's claim more false, not less. That is a sibling-repair item queued on
 for automation to clear at this pack's release (synthesis §9) — it is not an edit this pack makes
 itself, and their silence in this file should not be read as an oversight.
 
-## Dunning and billing: routed, never claimed as sales's own position
+## Dunning and billing: routed to `product`, which now claims it
 
-If a deal stalls on a failed payment, route it to `product` — but **per success's and marketing's
-documented position, not as sales's own finding.** `success/SKILL.md:95` and
-`marketing/references/lifecycle-and-email.md:15` both assign dunning/billing-failure recovery to
-`product`; `product`'s own pack contains zero occurrences of either word. This is not sales's
-territory to claim either way — cite the two siblings that made the assignment, never state that
-product says so itself.
+If a deal stalls on a failed payment, route it to `product`. When this pack first shipped, the
+assignment was one-directional — `success/SKILL.md:95` and
+`marketing/references/lifecycle-and-email.md:15` both assigned dunning/billing-failure recovery to
+`product` while product's own pack said nothing, and this file recorded that asymmetry rather than
+papering over it. A family ruling (2026-08-03) closed the loop: `product` claims the mechanism in
+its own voice — `product/references/business-model.md` §3, dunning as the involuntary-churn rule
+inside the commercial lifecycle. Cite product's claim directly; the two sibling assignments stand
+as corroboration, not as the sole authority.
 
 ## Validation
 
@@ -103,7 +105,8 @@ product says so itself.
   sentence.
 - Every sibling file:line cite was re-grepped against the live sibling pack before shipping —
   quotes survive drift, line numbers don't.
-- Dunning routing is attributed to success and marketing, never to `product` itself.
+- Dunning routing cites `product`'s own claim (`product/references/business-model.md` §3), with
+  the success and marketing assignments as corroboration.
 
 ## Failure modes
 
@@ -117,7 +120,8 @@ product says so itself.
   unconditional even inside a provisional row.
 - Citing GitLab's stage-3/4 handoff or retain-and-expand split without the "run parallel" sentence,
   or presenting it as evidence for the contested seam rather than as one worked example inside it.
-- Stating that `product` claims dunning/billing ownership — it never has; the assignment is
-  one-directional from success and marketing.
+- Citing only success's and marketing's assignment for dunning while ignoring `product`'s own
+  claim — the loop closed 2026-08-03 and the routing is now two-sided; the historical asymmetry is
+  context, not the current state.
 - Reading `product`'s or `automation`'s missing row as evidence sales has no seam there — both
   cede in prose, on record, before this pack shipped.
