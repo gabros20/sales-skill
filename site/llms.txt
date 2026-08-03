@@ -1,52 +1,53 @@
-# success
+# sales
 
-> Help customers adopt, realize value, renew, and expand. Installs as an agent skill.
+> Win the deal, and know whether you can actually predict winning it. Installs as an agent skill.
 
-success is the customer-success pack of the Digital Product Skills family: it keeps the
-customers a product already has. It opens with an existence gate (does a success function even
-apply yet, or do growth/marketing/operate cover it), then routes across onboarding programs, help
-content and knowledge bases, support process and SLAs-as-promises, AI-support policy, customer
-health and churn-risk honesty, voice-of-customer interpretation, retention execution, renewals and
-expansion (NRR), app-review responses, and customer-facing incident comms. The router in SKILL.md
-sends a task to only the one or two references it needs — 15 references, 3 surfaces plus an
-agentic overlay, and four self-testing calculators.
+sales is the sales pack of the Digital Product Skills family: it converts qualified demand into
+committed customers. It opens with an existence gate (does an assisted sales motion apply yet, and
+which of four disagreeing practitioner gates governs — stage-count, price-tier,
+purchasing-friction, founder-effort), then routes across account selection and qualification, cold
+outbound and AI-outbound policy, discovery calls, demos, objections and enablement, proposal and
+pricing presentation and negotiation, CRM structure and pipeline hygiene, forecasting honesty, win/
+loss learning, and the expansion-sale close. The router in SKILL.md sends a task to only the one or
+two references it needs — 15 references, 3 surfaces plus an agentic overlay, and two self-testing
+calculators.
 
 Claude Code is the reference host; it's plain Agent Skills format (agentskills.io), so it installs
 on Codex, Cursor, Antigravity, opencode, Grok Build, and Hermes too.
 
 ## Install
 
-- npm/skills.sh: `npx skills add gabros20/success-skill`
-- Clone + installer (per-host targets: claude | codex | cursor | antigravity | opencode | grok | hermes | agents | all): `git clone https://github.com/gabros20/success-skill && cd success-skill && ./install.sh codex`
-- Manual copy: `cp -R skills/success ~/.claude/skills/success`
+- npm/skills.sh: `npx skills add gabros20/sales-skill`
+- Clone + installer (per-host targets: claude | codex | cursor | antigravity | opencode | grok | hermes | agents | all): `git clone https://github.com/gabros20/sales-skill && cd sales-skill && ./install.sh codex`
+- Manual copy: `cp -R skills/sales ~/.claude/skills/sales`
 
 ## Docs
 
-- [README.md](https://raw.githubusercontent.com/gabros20/success-skill/main/README.md): overview, install, workflow, and repository map.
-- [skills/success/SKILL.md](https://raw.githubusercontent.com/gabros20/success-skill/main/skills/success/SKILL.md): runtime router, workflow, artifact contract, and completion rules.
-- [docs/installation.md](https://raw.githubusercontent.com/gabros20/success-skill/main/docs/installation.md): installation and verification by client.
-- [docs/usage.md](https://raw.githubusercontent.com/gabros20/success-skill/main/docs/usage.md): activation boundary, routes, outputs, and completion.
-- [docs/recipes.md](https://raw.githubusercontent.com/gabros20/success-skill/main/docs/recipes.md): representative starting prompts.
+- [README.md](https://raw.githubusercontent.com/gabros20/sales-skill/main/README.md): overview, install, workflow, and repository map.
+- [skills/sales/SKILL.md](https://raw.githubusercontent.com/gabros20/sales-skill/main/skills/sales/SKILL.md): runtime router, workflow, artifact contract, and completion rules.
+- [docs/installation.md](https://raw.githubusercontent.com/gabros20/sales-skill/main/docs/installation.md): installation and verification by client.
+- [docs/usage.md](https://raw.githubusercontent.com/gabros20/sales-skill/main/docs/usage.md): activation boundary, routes, outputs, and completion.
+- [docs/recipes.md](https://raw.githubusercontent.com/gabros20/sales-skill/main/docs/recipes.md): representative starting prompts.
 
-## Reference inventory (`skills/success/references/`)
+## Reference inventory (`skills/sales/references/`)
 
-- `when-success-applies.md` — the existence gate: does this product need a success function yet.
-- `onboarding-and-adoption.md` — the onboarding program and adoption plan (not the in-product flow).
-- `education-and-knowledge-base.md` — help content, KB strategy, article lifecycle, search-gap backlog.
-- `support-process-design.md` — ticket taxonomy, status buckets, SLAs as promises, customer escalation.
-- `ai-support-policy.md` — bot boundaries, escalation policy, resolution-rate honesty.
-- `health-and-risk-signals.md` — what a health score can and cannot tell you (flagship).
-- `voice-of-customer.md` — NPS/CSAT interpretation and aggregate feedback trends.
-- `retention-execution.md` — churn-save, win-back, and pause motions a test already validated.
-- `renewals-and-expansion.md` — renewal workflow, NRR/GRR mechanics, expansion signals, advocacy.
-- `incident-and-account-comms.md` — the customer's side of an incident or decommission.
-- `surface-selfserve-solo.md` — the default surface: solo/self-serve reality.
-- `surface-b2b-high-touch.md` — enterprise/high-touch overlay.
-- `surface-mobile-subscription.md` — app-store subscription overlay.
-- `overlay-agentic.md` — AI-agent-run success operations (additive).
-- `handoff.md` — seams with the sibling packs.
-- `../assets/` — nrr_calc.py, churn_baseline_check.py, sla_capacity_calc.py, health_score_audit.md.
+- `when-sales-applies.md` — the existence gate: does an assisted motion apply yet, and which of four disagreeing gates governs.
+- `icp-and-qualification.md` — account selection on marketing's inherited ICP; qualification frameworks vs. methods.
+- `outbound-and-prospecting.md` — cold outbound, AI-outbound disclosure policy, the false-engagement-signal rule.
+- `discovery-calls.md` — discovery-call structure and its evidence base.
+- `demo-and-narrative.md` — product demos as the answer to discovery.
+- `objections-and-enablement.md` — battlecards, objection handling, sales enablement.
+- `proposals-pricing-and-negotiation.md` — pricing presentation, proposals, negotiation, the expansion-sale close.
+- `crm-and-pipeline.md` — CRM stage design, exit criteria, pipeline hygiene.
+- `forecasting-honesty.md` — what a forecast can and cannot predict (centerpiece).
+- `win-loss-learning.md` — reading a stated win/loss reason honestly; the predict-then-score corrective.
+- `surface-founder-led-solo.md` — the default surface: no reps, no dedicated CRM admin.
+- `surface-smb-transactional.md` — repeatable velocity motion, multiple reps.
+- `surface-enterprise-team.md` — named CRM admin, buying committees.
+- `agentic.md` — AI-agent-run outbound, qualification, or deal steps (additive).
+- `handoff.md` — boundaries with the sibling packs.
+- `../assets/` — coverage_calc.py, forecast_calibration_check.py, loss_prediction_log.md, stage_exit_criteria_audit.md.
 
 ## Optional
 
-- [Visual guide](https://success-skill.vercel.app): the workflow, boundaries, and reference map on one page.
+- [Visual guide](https://sales-skill.vercel.app): the workflow, boundaries, and reference map on one page.
