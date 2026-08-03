@@ -29,6 +29,16 @@ Produces: which family jobs a solo founder does by hand versus skips at this sca
 psychological and tooling problems the evidence shows solo sellers actually hit, and an explicit
 no-settled-answer statement wherever the evidence doesn't support a firm recommendation.
 
+## Contents
+
+- [The central tension: skeptic and seller in one person](#the-central-tension-skeptic-and-seller-in-one-person)
+- [No settled solo CRM answer — a live, named gap](#no-settled-solo-crm-answer--a-live-named-gap)
+- [AI-assisted selling, with the human check kept explicit](#ai-assisted-selling-with-the-human-check-kept-explicit)
+- [Discovery and qualification at n=1: the friction gate applied](#discovery-and-qualification-at-n1-the-friction-gate-applied)
+- [Job-by-job reshape](#job-by-job-reshape)
+- [Validation](#validation)
+- [Failure modes](#failure-modes)
+
 ## The central tension: skeptic and seller in one person
 
 The clearest statement of what makes founder-led sales specifically hard — not "hard like sales is

@@ -1,0 +1,34 @@
+{
+  "name": "sales-skill",
+  "version": "0.1.0",
+  "description": "Convert qualified demand into committed customers — deals, pipeline, forecasts",
+  "author": {
+    "name": "gabros20",
+    "url": "https://github.com/gabros20"
+  },
+  "homepage": "https://sales-skill.vercel.app",
+  "repository": "https://github.com/gabros20/sales-skill",
+  "license": "MIT",
+  "keywords": [
+    "agent-skill",
+    "sales",
+    "pipeline",
+    "forecasting",
+    "outbound",
+    "crm",
+    "win-loss"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Sales",
+    "shortDescription": "Convert qualified demand into committed customers — deals, pipeline, forecasts",
+    "longDescription": "The assisted buying process with the epistemics attached: whether a sales motion applies at all, ICP and qualification (frameworks kept distinct from selling methods), cold outbound with an AI-disclosure policy, discovery calls, demos, objections and battlecards, proposals and pricing presentation, CRM structure and deal pipeline with real exit criteria, forecasting honesty, and win/loss learning that treats a buyer's stated reason as testimony rather than data. The flagship answers what a pipeline number can honestly predict — and what to run instead at n=1.",
+    "developerName": "gabros20",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Use $sales to build a bookings forecast from my open pipeline and tell me what it can honestly support."
+    ],
+    "brandColor": "#059669"
+  }
+}
