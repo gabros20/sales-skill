@@ -77,6 +77,7 @@ adjacent skills automatically unless the user explicitly requested a composition
 | Design CRM stages or audit deal-pipeline hygiene | [crm-and-pipeline](references/crm-and-pipeline.md) | The stage/exit-criteria gap — a real process artifact the open-CRM tool ecosystem cannot express; CRM **structure** (sales) vs sync **mechanics** (`automation`) |
 | Build or audit a pipeline forecast ⭐ | [forecasting-honesty](references/forecasting-honesty.md) | **Flagship.** Assumption-disclosure is prior art, not this pack's novelty; the forecast-accuracy null; coverage-as-tautology (1/win-rate); the small-numbers gate; patio11's prediction-then-score loop |
 | Run or design a win/loss program | [win-loss-learning](references/win-loss-learning.md) | Nisbett & Wilson 1977's validity boundary on stated reasons; the patio11 loop as the corrective; no authoritative adopted owner anywhere in the genre |
+| Close an expansion or upsell deal on an existing account | [proposals-pricing-and-negotiation](references/proposals-pricing-and-negotiation.md) | The expansion sale as a live-deal negotiation against an incumbent relationship; what carries over from the original deal; estimated-until-quoted applied to the new amount; the contested-ownership pointer to `handoff.md` |
 
 Emitting for downstream work, or naming a boundary → [handoff](references/handoff.md) — the seam
 map from sales's side, including the three mirror rows sales writes into `marketing`, `growth`,
@@ -97,7 +98,7 @@ and `success`, and a note that `product`'s and `automation`'s silence on sales i
 |---|---|
 | Demand creation, positioning, content, lifecycle email, deliverability and consent doctrine, competitive assets sales pulls from | `marketing`. Marketing cedes cold outbound, sales enablement, and revenue operations to sales explicitly, with no hedge — but owns qualified-demand definition, ICP, and the assets sales consumes |
 | Funnel experiments, including on a sales-assisted funnel stage | `growth`. Growth hedges *where* the funnel/deal line sits, never *whether* deal mechanics are sales's — regardless of which funnel stage an experiment touches |
-| Renewals, expansion metrics (NRR), the CS-native renewal position | `success` — **CONTESTED, not settled**. Sales closes the expansion sale in a sales-assisted motion; success's Murphy-sourced position holds a CSM renews by default and only genuinely complex renewals route out. Sales does not adjudicate this fight; see [handoff](references/handoff.md) |
+| The renewal **workflow** and **NRR reading** (metrics, the CS-native renewal position) — not closing the expansion deal itself, which is this pack's own Jobs row above | `success` — **CONTESTED, not settled**. Sales closes the expansion sale in a sales-assisted motion; success's Murphy-sourced position holds a CSM renews by default and only genuinely complex renewals route out. Sales does not adjudicate this fight; see [handoff](references/handoff.md) |
 | Pricing-tier design, the commercial-lifecycle model, dunning/billing-failure recovery, and pricing-*page* visitor psychology (anchoring, decoy effect, tier-count conversion) | `product`. Product designs and models the price, including how a visitor reads tiers on a page; sales presents and negotiates a number *inside a live deal*. Same mechanisms, different context — state which on first use. Stalled-payment deals route to product per `success`'s and `marketing`'s documented position — sales never claims product says so itself |
 | Agent mechanics, retrieval, prompts, eval instrumentation behind an AI-SDR or sales assistant | `ai`. Sales sets the AI-outbound disclosure policy and the false-engagement-signal category rule; `ai` measures compliance with them |
 | CRM sync, write-path mechanics, workflow automation | `automation`. Sales owns which stages and fields exist; automation owns how they get written and kept in sync |
@@ -119,8 +120,9 @@ and `success`, and a note that `product`'s and `automation`'s silence on sales i
   side alone.
 - **A disclaimed figure is still a figure.** In working prose, never name a never-ship number in
   order to forbid it — state the mechanism and point at the primary source instead. The one
-  exception is the never-ship table below, whose whole job is recognition: a number appears there
-  only where a reader will meet it in the wild and must be able to correct it.
+  exception is the never-ship table below and the per-file Never-ship sections, whose whole job is
+  recognition: a number appears there only where a reader will meet it in the wild and must be able
+  to correct it.
 - **Trademarked methodologies are named, cited, and taught by their evidence — never reproduced.**
   Practitioner opinion on MEDDIC/MEDDPICC/BANT/SPIN/Challenger/Sandler is split; claim no consensus
   in either direction.

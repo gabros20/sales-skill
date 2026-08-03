@@ -143,6 +143,37 @@ Grade: measured-with-method throughout. Cited by full reference at point of use 
   leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=7.&title=&part=3.&chapter=6.&article=.
   Freely quotable; the pack's clearest correction of a widely repeated scope misreading.
 
+## 4b. Public-web primaries and vendor pages
+
+Not academic or legal, but each is a named, checkable web source rather than a reconstructed
+claim. Grade stated inline at point of use in the citing file.
+
+- **Good Judgment Open** (`gjopen.com/faq`) — PRIMARY. The tournament explainer's own statement
+  that a single scored forecast is uninformative outside its question's full lifespan — the
+  small-numbers gate's second leg (`references/forecasting-honesty.md` §5).
+- **Brier score reference article** (`en.wikipedia.org/wiki/Brier_score`) — PRIMARY. The
+  sample-size statement behind the small-numbers gate: large N needed for rare, high-skill
+  forecasts; modest N suffices for common, low-skill ones (`references/forecasting-honesty.md` §5).
+- **Gartner's B2B buying-journey page** (`gartner.com/en/sales/insights/b2b-buying-journey`) — the
+  live page 403s every direct fetch; quoted from a 2020-04-21 Wayback Machine snapshot, not a
+  reconstructed URL. The buying-group figure, never shipped without its deconfliction clause
+  (`references/surface-enterprise-team.md` §4).
+- **Google's bulk-sender requirements** (`support.google.com/a/answer/81126`) — PRIMARY, effective
+  2024-02-01. The 0.30%/0.10%/5,000-per-day figures, Google-primary and not extended to Yahoo,
+  whose own page states no numeric threshold (`references/outbound-and-prospecting.md`).
+- **Gong** (`gong.io/forecast/`) — VENDOR-SELF-REPORTED, method not disclosed. A customer quote
+  claiming 95% forecast accuracy and a separate "20% more precision" claim, cited only with the
+  method-absence statement attached (`references/forecasting-honesty.md` §3).
+- **Aviso** — VENDOR-SELF-REPORTED marketing headline ("29 Quarters of Highly Accurate
+  Forecasts"), no accuracy metric stated anywhere it appeared; no permalink was captured, treated
+  as uncited (`references/forecasting-honesty.md` §3).
+- **Clozd** (`clozd.com/blog/win-loss-101-what-to-ask-buyers-in-win-loss-interviews`) —
+  VENDOR-SELF-REPORTED, one page from one vendor, checked once. The leading win/loss vendor's own
+  buyer-interview guidance, scoped narrowly and never generalized to the industry
+  (`references/win-loss-learning.md`).
+- **RAIN Group** — the one real named study (489 sellers) behind the "8 touches to reach a
+  prospect" figure, cited with its scope, never as a bare law (`SKILL.md`'s never-ship table).
+
 ## 5. Practitioner (X) sources
 
 Every X permalink in this pack was copied verbatim from a research raw file and grade is stated
@@ -171,6 +202,21 @@ reconstructed.
   MEDDPICC and named methodologies generally.
 - **@FidelCacheFlow** — the credentials-as-evidence FOLKLORE specimen.
 - **@levikmunneke**, **@gtmba_** — the outbound funnel-math and coverage-multiple folklore exhibits.
+- **@Shpigford** — the gate eroding from below: build-it-yourself economics for engineer-buyers
+  making the existence gate a moving target, not a fixed threshold (`when-sales-applies.md`).
+- **@techsaleshackz** — the framework-discard exhibit; read as one discard anecdote, never
+  generalized to "frameworks don't work" (`discovery-calls.md`).
+- **@mistamor** — the hygiene-as-noise coaching exhibit: an AE coach classifying CRM hygiene as
+  noise, not signal, in his own Performance Improvement Plan framework (`crm-and-pipeline.md`).
+- **@alexabelonix** — the 4/50 founder micro-loop: a complete manual-outreach-to-ICP-revision cycle
+  at n=1, honest about its own denominator (`surface-founder-led-solo.md`).
+- **@webjuice_ie** — one of the three evasion exhibits: account farming behind proxies
+  (`outbound-and-prospecting.md`).
+- **@staticmaker1** — the funded-industry figure behind engagement-simulation warmup tooling
+  (`outbound-and-prospecting.md`).
+- **@iuditg** — the truncated Solution Selling specimen: a conversion-lift claim cut off mid-number
+  in its own source, unquotable and unproven regardless of the missing digit
+  (`objections-and-enablement.md`).
 
 ## 6. Figures this pack refuses to ship
 

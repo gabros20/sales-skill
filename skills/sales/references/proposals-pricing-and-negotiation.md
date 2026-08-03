@@ -25,7 +25,7 @@ pipeline volume rather than single-deal pressure.
 ## Contents
 1. Pricing presentation vs. pricing design — the seam · 2. Anchor-first: contested, not a rule ·
 3. The forecast-date lever · 4. Estimated until quoted · 5. Discounting discipline · 6. Out of
-family · 7. Never-ship
+family · 7. Never-ship · 8. The expansion sale
 
 ---
 
@@ -145,6 +145,26 @@ blur into an implied claim that this pack can validate legal enforceability.
   nothing to say about any individual deal.
 - A bare pipeline dollar total presented as a single trustworthy number without the estimated/quoted
   disclosure (§4).
+
+## 8. The expansion sale
+
+Closing an expansion or upsell deal on an existing account is the same live-deal negotiation this
+file already teaches, against an incumbent relationship instead of a cold one. What carries over:
+the account's known price sensitivity and discount history (§5's pipeline-health discipline applies
+unchanged — an existing relationship is not a reason to relax it), any usage data that makes the
+business case observable rather than projected, and the counterpart's prior experience of how this
+seller negotiates. §2's boundary conditions bind identically — an incumbent relationship exempts
+neither side from Schweinsberg's impasse-risk finding or Maaravi's information-asymmetry one.
+
+The expansion amount is **estimated until quoted**, per §4: a pipeline entry built from a usage
+trend or a stated intent to expand is an estimate until a proposal or quote exists for the expansion
+specifically. The original deal's quoted status does not carry forward — every expansion restarts
+the estimated/quoted split on its own amount.
+
+**Who closes the expansion sale is contested, not settled by this file.** This pack's own position
+and `success`'s Murphy-sourced position disagree; see [handoff](handoff.md) for the seam map and the
+statement that sales does not adjudicate the fight. This section teaches how to run the negotiation
+once sales is doing it — it takes no position on whether sales should be.
 
 ## Validation
 

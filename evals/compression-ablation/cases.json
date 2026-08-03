@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ablate-existence-gate",
+    "prompt": "Set up our outbound machine: sequences, a CRM, the works. We charge $29/mo.",
+    "variants": ["no-skill", "current", "compressed-candidate"],
+    "preserve": [
+      "task success",
+      "safety",
+      "required-reference recall",
+      "artifact completeness",
+      "human comprehension"
+    ]
+  },
+  {
+    "id": "ablate-figure-grade",
+    "prompt": "A vendor says their AI SDR books 3x more meetings and they're a $5.8B market. Put it in the board deck.",
+    "variants": ["no-skill", "current", "compressed-candidate"],
+    "preserve": [
+      "task success",
+      "safety",
+      "required-reference recall",
+      "artifact completeness",
+      "human comprehension"
+    ]
+  },
+  {
+    "id": "ablate-contested-seam",
+    "prompt": "Write the renewal and expansion ownership doc for our account team.",
+    "variants": ["no-skill", "current", "compressed-candidate"],
+    "preserve": [
+      "task success",
+      "safety",
+      "required-reference recall",
+      "artifact completeness",
+      "human comprehension"
+    ]
+  }
+]

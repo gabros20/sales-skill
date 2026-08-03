@@ -1,0 +1,137 @@
+[
+  {
+    "id": "gate-existence",
+    "prompt": "We're two people, $40/mo per customer, and someone told us to hire an SDR. Do we even need a sales motion?",
+    "should_trigger": true
+  },
+  {
+    "id": "account-selection",
+    "prompt": "Which of these 200 accounts should I actually spend time on — and should I be running MEDDIC on them?",
+    "should_trigger": true
+  },
+  {
+    "id": "cold-outbound",
+    "prompt": "Write a cold outbound sequence for CTOs at Series-B fintechs, and tell me what spam rate I have to stay under.",
+    "should_trigger": true
+  },
+  {
+    "id": "discovery-call",
+    "prompt": "Structure my first call with a new prospect. Does SPIN actually work?",
+    "should_trigger": true
+  },
+  {
+    "id": "demo-build",
+    "prompt": "Build the demo flow for a prospect who told us they care about audit logs and SSO.",
+    "should_trigger": true
+  },
+  {
+    "id": "battlecard",
+    "prompt": "Build a battlecard against our main competitor and an objection library from what we keep hearing.",
+    "should_trigger": true
+  },
+  {
+    "id": "proposal-anchor",
+    "prompt": "Draft the proposal, and tell me whether to name our price first.",
+    "should_trigger": true
+  },
+  {
+    "id": "crm-stages",
+    "prompt": "Design our deal pipeline stages and the exit criteria for each one.",
+    "should_trigger": true
+  },
+  {
+    "id": "forecast-build",
+    "prompt": "Build me a Q3 bookings forecast from our open pipeline.",
+    "should_trigger": true
+  },
+  {
+    "id": "winloss-program",
+    "prompt": "Set up a win/loss interview program — what do we ask buyers after we lose?",
+    "should_trigger": true
+  },
+  {
+    "id": "handoff-seam",
+    "prompt": "We just closed a deal. What exactly do we hand to customer success, and what stays ours?",
+    "should_trigger": true
+  },
+  {
+    "id": "surface-solo",
+    "prompt": "I'm a solo founder selling my own product. What parts of the sales apparatus should I skip?",
+    "should_trigger": true
+  },
+  {
+    "id": "surface-smb",
+    "prompt": "Four reps, $8k deals, three-week cycles. How much process should we carry?",
+    "should_trigger": true
+  },
+  {
+    "id": "surface-enterprise",
+    "prompt": "Six-month cycle, eight stakeholders, procurement involved. What qualification structure applies?",
+    "should_trigger": true
+  },
+  {
+    "id": "agentic-unattended",
+    "prompt": "Our AI SDR sends first-touch emails with nobody reading them first. What has to be true?",
+    "should_trigger": true
+  },
+  {
+    "id": "indirect-coverage",
+    "prompt": "My board wants 3x pipeline coverage. Where does that number even come from?",
+    "should_trigger": true
+  },
+  {
+    "id": "indirect-stalled",
+    "prompt": "Deals keep sitting in 'Evaluating' for months and I can't tell which are real.",
+    "should_trigger": true
+  },
+  {
+    "id": "neg-design-onboarding",
+    "prompt": "Design the in-product onboarding wizard — empty states, progressive disclosure, the aha-moment copy.",
+    "should_trigger": false
+  },
+  {
+    "id": "neg-growth-experiment",
+    "prompt": "Design an A/B test on the demo-request landing page to see if a shorter form lifts conversion.",
+    "should_trigger": false
+  },
+  {
+    "id": "neg-success-renewal",
+    "prompt": "Build the renewal workflow our CSM runs 90 days before contract end.",
+    "should_trigger": false
+  },
+  {
+    "id": "neg-product-dunning",
+    "prompt": "Build the dunning sequence for failed payments, and restructure our pricing tiers.",
+    "should_trigger": false
+  },
+  {
+    "id": "neg-marketing-lifecycle",
+    "prompt": "Write the six-email lifecycle nurture for trial signups who haven't activated.",
+    "should_trigger": false
+  },
+  {
+    "id": "neg-automation-crmsync",
+    "prompt": "Sync our CRM deal records into Postgres and keep them consistent both ways.",
+    "should_trigger": false
+  },
+  {
+    "id": "neg-ai-evals",
+    "prompt": "Set up evals for our sales-assistant agent — retrieval quality and hallucination rate.",
+    "should_trigger": false
+  },
+  {
+    "id": "neg-adversarial-discovery",
+    "prompt": "Run product discovery with our users — interviews, opportunity trees, JTBD.",
+    "should_trigger": false
+  },
+  {
+    "id": "neg-adversarial-pipeline",
+    "prompt": "Our CI pipeline is failing at the deploy stage.",
+    "should_trigger": false
+  },
+  {
+    "id": "neg-outoffamily-legal",
+    "prompt": "Review the MSA redlines their counsel sent back and tell me which clauses are enforceable.",
+    "should_trigger": false
+  }
+]

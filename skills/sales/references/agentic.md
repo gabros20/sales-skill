@@ -51,8 +51,8 @@ permission to use our logo"*; the product *"performed significantly worse than o
 Airtable: *"It was never used in production and never rolled out to our sales team"* — yet its logo
 kept appearing after the denial. **Never cite one side of a contested pair alone**: ARR "approaching
 $10M" (company) vs. ~$3M (employee source); retention 79% (company) vs. "losing 70–80% of customers"
-(employee source) — both figures sit in the same article. AI-SDR market-size figures ("$5.8B,
-compounding at over 20% a year") are unsourced and **never ship**.
+(employee source) — both figures sit in the same article. AI-SDR market-size figures are unsourced
+and **never ship**.
 
 The standing, unanswered challenge belongs in this pack as the evidentiary bar: *"I've still yet to
 see a real world example where an AI SDR agent has booked a qualified call"*
@@ -83,7 +83,8 @@ compliance is reviewable after the fact, not just hoped for at generation time.
 - **A human review gate** before an agent-initiated conversation advances past first contact into
   anything binding — pricing, contract terms, a scheduled call the agent alone confirmed. Cite
   [proposals-pricing-and-negotiation.md](proposals-pricing-and-negotiation.md) and automation's own
-  irreversible-action approval gate for the mechanism; don't re-derive an approval workflow here.
+  fail-closed irreversible-action gate (`automation/references/approval-and-authority.md:109`) for
+  the mechanism; don't re-derive an approval workflow here.
 
 ## The evasion rule binds tools that don't exist yet
 

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "gate-first",
+    "prompt": "Build me a CRM and an outbound sequence.",
+    "expected_references": ["references/when-sales-applies.md"],
+    "forbidden_references": ["references/surface-enterprise-team.md", "references/crm-and-pipeline.md"]
+  },
+  {
+    "id": "flagship-forecast-solo",
+    "prompt": "Build a forecast from my six open deals.",
+    "expected_references": [
+      "references/forecasting-honesty.md",
+      "references/surface-founder-led-solo.md",
+      "assets/coverage_calc.py",
+      "assets/forecast_calibration_check.py"
+    ],
+    "forbidden_references": ["references/surface-enterprise-team.md", "references/win-loss-learning.md"]
+  },
+  {
+    "id": "second-flagship-winloss",
+    "prompt": "We lost three deals to price this quarter. Set up win/loss learning.",
+    "expected_references": ["references/win-loss-learning.md", "assets/loss_prediction_log.md"],
+    "forbidden_references": ["references/demo-and-narrative.md", "references/outbound-and-prospecting.md"]
+  },
+  {
+    "id": "default-surface-unnamed",
+    "prompt": "Should we use MEDDIC?",
+    "expected_references": ["references/icp-and-qualification.md", "references/surface-founder-led-solo.md"],
+    "forbidden_references": ["references/surface-enterprise-team.md"]
+  },
+  {
+    "id": "enterprise-qualification",
+    "prompt": "Eight stakeholders, $200k ACV. What qualification structure applies?",
+    "expected_references": ["references/icp-and-qualification.md", "references/surface-enterprise-team.md"],
+    "forbidden_references": ["references/surface-founder-led-solo.md"]
+  },
+  {
+    "id": "agentic-stacks-on-base",
+    "prompt": "Our AI SDR runs unattended outbound. It's just me running the company.",
+    "expected_references": [
+      "references/agentic.md",
+      "references/outbound-and-prospecting.md",
+      "references/surface-founder-led-solo.md"
+    ],
+    "forbidden_references": []
+  },
+  {
+    "id": "agentic-not-loaded",
+    "prompt": "Cold email campaign, AI-drafted, but I read and send every one myself.",
+    "expected_references": ["references/outbound-and-prospecting.md"],
+    "forbidden_references": ["references/agentic.md"]
+  },
+  {
+    "id": "seam-contested",
+    "prompt": "Who closes the upsell on an existing account — us or CS?",
+    "expected_references": ["references/handoff.md"],
+    "forbidden_references": []
+  },
+  {
+    "id": "stage-audit",
+    "prompt": "Audit our pipeline stages.",
+    "expected_references": ["references/crm-and-pipeline.md", "assets/stage_exit_criteria_audit.md"],
+    "forbidden_references": ["references/forecasting-honesty.md"]
+  },
+  {
+    "id": "demo-after-discovery",
+    "prompt": "Build the demo for next week's call with the prospect we spoke to Tuesday.",
+    "expected_references": ["references/demo-and-narrative.md", "references/discovery-calls.md"],
+    "forbidden_references": ["references/proposals-pricing-and-negotiation.md"]
+  }
+]

@@ -42,7 +42,7 @@ rule against manufactured engagement signals that binds tools that don't exist y
 Marketing ceded this ground with no hedge word, three times over: *"Three adjacent disciplines belong
 to `sales`, not to this pack, and should be named explicitly rather than absorbed by default: revenue
 operations, sales enablement (battlecards, objection handling, pricing negotiation guidance), and
-cold outbound/prospecting"* (marketing's `surface-b2b-sales-assisted.md:51-53`), and drawn again in
+cold outbound/prospecting"* (marketing's `surface-b2b-sales-assisted.md:50-53`), and drawn again in
 that pack's own `handoff.md:42` and `SKILL.md:107`. Marketing states why, and it matters for how this pack
 should read its own differentiation: *"nearly every surveyed competitor pack folds prospecting and
 cold-email into 'marketing,' and the family's declared seam is a real differentiator only if it is
@@ -98,8 +98,8 @@ x.com/jeffreyhuber/status/2033577620793925656): two practitioners attribute fail
 and offer, not channel death (x.com/NickAbraham12/status/2083915025115201597,
 x.com/seanlongden/status/2083627610546864595). Both poles are permalinked, so grade the thesis
 **CONTESTED** — and note the asymmetry honestly: the skeptics offer a diagnosis, the collapse side
-offers an assertion. Never cite a vendor case-study reply rate (e.g. one vendor's "60–70% positive
-reply rates") as a market benchmark; it is one customer's best-case story.
+offers an assertion. Never cite a vendor case-study reply rate as a market benchmark; a vendor
+case-study reply rate is one customer's best-case story.
 
 ## The AI-outbound disclosure rule
 

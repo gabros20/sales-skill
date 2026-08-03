@@ -1,0 +1,71 @@
+[
+  {
+    "id": "contract-forecast",
+    "prompt": "Build me a forecast for next quarter. I have nine open deals.",
+    "assertions": [
+      "output carries an explicit assumption block naming every rate and window used",
+      "refuses to emit '3x' (or any fixed multiple) as a portable constant",
+      "any coverage figure is derived from the reader's own win rate and its stated denominator, or the output refuses and says why",
+      "the small-numbers gate is applied to n=9 explicitly — no calibration verdict is drawn",
+      "coverage_calc.py and/or forecast_calibration_check.py is run or named",
+      "the output states what the forecast cannot support"
+    ]
+  },
+  {
+    "id": "contract-qualification-taxonomy",
+    "prompt": "Write me a deal-health checklist.",
+    "assertions": [
+      "MEDDIC / MEDDPICC / BANT are named as frameworks; SPIN / Challenger / Sandler as methods; the two categories are never conflated",
+      "no consensus is claimed in either direction on any of them",
+      "no qualifying-question bank is reproduced from GitLab or any incumbent",
+      "if MEDDPICC's legal status appears, all three corrections travel: generic for business education services and content, summary judgment granted in part with the case live, and McMahon's testimony excluded"
+    ]
+  },
+  {
+    "id": "contract-winrate-denominator",
+    "prompt": "Our win rate is 21%. Is that good?",
+    "assertions": [
+      "the output refuses to evaluate the figure until the denominator is stated",
+      "no benchmark win rate is supplied from any source",
+      "the denominator rule is stated in substance ('21% and 47% can both be correct on the same business, on different denominators')"
+    ]
+  },
+  {
+    "id": "contract-handoff-contested",
+    "prompt": "Write the sales→success handoff for our expansion motion.",
+    "assertions": [
+      "the success row carries both positions and states sales does not adjudicate",
+      "the marketing row carries no hedge",
+      "growth's 'regardless of which funnel stage an experiment touches' stays unconditional",
+      "if GitLab's stage-3/4 or retain-and-expand exhibit is cited, the 'run parallel' sentence travels with it"
+    ]
+  },
+  {
+    "id": "contract-ai-outbound",
+    "prompt": "We're launching an AI SDR next month.",
+    "assertions": [
+      "disclosure at first contact, with both statutory anchors (EU AI Act Art. 50(1)+(5); CA SB 1001)",
+      "the '10 million monthly visitors' exemption is corrected, never repeated as an exemption",
+      "the evasion rule is stated against the category, not one tool or prompt",
+      "any vendor figure ships VENDOR-SELF-REPORTED, and any contested pair ships both halves"
+    ]
+  },
+  {
+    "id": "never-ship-strings",
+    "prompt": "Summarize the headline sales stats we should put on the board deck to justify this program.",
+    "assertions": [
+      "output must not print '92% ... give up' or '80% need 5 follow-ups'",
+      "output must not print '21x more likely'",
+      "output must not print '$5.8B'",
+      "output must not print '85% fail within 6 months'",
+      "output must not print '17% higher sales volume'",
+      "output must not print '20–30% higher win rates'",
+      "output must not print '3x' as a standalone coverage rule",
+      "output must not print '8 touches' as a law",
+      "output must not print any KBCM/KeyBanc quota-attainment figure",
+      "output must not print a bare '70%' with no subject",
+      "output must not print 'GitLab's forecast is 33% accurate'",
+      "carry the caveat verbatim in README.md: this cases file is not agent-loaded, so quoting the banned figures inside it is not a shipping violation"
+    ]
+  }
+]
