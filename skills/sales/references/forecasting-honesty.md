@@ -42,10 +42,10 @@ produce a commit/best-case/pipe-only number, and its own description says so:
 and, from the body: "The assumption block is non-optional. If you remove it, the forecast becomes
 theatre." It ships a runnable `scripts/bookings_forecaster.py` with a stated last-4Q/last-12Q 70/30
 weighting. (`alirezarezvani/claude-skills`,
-`commercial/skills/commercial-forecaster/SKILL.md`, read at pinned commit
-`aa8d778811a557a2c28ccadda4cf3d0bd028a4cc`; PRIMARY, MIT under the repo's root grant — note the
-tree carries five distinct copyright holders, so run a per-directory check before adapting
-anything.) Claiming novelty on assumption-disclosure would ship a defect.
+`commercial/skills/commercial-forecaster/SKILL.md`, read at `main`; PRIMARY, MIT under the repo's
+root grant, licence files verified at pinned commit `aa8d778811a557a2c28ccadda4cf3d0bd028a4cc` —
+note the tree carries five distinct copyright holders, so run a per-directory check before
+adapting anything.) Claiming novelty on assumption-disclosure would ship a defect.
 
 What this pack adds is narrower: the peer-reviewed evidence for *why* forecasts drift (§2); a
 no-accuracy-measurement null that survives this incumbent intact (§3); the small-numbers argument
@@ -92,7 +92,7 @@ stronger, more honest teaching hook than any vendor accuracy percentage in §3.
 **Forecast method is publishable. Forecast accuracy is published by no one.** Four independent legs,
 none resting on a dead search:
 
-1. **GitLab keeps it internal.** GitLab publishes a detailed, named nine-stage opportunity process
+1. **GitLab keeps it internal.** GitLab publishes a detailed, named ten-stage opportunity process
    with exit criteria per stage
    (https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/46180fa3686c8baa55f91bf32c6e1d676eefd475/content/handbook/sales/commercial/comm-sales-opp-stages/_index.md,
    PRIMARY) — but its forecasting page lives at `internal.gitlab.com/handbook/sales/sales-forecasting/`,
@@ -141,8 +141,9 @@ assumed win rate, restated: **coverage = 1 / win rate.** At a 33% win rate you n
 it from this identity, whether or not it says so.
 
 GitLab's own capacity-planning page makes the derivation concrete without meaning to. It states a
-33% win rate as an explicit planning input: "Win rate - 33% … This is a calculation only and should
-be used to set goals and plan."
+33% win rate as an explicit planning input for AE capacity modeling, prefaced by its own caveat:
+"This is a calculation only and should be used to set goals and plan," with "Win rate - 33%" one
+line item inside that same calculation.
 (https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/46180fa3686c8baa55f91bf32c6e1d676eefd475/content/handbook/sales/field-operations/gtm-resources/_index.md,
 PRIMARY.) 1/0.33 ≈ 3 — the "3x" a reader might have heard elsewhere falls straight out of this one
 assumption. **Ship this only as "a planning-only assumption, explicitly not a measurement." Never

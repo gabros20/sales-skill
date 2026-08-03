@@ -52,7 +52,7 @@ Sales's job is narrower and later: take that funnel and apply it to **account se
 prioritization** — which named accounts have reached "considering" or later, and therefore warrant
 sales attention, not which criteria make an account fit in the first place. Product's own router
 confirms the split cleanly, ceding "qualification and CRM to `sales`" without qualification — the
-only unhedged cession to sales found anywhere in the family's routing tables.
+only unqualified, non-provisional cession to sales found anywhere in the family's routing tables.
 
 This is the single most likely place a sales build accidentally contradicts a shipped sibling, because
 "ICP" and "qualification" sound like the same job seen once. They are two ends of the same funnel:
@@ -129,14 +129,15 @@ against the page's own section headers, not against a search summary. Metrics �
 of the solution." Economic Buyer — "the individual within the customer's organization who is required
 for the final 'yes.'" Decision Process — "the process and timeline by which the customer will
 evaluate, select, and purchase a solution." Decision Criteria — "the formal solution requirements
-against which each participant in the decision process will evaluate." Partner — "the process of
-validating the partner landscape and opportunity implications." Paper Process — "the process by which
-the customer will document and execute the process of purchasing." Identify Pain — "the problems
-created by the customer's current state (nobody buys until there is pain!)." Champion — "the person(s)
-with power and influence inside the customer's organization who are actively selling on your behalf
-and willing to give you inside information to help you win the deal." Competition — "competitive
-strengths, weaknesses, and differentiators, including competitor's champions"
-(gitlab.com/gitlab-com/content-sites/handbook, `content/handbook/sales/meddppicc.md`).
+against which each participant in the decision process will evaluate (includes the technical and
+financial lens with which the customer views GitLab)." Partner — "the process of validating the
+partner landscape and opportunity implications." Paper Process — "the process by which the customer
+will document and execute the process of purchasing (including the MSA, order form, PO, etc.)."
+Identify Pain — "the problems created by the customer's current state (nobody buys until there is
+pain!)." Champion — "the person(s) with power and influence inside the customer's organization who
+are actively selling on your behalf and willing to give you inside information to help you win the
+deal." Competition — "competitive strengths, weaknesses, and differentiators, including competitor's
+champions" (gitlab.com/gitlab-com/content-sites/handbook, `content/handbook/sales/meddppicc.md`).
 
 It is operationalized as **9 discrete Command-Plan fields**, required only above a stated ARR
 threshold — **$100K+ for Enterprise, $50K+ for Mid-Market**

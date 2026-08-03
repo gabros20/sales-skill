@@ -38,7 +38,7 @@ mirrors each one back, matching its hedge exactly rather than flattening or re-h
 | Sibling | What `sales` hands it | What `sales` consumes from it | The line `sales` does not cross |
 |---|---|---|---|
 | `marketing` | Pipeline and close-rate signal that feeds positioning and message iteration | Qualified demand — a defined fit-plus-intent signal on a named account or contact — plus the assets sales pulls from (case studies, competitive positioning) | Sales does not create or capture demand, and does not own the ICP *definition* — it inherits marketing's ICP-as-a-funnel model and applies it to account selection (see [icp-and-qualification](icp-and-qualification.md)). Marketing's own line: it "does not run the outbound sequence or own the CRM pipeline stage" (`marketing/references/surface-b2b-sales-assisted.md:58`). Sales cites marketing's shipped deliverability and consent doctrine, never restates it (`marketing/references/lifecycle-and-email.md` §1, `marketing/assets/email-compliance-checklist.md`) |
-| `growth` (provisional) | Pipeline and qualification signal shaping which stage of a sales-assisted funnel is worth testing | An experiment readout on a funnel stage that touches a sales-assisted deal | This seam is drawn provisionally, the way marketing drew its own — cold outbound, CRM stages, and deal mechanics stay `sales`'s **regardless of which funnel stage an experiment touches** (`growth/references/handoff.md:42`). Sales does not read a funnel-stage result's confidence into a deal-stage outcome growth didn't test (`growth/references/surface-b2b-sales-assisted.md:110-112`) |
+| `growth` (provisional) | Pipeline and qualification signal shaping which stage of a sales-assisted funnel is worth testing | An experiment readout on a funnel stage that touches a sales-assisted deal | This seam is drawn provisionally, the way marketing drew its own — cold outbound, CRM stages, and deal mechanics stay `sales`'s **regardless of which funnel stage an experiment touches** (`growth/references/handoff.md:42`). Sales does not read a funnel-stage result's confidence into a deal-stage outcome growth didn't test (`growth/references/surface-b2b-sales-assisted.md:112-113`) |
 | `success` (contested) | The expansion sale itself, closed by sales in a sales-assisted motion | The renewal workflow, up to a complex deal that needs negotiation | Contested, not settled, exactly as success's own file states it: sales closes the expansion sale in a sales-assisted motion, **and** Lincoln Murphy's complexity-gated CS-native position is live and citable — a CSM renews by default, only genuinely complex renewals route to a dedicated CS-native resource, explicitly *not* "Account Management carryover." Sales does not adjudicate the industry fight either (`success/references/renewals-and-expansion.md:117-124`; the provisional mark is a checked invariant in success's own Validation sections, `renewals-and-expansion.md:138-139` and `surface-b2b-high-touch.md:154`) |
 
 The hedge is written twice for each hedged row, never once: as the parenthetical after the pack
@@ -78,9 +78,12 @@ Only three sibling `handoff.md` files reciprocate a `sales` row — marketing, g
 handoff row, and `automation` names the gap explicitly in its own file: the business rule behind a
 customer-facing action is "owned by `product`, `marketing`, `sales`, or `success`," and "at this
 pack's launch those three commercial upstreams do not yet exist as shipped skills"
-(`automation/references/process-capture.md:15`). Both statements were accurate when written and
-become true the moment this pack ships — no sibling edit is needed, and their silence here should
-not be read as an oversight.
+(`automation/references/process-capture.md:15`). Both statements were accurate when written.
+`product`'s cession stays accurate, but automation's "do not yet exist as shipped skills" sentence is
+now stale: `product` and `marketing` are both shipped on disk, and this pack shipping makes
+automation's claim more false, not less. That is a sibling-repair item queued on the family's memory
+for automation to clear at this pack's release (synthesis §9) — it is not an edit this pack makes
+itself, and their silence in this file should not be read as an oversight.
 
 ## Dunning and billing: routed, never claimed as sales's own position
 

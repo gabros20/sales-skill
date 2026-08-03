@@ -50,10 +50,11 @@ SuiteCRM, Krayin, atomic-crm, frappe/crm, and Monica (not a sales CRM at all) �
 per-stage requirements as a first-class field: Odoo's `crm.stage.requirements`, a free-text tooltip.
 **And even Odoo ships it empty** — the default seed data sets no value on any of its four stages.
 (https://github.com/odoo/odoo/blob/869c750f978b1b00a4a04bd61226f0e20d2e7729/addons/crm/models/crm_stage.py,
-PRIMARY.) Every other CRM's stage is a `{value, label, position, [probability]}` record — a label,
-not a gate. This survives the vendor's own documentation, not just the code: EspoCRM's published
-docs describe a stage as "a named entity mapped to a status value" with an ordering constraint and
-nothing else. (https://github.com/espocrm/documentation/blob/9ff984348d31b0fc51bfa1c5bdf83aec83a0d051/docs/general/pipelines.md,
+PRIMARY, LGPLv3.) Every other CRM's stage is a `{value, label, position, [probability]}` record — a
+label, not a gate. This survives the vendor's own documentation, not just the code: EspoCRM's
+published docs state "Each stage is mapped to the Status field value. Each stage is stored as an
+entity" — in other words, a stage is a named entity mapped to a status value, with an ordering
+constraint, and nothing more. (https://github.com/espocrm/documentation/blob/9ff984348d31b0fc51bfa1c5bdf83aec83a0d051/docs/general/pipelines.md,
 UNLICENSED — cite and quote minimally, do not reproduce or build a derivative asset from it.)
 
 **The honest statement: GitLab's exit criteria are a real process artifact that the tool ecosystem

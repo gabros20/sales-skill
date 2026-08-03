@@ -2,7 +2,7 @@
 
 Template for the predict-then-score loop described in `../references/win-loss-learning.md` §4:
 
-> "Write down 'If we lose this deal, it will be because of X.' In advance. If you lose the
+> "Write down 'If we lose this deal, it will be because of X.' in advance. If you lose the
 > deal/account/etc, ask why you lost it. Check against your prediction, and get better at
 > predicting." — @patio11, https://x.com/patio11/status/1345906043197427713
 

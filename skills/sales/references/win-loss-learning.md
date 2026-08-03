@@ -46,29 +46,33 @@ that turns the habit into a testable track record.
 ## 1. The problem: a stated reason is a theory, not a measurement
 
 **Nisbett, R. E., & Wilson, T. D. (1977). "Telling More Than We Can Know: Verbal Reports on Mental
-Processes." *Psychological Review*, 84(3), 231–259.** PRIMARY, full text read directly
-(https://psycnet.apa.org/record/1978-00295-001). One of the most-cited papers in the history of
-psychology, and its own examples are purchase-choice questions.
+Processes." *Psychological Review*, 84(3), 231–259.** PRIMARY, full text read directly from
+https://home.csulb.edu/~cwallis/382/readings/482/nisbett%20saying%20more.pdf
+(https://psycnet.apa.org/record/1978-00295-001 is the bibliographic record only). One of the
+most-cited papers in the history of psychology, and its own examples are purchase-choice questions.
 
 > "Evidence is reviewed which suggests that there may be little or no direct introspective access
-> to higher order cognitive processes… when people attempt to report on their cognitive
-> processes… they do not do so on the basis of any true introspection. Instead, their reports are
-> based on a priori, implicit causal theories, or judgments about the extent to which a particular
-> stimulus is a plausible cause of a given response."
+> to higher order cognitive processes… It is proposed that when people attempt to report on their
+> cognitive processes… they do not do so on the basis of any true introspection. Instead, their
+> reports are based on a priori, implicit causal theories, or judgments about the extent to which a
+> particular stimulus is a plausible cause of a given response."
 
 The decisive experiment is a consumer-choice study, not a lab abstraction. SUBJECT CHECK: the ratio
 below is the **stockings** study only (n=52, four *identical* pairs) — do not merge it with the
 paper's separate nightgown study (n=378, four *different* nightgowns).
 
-> "…passersby were invited to evaluate articles of clothing… four identical pairs of nylon
-> stockings… Subjects were asked to say which article of clothing was the best quality and, when
-> they announced a choice, were asked why they had chosen the article they had. There was a
-> pronounced left-to-right position effect, such that the right-most object in the array was
-> heavily overchosen. For the stockings, the effect was quite large, with the right-most stockings
-> being preferred over the left-most by a factor of almost four to one. When asked about the
-> reasons for their choices, no subject ever mentioned spontaneously the position of the article in
-> the array. And, when asked directly about a possible effect of the position of the article,
-> virtually all subjects denied it."
+> "…passersby were invited to evaluate articles of clothing—four different nightgowns in one study
+> (378 subjects) and four identical pairs of nylon stockings in the other (52 subjects). Subjects
+> were asked to say which article of clothing was the best quality and, when they announced a
+> choice, were asked why they had chosen the article they had. There was a pronounced left-to-right
+> position effect, such that the right-most object in the array was heavily overchosen. For the
+> stockings, the effect was quite large, with the right-most stockings being preferred over the
+> left-most by a factor of almost four to one. When asked about the reasons for their choices, no
+> subject ever mentioned spontaneously the position of the article in the array."
+
+Asked directly about a possible effect of the position of the article, the paper reports that
+virtually all subjects denied it — the raw capture of this sentence stops there, mid-source-sentence
+and unrecovered elsewhere in the corpus, so that last clause is paraphrased here rather than quoted.
 
 Applied to win/loss: "we went with the other vendor because of price" is evidence about what sounds
 like a plausible reason to the buyer — not evidence about what caused the decision. The items in
@@ -123,7 +127,7 @@ checked and must not ship.
 The one mechanism found anywhere in this research that turns a stated reason into something
 checkable is a habit, not a framework:
 
-> "Write down 'If we lose this deal, it will be because of X.' In advance. If you lose the
+> "Write down 'If we lose this deal, it will be because of X.' in advance. If you lose the
 > deal/account/etc, ask why you lost it. Check against your prediction, and get better at
 > predicting." — @patio11, 2021-01-04, https://x.com/patio11/status/1345906043197427713
 
@@ -149,8 +153,8 @@ Several incumbent packs already ship win/loss content by name, and none has mean
 `TheCraigHewitt/sales-skills` ships a `win-loss-analysis` skill (MIT per one census pass, not
 independently file-verified) at single- to low-double-digit installs; `gtmagents/gtm-agents` ships a
 `win-loss-dataset` with a `run-win-loss-program` command and a `win-loss-analyst` agent inside a
-broad, ~12–13-of-14-item pack graded generic and templated on the skill Anthropic-family reviewers
-actually read; `louisblythe/sales-skills` ships `deal-review-win-loss` and
+broad, ~12–13-of-14-item pack graded generic and templated after a full SKILL.md read;
+`louisblythe/sales-skills` ships `deal-review-win-loss` and
 `win-loss-reason-extraction` skills with no license file — cite the fact of their existence, never
 their content. `LeadMagic/gtm-skills` (~130 skills) was checked directory-by-directory and has none
 of this. Win/loss learning is a genre several people have built pieces of; the differentiator this

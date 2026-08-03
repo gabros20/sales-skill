@@ -36,8 +36,9 @@ alongside SPIN Selling and The Challenger Sale in a curated sales-engineering bi
 ([vladar107/awesome-sales-engineer](https://github.com/vladar107/awesome-sales-engineer/blob/fdb7823eae1084f60e10bd8d83795677e29afec1/README.md),
 CC0) — a reading-list pointer, not a study. No channel in this build read the book's own evidence
 base directly, so its claims are **unverified, not debunked** — the same posture this pack takes
-toward every named methodology it hasn't independently checked (`icp-and-qualification.md` §1). A
-book existing, or being widely recommended, is not the same as its claims having been tested.
+toward every named methodology it hasn't independently checked (`icp-and-qualification.md`,
+"MEDDIC/MEDDPICC: evidence and legal status"). A book existing, or being widely recommended, is not
+the same as its claims having been tested.
 
 **Nothing here needs a recognise-and-correct treatment, because nothing traceable circulates.**
 That is itself the honest position for this file, not a gap this pack forgot to fill.

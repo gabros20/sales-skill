@@ -48,14 +48,18 @@ Whether to name a price first is genuinely disputed in the peer-reviewed evidenc
 are permalinked — this ships as contested doctrine with boundary conditions, never as advice to
 always or never anchor.
 
-- **Schweinsberg et al. (2023), *PNAS*** — 26 million eBay negotiations: anchoring produces a
+- **Schweinsberg et al. (2023), *PNAS*, DOI 10.1073/pnas.2218582120** (open access:
+  https://doi.org/10.1073/pnas.2218582120) — 26 million eBay negotiations: anchoring produces a
   *linear* effect on the price achieved but a **nonlinear** effect on the risk the negotiation
   collapses entirely, a shape the authors describe as "incompatible with current theorizing."
   Aggressive anchoring buys a better price at a disproportionately rising risk of no deal at all.
   (Consumer marketplace, buyer-side offers — the *shape* of the finding transfers to a sales
   negotiation; the specific numbers do not.)
-- **Maaravi & Levy (2017), *Judgment and Decision Making*** — under **information asymmetry**, it
-  is actually preferable for *both* counterparts not to give the first offer.
+- **Maaravi & Levy (2017), *Judgment and Decision Making*, DOI 10.1017/s193029750000646x** (open
+  access PDF via Cambridge Core:
+  https://www.cambridge.org/core/services/aop-cambridge-core/content/view/55F2E0FACFE342C18EEA768A9E4A3B72/S193029750000646Xa.pdf/div-class-title-when-your-anchor-sinks-your-boat-information-asymmetry-in-distributive-negotiations-and-the-disadvantage-of-making-the-first-offer-div.pdf)
+  — under **information asymmetry**, it is actually preferable for *both* counterparts not to give
+  the first offer.
 
 The boundary condition to carry, not smooth over: Schweinsberg's finding supports anchoring when
 the relationship can absorb some impasse risk and the anchoring party has good price information;
@@ -127,10 +131,13 @@ blur into an implied claim that this pack can validate legal enforceability.
 ## 7. Never-ship
 
 - Any bare pricing-psychology "science" figure presented as settled — e.g., an unattributed "the
-  science says $9.99 beats $10" claim circulates in this corpus's founder-led material with no
-  study named ([@dvassallo](https://x.com/dvassallo/status/1531338262333165569), FOLKLORE). Grading
-  charm-pricing and page-psychology claims in full is the design-side literature's job
-  (product/design territory), not this file's — this file only draws the seam (§1).
+  science says $9.99 beats $10" claim circulates with no study named, and even the one tweet that
+  states it is itself a rejection: "I prefer pricing my products in multiples of $5. A $9.99 price
+  makes me feel as if the seller is taking advantage of a bug in my brain"
+  ([@dvassallo](https://x.com/dvassallo/status/1531338262333165569), FOLKLORE specimen paired with a
+  reasoned refusal of it). Grading charm-pricing and page-psychology claims in full is the
+  design-side literature's job (product/design territory), not this file's — this file only draws
+  the seam (§1).
 - Anchor-first stated as a rule in either direction — it is contested with boundary conditions
   (§2), never a should-always/should-never instruction.
 - GitLab's "33% win rate" used as evidence for what to concede in a negotiation — it is a

@@ -20,9 +20,9 @@ Produces: a battlecard/objection-library structure, a rule for keeping it a livi
 of a static document, and an honest evidence statement.
 
 ## Contents
-1. Sales enablement is ours · 2. No framework has published evidence · 3. Disclosed technique, not
-concealment · 4. The living-artifact discipline · 5. Building without borrowed authority ·
-6. Never-ship
+1. Sales enablement is ours · 2. No framework has published evidence a technique changes outcomes ·
+3. Disclosed technique, not concealment · 4. The living-artifact discipline · 5. Building without
+borrowed authority · 6. Never-ship
 
 ---
 
@@ -41,8 +41,9 @@ hard — this file is that draw for objection handling and enablement content ge
 
 ## 2. No framework has published evidence a technique changes outcomes
 
-Consistent with every named sales methodology this pack has checked (`icp-and-qualification.md`
-§1), no source found in this research publishes evidence that any objection-handling framework,
+Consistent with every named sales methodology this pack has checked (`icp-and-qualification.md`,
+"MEDDIC/MEDDPICC: evidence and legal status"), no source found in this research publishes evidence
+that any objection-handling framework,
 script, or battlecard structure improves win rate, close rate, or any other measured outcome. What
 exists instead is genre content, done well: the single biggest-star incumbent found in this census —
 [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT,
@@ -62,7 +63,8 @@ as his personal tenure and awards — "7 years", "2x President's Club", "$19m AR
 billion closed" — a live specimen of how a methodology gets minted
 ([@FidelCacheFlow](https://x.com/FidelCacheFlow/status/2067366055102615697), FOLKLORE). None of it
 is auditable, and none of it is a test of the method — the same non-traceable-evidence-base pattern
-this pack found behind SPIN and BANT (`icp-and-qualification.md` §1). A battlecard entry justified
+this pack found behind SPIN and BANT (`icp-and-qualification.md`, "MEDDIC/MEDDPICC: evidence and
+legal status"). A battlecard entry justified
 this way — "this works because I've closed X" — should be flagged, not copied into the library as
 if it were validated.
 

@@ -41,8 +41,12 @@ https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/46180fa3686c8baa55f9
 GitLab handbook, CC BY-SA 4.0 — quote at length, attribute, and ShareAlike any close derivative
 published from it).
 Order: `0-Pending Acceptance → 1-Discovery → 2-Scoping → 3-Technical Evaluation → 4-Proposal →
-5-Negotiating → 6-Awaiting Signature → 7-Closing → Closed Won`, with terminal states `8-Closed
-Lost`, `9-Unqualified`, `10-Duplicate`. Exit criteria are concrete and checkable, not aspirational —
+5-Negotiating → 6-Awaiting Signature → 7-Closing → Closed Won`, with terminal state `8-Closed
+Lost` — the ten named stages this permalink documents. Two further terminal states,
+`9-Unqualified` and `10-Duplicate`, come from a companion page, not this one
+(`content/handbook/sales/field-operations/gtm-resources/_index.md`,
+https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/46180fa3686c8baa55f91bf32c6e1d676eefd475/content/handbook/sales/field-operations/gtm-resources/_index.md,
+same handbook, CC BY-SA 4.0). Exit criteria are concrete and checkable, not aspirational —
 for example, `1-Discovery` exits on "recap email sent to customer confirming pain points, key
 stakeholders, next steps, project timeline" plus a scoping meeting scheduled, and `3-Technical
 Evaluation` exits on demo output shared, ROI measures validated, and the first MEDDPPICC fields
@@ -76,8 +80,9 @@ the number in between that you are forecasting as the most likely outcome"
 (`content/departments/sales/process/forecasting.md`,
 https://github.com/sourcegraph/handbook/blob/5752928b213a3ddbc7cee4459524f404a5b96fb4/content/departments/sales/process/forecasting.md,
 Apache-2.0). **This citation does not travel without its staleness caveat: the repo is archived as
-of 2024-07-02, and its own content carries Sourcegraph's own warning that it was migrated to Notion
-and may be out of date — cite it as "a snapshot of a since-archived handbook," never as current
+of 2024-07-02, and its own README carries Sourcegraph's own warning that "incorrect content has
+been added before the repo was archived" — not just migrated-to-Notion staleness but a flagged
+accuracy problem. Cite it as "a snapshot of a since-archived handbook," never as current
 Sourcegraph practice.** Commit is summed from records; Call is what a rep judges "will come in" — a
 published forecast that is explicit its headline number is a judgment, not a derivation. See
 [forecasting-honesty](forecasting-honesty.md) for the flagship treatment; this file cites it
@@ -105,7 +110,8 @@ The best-sourced quota data available anywhere in this pack's research names its
 rule of thumb explicitly "rough heuristic," the positive model of metric hygiene this pack points
 to). Company-specific instances carry the same subject: $SNOW closing 25% bigger deals in 25% less
 time with team quota attainment holding at 57%
-(https://x.com/thaAdamLittle/status/2037542426160648422), Medallia 19.5%. **No quota-attainment
+(https://x.com/thaAdamLittle/status/2037542426160648422), Medallia 19.5%
+(https://x.com/thaAdamLittle/status/2047040250212495660). **No quota-attainment
 figure attributed to KBCM/KeyBanc ships anywhere in this pack** — the sibling corpus verified KBCM's subject, not its
 value, and no permalink exists. Any bare "70%" attached to quota in this corpus has at least three
 distinct subjects across the research — read the subject before citing any figure near this topic.

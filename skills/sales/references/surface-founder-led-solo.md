@@ -33,7 +33,7 @@ no-settled-answer statement wherever the evidence doesn't support a firm recomme
 
 The clearest statement of what makes founder-led sales specifically hard — not "hard like sales is
 hard for anyone," but hard in a way unique to being both the builder and the seller — is
-@arvidkahl, first-person, 2026-03-02 (https://x.com/arvidkahl/status/1896219399369249126):
+@arvidkahl, first-person, 2025-03-02 (https://x.com/arvidkahl/status/1896219399369249126):
 
 > "Founder-led sales is both fun and super scary. Not only do you have to deliver a product worth
 > buying, which requires a realistic/skeptical mindset, but you have to convince someone to be
@@ -46,7 +46,7 @@ evidence-vs-branded-method gap matters more here than elsewhere: a solo founder 
 methodology to lean on is relying on exactly the skepticism/optimism balance this tweet names.
 
 **A lighter, related instance of the same tension** — presenting as a team when you are one
-person. @arvidkahl, 2026-03-04 (https://x.com/arvidkahl/status/1897011837893550461):
+person. @arvidkahl, 2025-03-04 (https://x.com/arvidkahl/status/1897011837893550461):
 
 > "Someone just asked via email for 'one of our sales reps' to call them back. Guess I'll be
 > putting on the glasses and the moustache :D"

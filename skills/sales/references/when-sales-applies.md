@@ -99,8 +99,10 @@ The claim that the buyer has largely decided before sales gets involved is the m
 argument in this territory, and it arrives in at least three numbers doing one rhetorical job:
 "57% of the buying decision happens before you talk to sales," "9 in 10 buyers rule a firm out
 before contact," and "70–80% of the outcome is determined before you arrive." **One of the three has
-a real primary. The other two have no traceable source at all** — which is why the useful skill here
-is recognising the shape in published material, not debunking any single figure.
+a real primary.** The "9 in 10" figure traces only to industry marketing blogs (Hinge Marketing,
+Archmark, ArchDaily) — not a primary study — and the "70–80%" figure has no traceable source at all
+— which is why the useful skill here is recognising the shape in published material, not debunking
+any single figure.
 
 The 57% traces cleanly. CEB Marketing Leadership Council, in partnership with Google, *The Digital
 Evolution in B2B Marketing* (2012), surveyed more than 1,500 customer contacts across 22 large B2B

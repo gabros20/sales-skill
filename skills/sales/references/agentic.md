@@ -43,7 +43,9 @@ configuration rather than left to prompt discretion; a structural ceiling on una
 
 Every AI-SDR vendor claim — Artisan, 11x, Clay, Regie.ai, AiSDR, Qualified — grades
 VENDOR-SELF-REPORTED. The one case an outside party actually checked did not hold up: TechCrunch
-(2025-03-24), drawing on "nearly two dozen sources," found 11x displaying customer logos for companies
+(2025-03-24,
+https://techcrunch.com/2025/03/24/a16z-and-benchmark-backed-11x-has-been-claiming-customers-it-doesnt-have/),
+drawing on "nearly two dozen sources," found 11x displaying customer logos for companies
 that were not customers. ZoomInfo ran only a one-month trial and is on record: *"We did not give them
 permission to use our logo"*; the product *"performed significantly worse than our SDR employees."*
 Airtable: *"It was never used in production and never rolled out to our sales team"* — yet its logo

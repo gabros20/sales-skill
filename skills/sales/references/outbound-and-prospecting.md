@@ -57,10 +57,11 @@ number — chained, this is the shape any outbound funnel estimate should take: 
 opportunity, 6 opportunities per qualified call, 5 calls per closed deal
 (x.com/levikmunneke/status/2083588733228745109). Checking the chained arithmetic against the author's
 own stated range is itself the teaching: 500 × 6 × 5 = 15,000 leads per deal at the low end, 1,000 × 6
-× 5 = 30,000 at the high end — but the post states the range as "20k–30k," which undersells the low
-end by a third. The lesson to teach is the **chaining method with the reader's own rates**, not the
-"20k–30k leads per deal" figure — a funnel quoted from memory drifts even when the author is being
-honest and shows all their work. Never ship the specific figure as a benchmark.
+× 5 = 30,000 at the high end — but the post states the range as "20k–30k." The upper bound is exactly
+right; his own numbers imply a funnel one-third better than he claims at the low end. The lesson to
+teach is the **chaining method with the reader's own rates**, not the "20k–30k leads per deal" figure
+— a funnel quoted from memory drifts even when the author is being honest and shows all their work.
+Never ship the specific figure as a benchmark.
 
 ## Deliverability: cite, never restate
 
@@ -74,8 +75,8 @@ compliance requirement ("Keep spam rates reported in Postmaster Tools below 0.30
 Google's own recommended target ("avoid ever reaching a spam rate of 0.30% or higher" — stay under
 0.10% for margin). Reporting only the first loses the actionable guidance; reporting only the second
 overstates the hard requirement. The **5,000/day** bulk-sender threshold
-(support.google.com/a/answer/81126, effective 2024-02-01, SPF/DKIM required for all senders, SPF+DKIM+
-DMARC for bulk senders) is Google-primary — Yahoo's own page states no numeric volume threshold at
+(support.google.com/a/answer/81126, effective 2024-02-01, SPF or DKIM required for all senders,
+SPF+DKIM+DMARC for bulk senders) is Google-primary — Yahoo's own page states no numeric volume threshold at
 all, so the widely repeated "Google and Yahoo both use 5,000/day" fuses a primary fact with a
 secondary-sourced one. Cite the Google number with confidence; attribute the Yahoo figure to secondary
 reporting, or don't ship it.
@@ -104,18 +105,22 @@ reply rates") as a market benchmark; it is one customer's best-case story.
 
 **Disclose the agent, clearly, at first contact.** Two statutes converge on this without a
 practitioner debate to referee — nobody on X argues either side of AI-disclosure in sales, so this is
-open ground the pack is staking out, not adjudicating. EU AI Act Art. 50(1): providers must ensure
-people "are informed that they are interacting with an AI system, unless this is obvious from the
-point of view of a natural person who is reasonably well-informed, observant and circumspect";
-Art. 50(5) sets the timing — "at the latest at the time of the first interaction." California SB 1001 (Cal. Bus. & Prof. Code §§ 17940–17943) targets
-bots used "in order to incentivize a purchase or sale of goods or services in a commercial
-transaction" — literally AI-SDR conduct — and is a **safe-harbour statute: disclosure cures
-liability.** Correct a widely repeated misreading here: the "10 million monthly visitors" threshold
-does **not** gate the prohibition — § 17941(a) triggers on communicating "online" with no threshold at
-all; the threshold-bearing term "online platform" appears only inside § 17942(c)'s service-provider
-carve-out. A solo founder running AI-drafted or AI-sent outbound to EU or California recipients is
-within scope on the face of both texts. This mirrors the family's existing AI-disclosure precedent for
-support agents; the same posture applies here to outbound.
+open ground the pack is staking out, not adjudicating. EU AI Act Art. 50(1)
+(eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689, PRIMARY, Official Journal text):
+providers must ensure people "are informed that they are interacting with an AI system, unless this is
+obvious from the point of view of a natural person who is reasonably well-informed, observant and
+circumspect"; Art. 50(5) sets the timing — "at the latest at the time of the first interaction or
+exposure." California SB 1001 (Cal. Bus. & Prof. Code §§ 17940–17943,
+leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=7.&title=&part=3.&chapter=6.&article=,
+PRIMARY, statute text) targets bots used "in order to incentivize a purchase or sale of goods or
+services in a commercial transaction" — literally AI-SDR conduct — and is a **safe-harbour statute:
+disclosure cures liability.** Correct a widely repeated misreading here: the "10 million monthly
+visitors" threshold does **not** gate the prohibition — § 17941(a) triggers on communicating "online"
+with no threshold at all; the threshold-bearing term "online platform" appears in the operative text
+of this chapter in exactly one place, § 17942(c)'s service-provider carve-out. A solo founder running
+AI-drafted or AI-sent outbound to EU or California recipients is within scope on the face of both
+texts. This mirrors the family's existing AI-disclosure precedent for support agents; the same posture
+applies here to outbound.
 
 ## The evasion-category rule
 
