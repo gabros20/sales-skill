@@ -1,5 +1,7 @@
 # sales — Sales
 
+**Family hub:** [digital-product-skill.vercel.app](https://digital-product-skill.vercel.app) — the 15-skill Digital Product family and its composer.
+
 **Win the deal — and be honest about whether you can actually predict winning it.**
 
 `sales` is the **Distribute** stage of the [Digital Product Skills](https://github.com/gabros20)
