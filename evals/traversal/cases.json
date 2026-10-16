@@ -67,5 +67,17 @@
     "prompt": "Build the demo for next week's call with the prospect we spoke to Tuesday.",
     "expected_references": ["references/demo-and-narrative.md", "references/discovery-calls.md"],
     "forbidden_references": ["references/proposals-pricing-and-negotiation.md"]
+  },
+  {
+    "id": "demo-first-outreach",
+    "prompt": "Should I build a mockup of a prospect's website and send it in my first cold email?",
+    "expected_references": ["references/demo-and-narrative.md", "references/outbound-and-prospecting.md"],
+    "forbidden_references": ["references/forecasting-honesty.md", "references/surface-enterprise-team.md"]
+  },
+  {
+    "id": "timing-signals",
+    "prompt": "I have 200 accounts that fit our ICP. Which ones should I email first?",
+    "expected_references": ["references/icp-and-qualification.md"],
+    "forbidden_references": ["references/surface-enterprise-team.md", "references/proposals-pricing-and-negotiation.md"]
   }
 ]

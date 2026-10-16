@@ -8,7 +8,26 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 ## [Unreleased]
 
 ### Added
-- Queue unreleased changes here.
+- Practitioner outbound craft folded into the existing references, every quote re-fetched at its
+  permalink and graded inline: the first touch in `outbound-and-prospecting` (an ask smaller than a
+  meeting, one checkable observation, the source named, a written stop condition), reconciled-
+  arithmetic-is-not-provenance in the funnel math, a deliverability → list → offer → copy diagnostic
+  order, a fourth evasion exhibit (a reply-keyword opt-out sold as a way to trick the spam filter),
+  and two bounds on what the disclosure rule is not.
+- `icp-and-qualification`: timing signals (stated need, incumbent dissatisfaction, spend in motion)
+  for ordering accounts that already fit, four scoring checks (decay is not demand, check firing
+  rate, hand-set weights are assumptions, segment comparisons hit the small-numbers gate), and the
+  partner-footprint rule.
+- `demo-and-narrative` §6: demo-before-the-discovery-call, consistent with demo-as-answer only where
+  the need is observable from outside; attach-versus-offer taught as contested.
+- `agentic`: concealment gates ("absence of AI markers," "like a human wrote it") named as the
+  inverse of the structural disclosure field; escalation tripwires; model-scored qualification
+  (cutoffs as assumptions, the denominator-shrinking conversion claim).
+- `discovery-calls` §4 third mechanic (ask for an instance); `crm-and-pipeline` §4 mechanical flags
+  with the past-close-date flag routed to predict-then-score; `proposals` §4 contingent budget
+  phases; `surface-founder-led-solo` append-only ledger and referral sequencing.
+- Evals: 2 output cases (first touch, agentic concealment) and 2 traversal cases (demo-first
+  outreach, timing signals).
 
 ## [0.1.0] — 2026-08-03
 

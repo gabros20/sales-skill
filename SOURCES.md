@@ -160,7 +160,10 @@ claim. Grade stated inline at point of use in the citing file.
   (`references/surface-enterprise-team.md` §4).
 - **Google's bulk-sender requirements** (`support.google.com/a/answer/81126`) — PRIMARY, effective
   2024-02-01. The 0.30%/0.10%/5,000-per-day figures, Google-primary and not extended to Yahoo,
-  whose own page states no numeric threshold (`references/outbound-and-prospecting.md`).
+  whose own page states no numeric threshold (`references/outbound-and-prospecting.md`). Re-read
+  2026-10-17 (the URL now redirects to `support.google.com/mail/answer/81126`) for the one-click
+  unsubscribe plus visible-link requirement on bulk marketing mail, cited beside the
+  manufactured-reply-signal exhibit, never restated as consent doctrine.
 - **Gong** (`gong.io/forecast/`) — VENDOR-SELF-REPORTED, method not disclosed. A customer quote
   claiming 95% forecast accuracy and a separate "20% more precision" claim, cited only with the
   method-absence statement attached (`references/forecasting-honesty.md` §3).
@@ -176,9 +179,10 @@ claim. Grade stated inline at point of use in the citing file.
 
 ## 5. Practitioner (X) sources
 
-Every X permalink in this pack was copied verbatim from a research raw file and grade is stated
-inline at point of use (FOLKLORE / OPINION / FIRST-PERSON / FIGURE, single company, etc.). None was
-reconstructed.
+Every X permalink in this pack was copied verbatim from a research raw file, or — for the
+2026-10 practitioner-craft additions below — re-fetched at the permalink and quoted from the fetched
+text, and grade is stated inline at point of use (FOLKLORE / OPINION / FIRST-PERSON / FIGURE, single
+company, etc.). None was reconstructed.
 
 - **@patio11** — the predict-then-score loop (in advance, before the outcome is known) — the only
   calibration mechanism found on any surface, serving both forecasting honesty and win/loss.
@@ -217,6 +221,37 @@ reconstructed.
 - **@iuditg** — the truncated Solution Selling specimen: a conversion-lift claim cut off mid-number
   in its own source, unquotable and unproven regardless of the missing digit
   (`objections-and-enablement.md`).
+
+Added 2026-10 (outbound craft, timing signals, demo-first, agentic concealment; every quote
+re-fetched 2026-10-17):
+
+- **@NickAbraham12** (also above) — the low-commitment ask ("an ask they would feel silly saying no
+  to") and the hiring-trigger opener; one agency's outbound-then-referrals sequence
+  (`outbound-and-prospecting.md`, `icp-and-qualification.md`, `surface-founder-led-solo.md`).
+- **@thejustinwelsh** — the recipient-side account of why one cold email got a reply.
+- **@heyblake** — first line hand-written, no calendar link, an open-ended follow-up cadence cited as
+  the counter-example to a written stop.
+- **@AlfieJCarter** — no calendar link before message 3 (course-funnel post); the three mechanical
+  pipeline flags (promotional post, VENDOR-SELF-REPORTED) (`crm-and-pipeline.md` §4).
+- **@HamptonAc_** — a published agent-prompt article: the 1–10 lead-score cutoff, "like a human
+  wrote it," the follow-up cap, and a denominator-shrinking conversion claim (`agentic.md`).
+- **@everestchris6** — the build-before-contact pipeline, the plain-language sales brief, the
+  owner-asking-for-help timing signal (`demo-and-narrative.md` §6).
+- **@browomo** — a second-hand orchestrator prompt whose checker screens for "absence of AI markers"
+  and whose escalation triggers live in its own prompt (`agentic.md`).
+- **@scaling_shields** — two "met a guy" funnels whose arithmetic reconciles and whose provenance
+  does not; the stated-need and competitor-review timing signals.
+- **@dimitarangg** — the concealed-source opener, cited as what the visibility test rejects.
+- **@GeorgeJeffersn** — the deliberate-mistake pretext, cited as the same.
+- **@coldemailchris** — the reply-keyword opt-out sold as a way to trick the spam filter (the fourth
+  evasion exhibit), per-mailbox-provider reply reading, model-scored reply triage.
+- **@axtalks** — the first-person list-before-copy diagnosis.
+- **@cyrilXBT** — a funnel stated in the future tense.
+- **@omoalhajaabiola**, **@SahilBloom** — the manual prebuilt-proof and mock-up-in-the-email advice.
+- **@NickSpisak_**, **@BrettFromDJ** — outcome-not-technology positioning and the false "AI made
+  this" claim, both cited to bound what the disclosure rule is not.
+- **@lukepierceops** — "Can you give me an example of that?" as a discovery-call mechanic
+  (`discovery-calls.md` §4).
 
 ## 6. Figures this pack refuses to ship
 
