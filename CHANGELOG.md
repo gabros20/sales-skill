@@ -10,8 +10,8 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 ### Added
 - Practitioner outbound craft folded into the existing references, every quote re-fetched at its
   permalink and graded inline: the first touch in `outbound-and-prospecting` (an ask smaller than a
-  meeting, one checkable observation, the source named, a written stop condition), reconciled-
-  arithmetic-is-not-provenance in the funnel math, a deliverability → list → offer → copy diagnostic
+  meeting, one checkable observation, the source named, a written stop condition), check-the-
+  chain-against-its-own-headline in the funnel math (one cited chain fails its headline), a deliverability → list → offer → copy diagnostic
   order, a fourth evasion exhibit (a reply-keyword opt-out sold as a way to trick the spam filter),
   and two bounds on what the disclosure rule is not.
 - `icp-and-qualification`: timing signals (stated need, incumbent dissatisfaction, spend in motion)

@@ -68,50 +68,48 @@ teach is the **chaining method with the reader's own rates**, not the "20k–30k
 — a funnel quoted from memory drifts even when the author is being honest and shows all their work.
 Never ship the specific figure as a benchmark.
 
-**Arithmetic that reconciles is necessary, not sufficient.** Two posts from one account narrate a
-"met a guy" operator's month with every intermediate count, and in both the products reconcile to
-the headline revenue to the dollar (x.com/scaling_shields/status/2042324679759978780,
-x.com/scaling_shields/status/2037983111091491225) — yet both are second-hand, name no operator,
-measure lift against the same unsourced "average cold email" baseline, and end on the poster's own
-pay-per-booked-call offer: VENDOR-SELF-REPORTED, method unknown. Check the chain, then whose chain it
-is. A funnel in the future tense — prospects "will reply … will book a demo … will pay you"
+**Check the chain against its own headline, then whose chain it is.** Two posts from one account
+narrate a "met a guy" operator's month with every intermediate count: one chain closes to its
+itemized total, rounded into the headline; the other's itemized month falls well short of the
+headline it is meant to prove (x.com/scaling_shields/status/2042324679759978780,
+x.com/scaling_shields/status/2037983111091491225). Both are second-hand, cite the same unsourced
+"average cold email" baseline, and end on the poster's own pay-per-booked-call offer:
+VENDOR-SELF-REPORTED, method unknown. A funnel in the future tense — prospects "will reply … will book a demo … will pay you"
 (x.com/cyrilXBT/status/2033386647895888249) — is a forecast, not a measurement.
 
 ## The first touch: an ask, not a calendar
 
 **Ask for something smaller than a meeting.** A high-volume agency operator names "Ask for the time
 of someone who doesn't know you" as the error and replaces it with "an ask they would feel silly
-saying no to (in other words, don't ask for their time!)" — in his example, an offer to send a
-campaign structure (x.com/NickAbraham12/status/2086451710617162198, OPINION); a recipient explaining
-one reply credits a "Non-aggressive, easy ask" (x.com/thejustinwelsh/status/1724778544524411231,
-FIRST-PERSON, one recipient). The calendar is the plainest case: "Never send a calendar link, suggest
-2-3 specific times" (x.com/heyblake/status/2016167582311842022). The convergence is about the first
-touch; after a positive reply, published agent prompts still answer "with calendar link"
-(x.com/HamptonAc_/status/2024846643586031966, article). All OPINION; no lift is measured or claimed.
+saying no to (in other words, don't ask for their time!)"
+(x.com/NickAbraham12/status/2086451710617162198, OPINION); a recipient explaining one reply credits
+a "Non-aggressive, easy ask" (x.com/thejustinwelsh/status/1724778544524411231, FIRST-PERSON, one
+recipient). The calendar is the plainest case: "Never send a calendar link, suggest
+2-3 specific times" (x.com/heyblake/status/2016167582311842022) — for the first touch; after a yes,
+booking mechanics stay the reader's call. All OPINION; no lift is measured or claimed.
 
 **One observation, human-written, checkable by the reader.** The hand-written line is the first —
 "Personalize the first line of every email myself" (heyblake, above) — and the strongest is a fact on
 the prospect's own property in their own terms: "this plumber is running google ads to a homepage
 that loads in 9 seconds on mobile with no visible phone number," which its author calls "not a
 technical report, a sales brief" (x.com/everestchris6/status/2025291876052738163, article). A fact
-the reader can falsify in seconds must be right; a wrong one costs more than none. A prebuilt demo as
+the reader can falsify in seconds must be right. A prebuilt demo as
 the observation → [demo-and-narrative](demo-and-narrative.md) §6.
 
 **Say where you saw it.** When the trigger is a public post, published practice splits on the
 visibility test ([objections-and-enablement](objections-and-enablement.md) §3): one script opens "saw
 your post in r/[sub] about needing [service] urgently" (scaling_shields, above); another has "the
 outreach references their situation without naming reddit" so "the prospect doesn't know the opener
-came from their post" (x.com/dimitarangg/status/2081968140083482917). The second works only while
-hidden, like a first email that deliberately "make[s] a mistake" so a "correction" can follow
-(x.com/GeorgeJeffersn/status/2055394689982013947). Name the source. Turning a pseudonymous handle into
-a work email by cross-referencing profiles, a step both posts describe, is a consent question first —
-marketing's doctrine.
+came from their post" (x.com/dimitarangg/status/2081968140083482917) — which, like a first email
+that deliberately "make[s] a mistake" (x.com/GeorgeJeffersn/status/2055394689982013947), works only
+while hidden. Name the source. Cross-referencing a pseudonymous handle to a work email, as both
+posts do, is a consent question first — marketing's.
 
 **Write the stop condition before the first send.** Published sequences run from "Never send more
-than 3 follow-ups total" (HamptonAc_, above) to "until they tell me to stop" (heyblake) and "every few
-days until they reply" (everestchris6). An open-ended sequence is a contact nobody disqualifies — the
-pipeline-side fix is [crm-and-pipeline](crm-and-pipeline.md) §5. What share of replies follow-ups
-produce is the folklore family in SKILL.md's never-ship table; cite none.
+than 3 follow-ups total" (x.com/HamptonAc_/status/2024846643586031966, article) to "until they tell
+me to stop" (heyblake). An open-ended sequence is a contact nobody disqualifies — the pipeline-side
+fix is [crm-and-pipeline](crm-and-pipeline.md) §5. Share-of-replies-from-follow-ups claims are
+SKILL.md never-ship folklore.
 
 ## Deliverability: cite, never restate
 
@@ -151,12 +149,11 @@ x.com/seanlongden/status/2083627610546864595). Both poles are permalinked, so gr
 offers an assertion. Never cite a vendor case-study reply rate as a market benchmark; a vendor
 case-study reply rate is one customer's best-case story.
 
-**When replies fall, diagnose in order: deliverability, list, offer, copy.** "one of the easiest
-traps in cold email is blaming copy when the real problem is the list" — a first-person agency
-account that "kept tweaking copy for people who were never going to spend that much anyway," then
-filtered to prospects already paying for the adjacent thing, left the shared databases where
-"everyone is hitting the same people," reworked the offer, added phone, and concluded "several things
-were off at the same time" (x.com/axtalks/status/2071239871298207770, FIRST-PERSON, no figures). Read
+**When replies fall, diagnose in order: deliverability, list, offer, copy.** A first-person agency
+account names the trap — "blaming copy when the real problem is the list" — and turned its campaign
+by filtering to prospects already paying for the adjacent thing, leaving the shared databases
+everyone else mines, reworking the offer, and adding phone; its verdict: "several things were off at
+the same time" (x.com/axtalks/status/2071239871298207770, FIRST-PERSON, no figures). Read
 reply rate per recipient mailbox provider before reading it per message
 (x.com/coldemailchris/status/2084444477222011150, OPINION; its multiplier does not ship).
 
@@ -203,9 +200,10 @@ through proxies "so it keeps real" (x.com/webjuice_ie/status/1801280371771715820
 reply signal** — swap the unsubscribe link for a reply-keyword opt-out because it "Tricks the spam
 filter into seeing more positive intent from your email replies vs seeing a bunch of ‘no’s"
 (x.com/coldemailchris/status/2084738671081632069): the category, in the author's own words. It also
-removes the unsubscribe path Google's sender guidelines require of bulk marketing mail (one-click
-unsubscribe plus a visible link, support.google.com/a/answer/81126) — that half is consent
-doctrine, and marketing's checklist governs it. It is a funded industry: one warmup tool alone
+removes the unsubscribe path Google's sender guidelines require of bulk senders' marketing mail
+(the more-than-5,000-a-day tier cited above; one-click unsubscribe plus a visible link,
+support.google.com/a/answer/81126) — consent doctrine,
+which marketing's checklist governs. It is a funded industry: one warmup tool alone
 "generates 1.2 million a year" (x.com/staticmaker1/status/2046044489593348568). This is the cleanest
 available statement of where this pack's AI *policy* differs from `ai`'s *mechanics*: `ai` owns how to
 generate 25 variants of a message; this pack owns whether you should. **Decline to teach the
@@ -225,8 +223,6 @@ technique**; cite the exhibits as the boundary instead.
 - [ ] A first touch asks for something smaller than a meeting, carries one human-written, checkable
       observation, and names the public post when one triggered it.
 - [ ] Every sequence states its stop condition before the first send.
-- [ ] No reply-rate or reply-lift figure ships from a sender's own post without its grade and
-      "method unknown."
 
 ## Failure modes and handoff
 

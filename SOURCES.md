@@ -239,8 +239,8 @@ re-fetched 2026-10-17):
   owner-asking-for-help timing signal (`demo-and-narrative.md` §6).
 - **@browomo** — a second-hand orchestrator prompt whose checker screens for "absence of AI markers"
   and whose escalation triggers live in its own prompt (`agentic.md`).
-- **@scaling_shields** — two "met a guy" funnels whose arithmetic reconciles and whose provenance
-  does not; the stated-need and competitor-review timing signals.
+- **@scaling_shields** — two "met a guy" funnels whose arithmetic is checkable, one failing its own
+  headline, and whose provenance fails in both; the stated-need and competitor-review timing signals.
 - **@dimitarangg** — the concealed-source opener, cited as what the visibility test rejects.
 - **@GeorgeJeffersn** — the deliberate-mistake pretext, cited as the same.
 - **@coldemailchris** — the reply-keyword opt-out sold as a way to trick the spam filter (the fourth

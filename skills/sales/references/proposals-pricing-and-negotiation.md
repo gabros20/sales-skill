@@ -103,13 +103,13 @@ that converts an estimate into a quote** — which is why building the proposal 
 file rather than in `crm-and-pipeline.md`; the pipeline-hygiene consequences of the
 estimated/quoted split (what a CRM record should track, how a total should be reported) belong
 there — cite this exhibit if writing that section, rather than re-deriving it.
+`assets/stage_exit_criteria_audit.md` audits the split stage by stage and points back here.
 
 The same split applies inside one deal. A buyer who funds a project in phases, with a later phase
-contingent on an event they cannot date (an asset sale, the next budget cycle), has one quotable
-amount: the funded phase. Quote that phase; carry the contingent phase as estimated, with no close
-date, until the contingency resolves — a date the buyer cannot give is not one the seller can
-forecast.
-`assets/stage_exit_criteria_audit.md` audits the split stage by stage and points back here.
+contingent on an event they cannot date (a funding round, the next fiscal year's budget), has one
+quotable amount: the funded phase. Quote that phase; carry the contingent phase as estimated, with
+no close date, until the contingency resolves — a date the buyer cannot give is not one the seller
+can forecast.
 
 ## 5. Discounting discipline
 
