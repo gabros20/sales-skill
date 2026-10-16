@@ -231,8 +231,8 @@ re-fetched 2026-10-17):
 - **@thejustinwelsh** — the recipient-side account of why one cold email got a reply.
 - **@heyblake** — first line hand-written, no calendar link, an open-ended follow-up cadence cited as
   the counter-example to a written stop.
-- **@AlfieJCarter** — no calendar link before message 3 (course-funnel post); the three mechanical
-  pipeline flags (promotional post, VENDOR-SELF-REPORTED) (`crm-and-pipeline.md` §4).
+- **@AlfieJCarter** — the three mechanical pipeline flags (promotional post, VENDOR-SELF-REPORTED)
+  (`crm-and-pipeline.md` §4).
 - **@HamptonAc_** — a published agent-prompt article: the 1–10 lead-score cutoff, "like a human
   wrote it," the follow-up cap, and a denominator-shrinking conversion claim (`agentic.md`).
 - **@everestchris6** — the build-before-contact pipeline, the plain-language sales brief, the
