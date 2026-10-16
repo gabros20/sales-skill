@@ -1,11 +1,13 @@
 # Outbound and prospecting
 
 Purpose: Own cold outbound and prospecting as a sales discipline — marketing ceded it explicitly —
-and give the honest, correctly-sourced version of the three things a reader will get wrong: the
-deliverability numbers, whether "email is cooked," and what an AI-outbound policy actually requires.
+and give the honest, correctly-sourced version of the four things a reader will get wrong: what a
+first touch should ask for, the deliverability numbers, whether "email is cooked," and what an
+AI-outbound policy actually requires.
 
 Read when:
 - Building or running a cold outbound or prospecting motion, or evaluating funnel math for one.
+- Writing a first-touch message or a follow-up sequence, or diagnosing why replies fell.
 - Citing a Gmail/Yahoo deliverability threshold and needing the exact, non-collapsed numbers.
 - Deciding whether — and how — to disclose that an outbound message was AI-drafted or AI-sent.
 - Evaluating a technique that promises better deliverability and needing to know whether it's craft
@@ -23,13 +25,16 @@ Skip when:
 Inputs: marketing's qualified-demand definition and the ICP funnel stage a contact sits at; marketing's
 already-shipped deliverability and consent doctrine.
 
-Produces: an outbound cadence discipline that doesn't overclaim its own funnel math; deliverability
-numbers cited with both halves intact; a disclosure rule with its two statutory anchors; a category
-rule against manufactured engagement signals that binds tools that don't exist yet.
+Produces: an outbound cadence discipline that doesn't overclaim its own funnel math; a first-touch
+and sequence discipline (the ask, the observation, the source named, the stop condition);
+deliverability numbers cited with both halves intact; a disclosure rule with its two statutory
+anchors; a category rule against manufactured engagement signals that binds tools that don't exist
+yet.
 
 ## Contents
 - [Cold outbound is sales's](#cold-outbound-is-saless)
 - [The funnel math, honestly](#the-funnel-math-honestly)
+- [The first touch: an ask, not a calendar](#the-first-touch-an-ask-not-a-calendar)
 - [Deliverability: cite, never restate](#deliverability-cite-never-restate)
 - [Email is cooked — contested, not settled](#email-is-cooked--contested-not-settled)
 - [The AI-outbound disclosure rule](#the-ai-outbound-disclosure-rule)
@@ -62,6 +67,51 @@ right; his own numbers imply a funnel one-third better than he claims at the low
 teach is the **chaining method with the reader's own rates**, not the "20k–30k leads per deal" figure
 — a funnel quoted from memory drifts even when the author is being honest and shows all their work.
 Never ship the specific figure as a benchmark.
+
+**Arithmetic that reconciles is necessary, not sufficient.** Two posts from one account narrate a
+"met a guy" operator's month with every intermediate count, and in both the products reconcile to
+the headline revenue to the dollar (x.com/scaling_shields/status/2042324679759978780,
+x.com/scaling_shields/status/2037983111091491225) — yet both are second-hand, name no operator,
+measure lift against the same unsourced "average cold email" baseline, and end on the poster's own
+pay-per-booked-call offer: VENDOR-SELF-REPORTED, method unknown. Check the chain, then whose chain it
+is. A funnel in the future tense — prospects "will reply … will book a demo … will pay you"
+(x.com/cyrilXBT/status/2033386647895888249) — is a forecast, not a measurement.
+
+## The first touch: an ask, not a calendar
+
+**Ask for something smaller than a meeting.** A high-volume agency operator names "Ask for the time
+of someone who doesn't know you" as the error and replaces it with "an ask they would feel silly
+saying no to (in other words, don't ask for their time!)" — in his example, an offer to send a
+campaign structure (x.com/NickAbraham12/status/2086451710617162198, OPINION); a recipient explaining
+one reply credits a "Non-aggressive, easy ask" (x.com/thejustinwelsh/status/1724778544524411231,
+FIRST-PERSON, one recipient). The calendar is the plainest case: "Never send a calendar link, suggest
+2-3 specific times" (x.com/heyblake/status/2016167582311842022). The convergence is about the first
+touch; after a positive reply, published agent prompts still answer "with calendar link"
+(x.com/HamptonAc_/status/2024846643586031966, article). All OPINION; no lift is measured or claimed.
+
+**One observation, human-written, checkable by the reader.** The hand-written line is the first —
+"Personalize the first line of every email myself" (heyblake, above) — and the strongest is a fact on
+the prospect's own property in their own terms: "this plumber is running google ads to a homepage
+that loads in 9 seconds on mobile with no visible phone number," which its author calls "not a
+technical report, a sales brief" (x.com/everestchris6/status/2025291876052738163, article). A fact
+the reader can falsify in seconds must be right; a wrong one costs more than none. A prebuilt demo as
+the observation → [demo-and-narrative](demo-and-narrative.md) §6.
+
+**Say where you saw it.** When the trigger is a public post, published practice splits on the
+visibility test ([objections-and-enablement](objections-and-enablement.md) §3): one script opens "saw
+your post in r/[sub] about needing [service] urgently" (scaling_shields, above); another has "the
+outreach references their situation without naming reddit" so "the prospect doesn't know the opener
+came from their post" (x.com/dimitarangg/status/2081968140083482917). The second works only while
+hidden, like a first email that deliberately "make[s] a mistake" so a "correction" can follow
+(x.com/GeorgeJeffersn/status/2055394689982013947). Name the source. Turning a pseudonymous handle into
+a work email by cross-referencing profiles, a step both posts describe, is a consent question first —
+marketing's doctrine.
+
+**Write the stop condition before the first send.** Published sequences run from "Never send more
+than 3 follow-ups total" (HamptonAc_, above) to "until they tell me to stop" (heyblake) and "every few
+days until they reply" (everestchris6). An open-ended sequence is a contact nobody disqualifies — the
+pipeline-side fix is [crm-and-pipeline](crm-and-pipeline.md) §5. What share of replies follow-ups
+produce is the folklore family in SKILL.md's never-ship table; cite none.
 
 ## Deliverability: cite, never restate
 
@@ -101,6 +151,15 @@ x.com/seanlongden/status/2083627610546864595). Both poles are permalinked, so gr
 offers an assertion. Never cite a vendor case-study reply rate as a market benchmark; a vendor
 case-study reply rate is one customer's best-case story.
 
+**When replies fall, diagnose in order: deliverability, list, offer, copy.** "one of the easiest
+traps in cold email is blaming copy when the real problem is the list" — a first-person agency
+account that "kept tweaking copy for people who were never going to spend that much anyway," then
+filtered to prospects already paying for the adjacent thing, left the shared databases where
+"everyone is hitting the same people," reworked the offer, added phone, and concluded "several things
+were off at the same time" (x.com/axtalks/status/2071239871298207770, FIRST-PERSON, no figures). Read
+reply rate per recipient mailbox provider before reading it per message
+(x.com/coldemailchris/status/2084444477222011150, OPINION; its multiplier does not ship).
+
 ## The AI-outbound disclosure rule
 
 **Disclose the agent, clearly, at first contact.** Two statutes converge on this without a
@@ -122,10 +181,17 @@ AI-drafted or AI-sent outbound to EU or California recipients is within scope on
 texts. This mirrors the family's existing AI-disclosure precedent for support agents; the same posture
 applies here to outbound.
 
+Two things the rule is not. Describing the product by its outcome instead of its technology —
+"Don't sell AI. Don't say "agent" or "open-source" or "gateway."" in a guide to selling AI
+receptionists (x.com/NickSpisak_/status/2032413860863283357, article) — is positioning, marketing's
+call. "Claiming AI made something it clearly didn’t just to farm clients"
+(x.com/BrettFromDJ/status/2064681894684262409) is a plain false claim. The disclosure rule governs
+one question: who, or what, is sending the message.
+
 ## The evasion-category rule
 
 **Never manufacture false engagement signals to defeat filtering.** Rule the category, not one prompt
-or tool, so it binds tools that don't exist yet. Three independent, unrelated exhibits establish this
+or tool, so it binds tools that don't exist yet. Four independent, unrelated exhibits establish this
 is a pattern, not an edge case: **copy-spinning** to defeat fingerprinting — a ready-made prompt
 instructing "Take this cold email copy and create 25 variations. Same meaning, different structure.
 Vary: sentence order, word choice, punctuation, line breaks" (x.com/seanlongden/status/2083901909979521259)
@@ -133,7 +199,13 @@ Vary: sentence order, word choice, punctuation, line breaks" (x.com/seanlongden/
 engagement** — a warmup tool that can "scroll on your emails to mimic human behavior," "star your
 emails," and "click the links in your email to mark them as safe" for "Perfect email deliverability"
 (x.com/NickAbraham12/status/1416026033422315523). **Account farming behind proxies** — 30 accounts run
-through proxies "so it keeps real" (x.com/webjuice_ie/status/1801280371771715820). It is a funded industry: one warmup tool alone
+through proxies "so it keeps real" (x.com/webjuice_ie/status/1801280371771715820). **A manufactured
+reply signal** — swap the unsubscribe link for a reply-keyword opt-out because it "Tricks the spam
+filter into seeing more positive intent from your email replies vs seeing a bunch of ‘no’s"
+(x.com/coldemailchris/status/2084738671081632069): the category, in the author's own words. It also
+removes the unsubscribe path Google's sender guidelines require of bulk marketing mail (one-click
+unsubscribe plus a visible link, support.google.com/a/answer/81126) — that half is consent
+doctrine, and marketing's checklist governs it. It is a funded industry: one warmup tool alone
 "generates 1.2 million a year" (x.com/staticmaker1/status/2046044489593348568). This is the cleanest
 available statement of where this pack's AI *policy* differs from `ai`'s *mechanics*: `ai` owns how to
 generate 25 variants of a message; this pack owns whether you should. **Decline to teach the
@@ -150,6 +222,11 @@ technique**; cite the exhibits as the boundary instead.
 - [ ] Any AI-outbound disclosure statement names both the EU AI Act Art. 50 timing rule and California
       SB 1001's safe-harbour structure, and does not repeat the false 10M-visitor exemption.
 - [ ] The evasion-category rule is stated as a category, not tied to one prompt or vendor.
+- [ ] A first touch asks for something smaller than a meeting, carries one human-written, checkable
+      observation, and names the public post when one triggered it.
+- [ ] Every sequence states its stop condition before the first send.
+- [ ] No reply-rate or reply-lift figure ships from a sender's own post without its grade and
+      "method unknown."
 
 ## Failure modes and handoff
 
@@ -163,6 +240,12 @@ technique**; cite the exhibits as the boundary instead.
   both poles.
 - **Teaching a copy-variation or engagement-simulation technique without naming it as evasion** — the
   category rule exists precisely so a new tool doesn't slip past it.
+- **Rewriting copy first when replies fall** — run deliverability, list, offer, copy, in that order.
+- **Hiding where the observation came from**, or opening with a manufactured pretext — both pass only
+  while the recipient can't see them.
+- **A sequence with no written end** — every contact stays "in sequence" forever and is never
+  disqualified.
+- **The first touch is a prebuilt demo or mockup** → [demo-and-narrative](demo-and-narrative.md) §6.
 - **The real ask is CRM sync mechanics for the outbound sequence** → `automation`.
 - **The real ask is agent mechanics, prompt design, or generating message variants** → `ai`; this file
   only owns whether to.
