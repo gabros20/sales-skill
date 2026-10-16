@@ -7,6 +7,7 @@ the current legal status of the one that just went through federal court.
 
 Read when:
 - Deciding which named accounts get sales attention, and needing the ICP definition to filter by.
+- Ordering accounts that already fit by evidence of timing, or weighting a lead score.
 - Choosing whether to impose a qualification framework (MEDDIC/MEDDPICC/BANT) on a deal, or deciding
   one isn't warranted yet.
 - Citing a named methodology and needing to know whether it's a qualification framework or a selling
@@ -26,12 +27,14 @@ Inputs: marketing's ICP-as-funnel model (already defined, not re-derived here); 
 reader wants to prioritize; whatever surface the reader is on (founder-led-solo vs enterprise-team
 changes how much qualification structure is proportionate).
 
-Produces: an account-selection filter keyed to marketing's existing ICP stages; a qualification
+Produces: an account-selection filter keyed to marketing's existing ICP stages, ordered by timing
+signals scored with stated discipline; a qualification
 framework choice — or an explicit, defensible decision to skip one — with its evidence grade stated;
 disambiguated vocabulary that keeps "framework" and "method" from collapsing into each other.
 
 ## Contents
 - [ICP is inherited, not redefined](#icp-is-inherited-not-redefined)
+- [Timing signals: which fitting accounts to contact now](#timing-signals-which-fitting-accounts-to-contact-now)
 - [Frameworks and methods are not the same category](#frameworks-and-methods-are-not-the-same-category)
 - [MEDDIC/MEDDPICC: evidence and legal status](#meddicmeddpicc-evidence-and-legal-status)
 - [GitLab's MEDDPPICC — the enterprise exhibit](#gitlabs-meddppicc--the-enterprise-exhibit)
@@ -65,6 +68,50 @@ Two vocabulary notes follow: spell out **"sales-qualified lead"** on first use r
 initialism, and treat "qualification" as fine internally but not as customer-facing journey
 vocabulary — design has already ruled a "Lead Qualification"-named step unfit for a journey-phase
 name, and surfacing the word to a buyer repeats that mistake.
+
+## Timing signals: which fitting accounts to contact now
+
+Marketing's funnel says who fits; it does not say whom to contact this week. That ordering — which
+fitting accounts show evidence of having reached "considering" — is sales's, and published practice
+converges on **timing** evidence an outsider can see. Three classes, each
+OPINION or VENDOR-SELF-REPORTED, none with a measured lift:
+
+- **A stated need** — a public request for a recommendation or an alternative ("anyone got
+  recommendations for [service]", "alternative to [competitor]",
+  x.com/scaling_shields/status/2042324679759978780); an owner asking for help in a local group
+  (x.com/everestchris6/status/2069504396501926262).
+- **Dissatisfaction with the incumbent** — a recent negative review of a competitor
+  (x.com/scaling_shields/status/2037983111091491225).
+- **Spend already in motion** — paying for the adjacent thing (prospects already running ads "were
+  already spending money on marketing. we didn't have to convince them that leads matter",
+  x.com/axtalks/status/2071239871298207770), or hiring into the function you sell to ("Saw you're
+  hiring two SDRs right now", x.com/NickAbraham12/status/2086451710617162198; "the listing is the
+  buying signal", x.com/dimitarangg/status/2081968140083482917).
+
+A hand-raise opens the discovery call; it does not replace it. "the declaration is the qualifier"
+with "no discovering pain points" (scaling_shields, above) mistakes a stated need for a decision
+process — the post names a problem, not who signs, how they buy, or what else they are weighing.
+How the first message uses the signal — and why it names where it was seen — is
+[outbound-and-prospecting.md](outbound-and-prospecting.md)'s.
+
+**Four checks before any signal weight ships:**
+1. **A decay signal is not a demand signal.** A page unchanged for years is revealed preference —
+   evidence nobody is trying to change it — before it is evidence of suppressed demand. Score how
+   often the account needs what you sell, not how long since it last acted.
+2. **Check how often a signal fires before weighting it.** One that fires on almost nobody in the
+   pool ranks nobody; one that fires on almost everybody belongs in the filter, not the score.
+3. **A hand-set weight is an assumption with a runtime** — the same species as a stage weight; log
+   it and score it against outcomes ([forecasting-honesty.md](forecasting-honesty.md) §6). A
+   data vendor's industry filter is a fit guess too: a short human check before contact catches the
+   misfiled account.
+4. **Segment-versus-segment reply rates at founder volume hit the small-numbers gate**
+   ([forecasting-honesty.md](forecasting-honesty.md) §5); designing that comparison is an experiment,
+   which is `growth`'s — sales owns the account-selection call it informs.
+
+**A prospective partner's footprint is a partner list, not a prospect list.** Accounts harvested
+from a channel partner's public work — an agency's portfolio credits, say — are that partner's
+customers; prospecting them while courting the partner poisons the partner deal. The Partner letter
+in GitLab's MEDDPPICC (below) is the qualification-side home for that landscape.
 
 ## Frameworks and methods are not the same category
 
@@ -183,6 +230,8 @@ treatment: [discovery-calls.md](discovery-calls.md); this file only flags the bo
 
 - [ ] ICP language points back to marketing's existing funnel definition; no fit criteria are
       redrafted inside this pack.
+- [ ] Every timing-signal weight passes the four checks, and a hand-raise is never treated as a
+      completed discovery call.
 - [ ] MEDDIC/MEDDPICC/BANT are named as frameworks; SPIN/Challenger/Sandler as methods — never
       conflated, never presented as one category.
 - [ ] Any MEDDPICC legal-status reference cites the opinion (ECF 99/100), carries "generic for
@@ -196,6 +245,9 @@ treatment: [discovery-calls.md](discovery-calls.md); this file only flags the bo
 
 - **Redefining ICP inside this pack** — route to marketing's segmentation model; this file only
   applies an existing definition to account selection.
+- **Scoring staleness as demand**, or weighting a signal that fires on everyone — run the four
+  checks under "Timing signals."
+- **Prospecting a prospective partner's clients from its portfolio** — that list is the partner's.
 - **Treating the MEDDPICC ruling as concluded** — restate its live-case, partial-summary-judgment
   status every time it's cited.
 - **The reader wants the actual discovery-call technique**, not the qualification checklist that
