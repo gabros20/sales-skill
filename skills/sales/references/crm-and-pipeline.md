@@ -121,6 +121,14 @@ fixed clock —
 This is a mechanism, not an outcome claim — it doesn't assert that auto-closing stale deals improves
 win rate, only that it keeps the pipeline's active count honest. Cite it for what it is.
 
+The same honesty runs as three mechanical flags any pipeline can carry at any scale — "flag every
+deal with no next step, no recent activity, or a close date that has already passed"
+(x.com/AlfieJCarter/status/2065482113768407079, inside a promotion for a sales-skill bundle:
+VENDOR-SELF-REPORTED, no outcome claimed). The third is the forecast-honesty one: an open deal whose
+close date has passed is a prediction that already failed. Score the miss in the predict-then-score
+log (`forecasting-honesty.md` §6) before re-dating it; a silently moved close date erases the only
+calibration data a small pipeline produces.
+
 ## 5. Disqualification as a first-class pipeline state
 
 A concrete, low-cost pattern: treat "not pursuing this" as its own bucket rather than letting dead

@@ -133,9 +133,9 @@ infrastructure, a CRM, or a forecast this surface's jobs would otherwise recomme
 | Job | How founder-led solo reshapes it |
 |---|---|
 | [icp-and-qualification](icp-and-qualification.md) | Qualification is a private judgment call, not a scored form; frameworks named there are for the founder's own thinking, never customer-facing |
-| [outbound-and-prospecting](outbound-and-prospecting.md) | Manual, low-volume outreach (see alexabelonix above) is often more honest than automating a motion that hasn't been validated by hand yet |
+| [outbound-and-prospecting](outbound-and-prospecting.md) | Manual, low-volume outreach (see alexabelonix above) is often more honest than automating a motion that hasn't been validated by hand yet. The channel mix moves with the customer count — one agency's own sequence: "0-10 clients: Outbound. 10-30 clients: Referrals.", driven by one onboarding-form question, "Is there anyone in your network that you think could benefit from this service?", and a manual note naming the referring customer (x.com/NickAbraham12/status/2006741055719288893, FIRST-PERSON, one company's counts, not thresholds). The onboarding form itself is `success`'s/`product`'s surface; the referred conversation is sales's |
 | [discovery-calls](discovery-calls.md) | The founder is both the skeptic and the seller in the room — see the central tension above; no branded methodology fixes that |
-| [crm-and-pipeline](crm-and-pipeline.md) | No settled tool exists; a spreadsheet with explicit stage exit criteria beats an unconfigured CRM |
+| [crm-and-pipeline](crm-and-pipeline.md) | No settled tool exists; a spreadsheet with explicit stage exit criteria beats an unconfigured CRM. Append each status change as a new dated row rather than overwriting the old one, and give every open row a next-action date: the transition history is the only stage-to-close data a solo pipeline will ever have, and [forecasting-honesty](forecasting-honesty.md) needs it |
 | [forecasting-honesty](forecasting-honesty.md) | The small-numbers gate binds hardest here — a handful of deals cannot support a calibrated stage-weight forecast; see that file's small-numbers section |
 | [win-loss-learning](win-loss-learning.md) | patio11's prediction-then-score loop (write the expected loss reason before the outcome) is adoptable with zero tooling at this scale |
 
