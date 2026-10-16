@@ -12,6 +12,7 @@ Read when:
 - An AI SDR or agent drafts, sends, or follows up on outbound without per-message human review.
 - Evaluating an AI-SDR vendor's claims before adopting or citing them.
 - Deciding what autonomy ceiling to grant an agent running any part of a sales motion.
+- A model scores leads or triages replies and decides which ones reach a human.
 
 Skip when:
 - A human reviews and approves each agent-drafted message before it sends — that's the base policy
@@ -34,6 +35,7 @@ configuration rather than left to prompt discretion; a structural ceiling on una
 - [AI-SDR reality, honestly](#ai-sdr-reality-honestly)
 - [Disclosure becomes structural, not instructional](#disclosure-becomes-structural-not-instructional)
 - [Guardrails for autonomous outbound](#guardrails-for-autonomous-outbound)
+- [Model-scored qualification](#model-scored-qualification)
 - [The evasion rule binds tools that don't exist yet](#the-evasion-rule-binds-tools-that-dont-exist-yet)
 - [Where mechanics live](#where-mechanics-live)
 - [Validation](#validation)
@@ -74,6 +76,15 @@ cannot omit from a first-contact message — the same pattern as a required, log
 elsewhere in the family for auditable agent decisions — and log every send against it, so disclosure
 compliance is reviewable after the fact, not just hoped for at generation time.
 
+Published autonomous pitch pipelines build the inverse. A second-hand account quotes an orchestrator
+prompt whose checker agent "runs every message through evals for personalization, absence of AI
+markers and buzzwords before sending" (x.com/browomo/status/2051747188787523825); a published
+outreach-agent prompt sets "Tone: Casual, not salesy, like a human wrote it"
+(x.com/HamptonAc_/status/2024846643586031966, article). An eval that scores the absence of AI
+markers is non-disclosure enforced as configuration — this section's own mechanism, pointed the other
+way. A tone check is fine; a check whose pass condition is that the recipient cannot tell is a
+concealment gate, and the disclosure field outranks it.
+
 ## Guardrails for autonomous outbound
 
 - **A volume ceiling** on how many prospects per day an agent may contact unsupervised, enforced by
@@ -85,13 +96,33 @@ compliance is reviewable after the fact, not just hoped for at generation time.
   [proposals-pricing-and-negotiation.md](proposals-pricing-and-negotiation.md) and automation's own
   fail-closed irreversible-action gate (`automation/references/approval-and-authority.md:109`) for
   the mechanism; don't re-derive an approval workflow here.
+- **Escalation tripwires live outside the loop too.** The same orchestrator wakes its owner only when
+  a deal crosses a dollar threshold or a niche's daily reply rate drops below a floor (browomo,
+  above) — a sensible pair of triggers, written into the agent's own prompt, which is exactly where
+  this list says a guardrail must not live. Neither fires on disclosure, which is settled before
+  first contact, not after a metric moves.
+
+## Model-scored qualification
+
+A model that scores leads and passes only those above a cutoff — "Score 1-10 based on: Budget
+likelihood … Need likelihood … Timing … Only pass leads scoring 7+ to outreach" (HamptonAc_ article,
+above) — is deciding who gets contacted, so this overlay applies. The cutoff is a hand-set assumption
+with a runtime, the same species as a stage weight: log every score beside its outcome and check it
+with the predict-then-score loop ([forecasting-honesty.md](forecasting-honesty.md) §6) before trusting
+it. The same article reports a conversion jump for a user who "only took calls with 8+ scores";
+taking fewer calls shrinks the denominator, so a higher rate among calls taken says nothing about
+whether more deals closed — ask for closed deals per lead scored. Reply triage by model score ("All
+three channels land in one master inbox, get AI scored, and route by tier",
+x.com/coldemailchris/status/2068098788934266953) is the same decision one step later: a tier that
+never reaches a human is an unreviewed qualification call.
 
 ## The evasion rule binds tools that don't exist yet
 
 [outbound-and-prospecting.md](outbound-and-prospecting.md)'s rule against manufacturing false
 engagement signals to defeat filtering applies with more force to an autonomous agent, because an
 agent can produce the evasion at a volume and consistency a human copy-pasting cannot. The rule is
-written against the *category* — copy-spinning, simulated engagement, account farming — specifically
+written against the *category* — copy-spinning, simulated engagement, account farming, manufactured
+reply signals — specifically
 so it still binds a capability that doesn't exist yet. An agent framework offering "vary this message
 N ways to avoid detection" is offering evasion tooling regardless of how the feature is marketed; this
 overlay does not carve out an exception for agent-native versions of the same three exhibits.
@@ -111,7 +142,10 @@ content to adapt.
 - This overlay is stacked on a named base surface, never used as one.
 - Disclosure is enforced as a required, logged field the agent cannot omit — not as prompt wording.
 - Every AI-SDR vendor figure ships VENDOR-SELF-REPORTED, and every contested pair ships both halves.
-- The volume ceiling and kill switch sit outside the agent's own reasoning loop.
+- The volume ceiling, kill switch, and escalation tripwires sit outside the agent's own reasoning
+  loop.
+- No checker in the send path passes on the recipient being unable to tell an AI sent the message.
+- A model-set qualification cutoff is labelled an assumption and logged beside outcomes.
 - The evasion-category rule is applied to the capability, not to the named tool that implements it.
 
 ## Failure modes
@@ -125,4 +159,7 @@ content to adapt.
   category it is, because an agent generated it rather than a human.
 - A volume or kill-switch guardrail enforced only by prompt instruction rather than the platform's own
   control — the same gap the family's other agentic overlays flag as the highest-consequence one.
+- A "sounds human" or "no AI markers" gate in the send path — concealment configured as quality.
+- Reading a higher conversion rate among calls taken as proof a lead score works — the denominator
+  moved.
 - The real ask is agent mechanics, retrieval, or eval design → `ai`.
