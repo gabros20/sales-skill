@@ -6,7 +6,8 @@ territory survives this pack's figure-survival rule — that absence is stated p
 papered over with a stat that doesn't hold up.
 
 Read when: building or reviewing a demo flow, deciding what to show and in what order, writing the
-narrative arc for a sales call that includes a product walkthrough.
+narrative arc for a sales call that includes a product walkthrough; deciding whether to build a
+demo or mockup *before* any conversation and send it as the first touch.
 
 Skip when: the rapport-vs-methodology evidence question for the conversation before the demo (→
 `discovery-calls.md`); what to say when the prospect objects during or after the demo (→
@@ -23,7 +24,8 @@ hunting for a citation that doesn't exist.
 
 ## Contents
 1. The honest evidence position · 2. Demo as answer, not tour · 3. The exit-criteria exhibit ·
-4. What "narrative" means here · 5. Practical construction · 6. Never-ship
+4. What "narrative" means here · 5. Practical construction · 6. Demo before the discovery call ·
+7. Never-ship
 
 ---
 
@@ -40,8 +42,9 @@ toward every named methodology it hasn't independently checked (`icp-and-qualifi
 "MEDDIC/MEDDPICC: evidence and legal status"). A book existing, or being widely recommended, is not
 the same as its claims having been tested.
 
-**Nothing here needs a recognise-and-correct treatment, because nothing traceable circulates.**
-That is itself the honest position for this file, not a gap this pack forgot to fill.
+**No demo-outcome benchmark needs a recognise-and-correct treatment, because none traceable
+circulates.** That is itself the honest position for this file, not a gap this pack forgot to fill
+(the demo-first genre's cost figures, §6, are a different claim — about the seller's cost).
 
 ## 2. Demo as answer, not tour
 
@@ -108,7 +111,41 @@ full stage-design and stage-naming discussion lives in `crm-and-pipeline.md`.
   the answer the demo gave actually address what the discovery call found, or was the demo
   answering a question nobody asked.
 
-## 6. Never-ship
+## 6. Demo before the discovery call: the prebuilt-proof first touch
+
+A large practitioner genre inverts §2: build the demo first and send it as the opening move. The
+pipeline version states the order plainly — "by the time outreach starts, the demo is live, the
+walkthrough is recorded, and the UGC video exists. all before anyone has been contacted"
+([@everestchris6](https://x.com/everestchris6/status/2025291876052738163), article); the manual
+version moves the pitch from "what I will do" to "see a website rebuild optimized for conversion"
+([@omoalhajaabiola](https://x.com/omoalhajaabiola/status/2072228011974291667), a sponsored post); the
+general advice is "If you're pitching a service, create a mock-up of what you'd do for the person and
+include a screenshot in the email" ([@SahilBloom](https://x.com/SahilBloom/status/1912649564256870669)).
+The argument is cost — generation made speculative work cheap enough to do per prospect. Grade: a
+practitioner and course-funnel genre whose attached outcome figures are second-hand or self-reported,
+method unknown. §1's null stands: nothing here measures whether demo-first wins more deals.
+
+It is consistent with §2 under one condition: **the need must be observable from outside** — the
+slow page, the missing phone number, the request the owner posted. Outside-in observation then
+stands in for the discovery call's first question, and only that one; a prebuilt artifact answers
+what is visible, not what the buyer prioritizes, who decides, or what else they are weighing. The
+call that follows still opens with a question before the walkthrough
+([discovery-calls.md](discovery-calls.md) §4's ask-for-an-instance mechanic is the one to borrow).
+
+Three checks before a prebuilt demo goes out:
+- **Built from their real details, checked before sending.** A demo carrying wrong facts about their
+  business fails the observation test in [outbound-and-prospecting.md](outbound-and-prospecting.md)
+  — the reader can falsify it in seconds.
+- **Attach or offer — contested.** One pipeline sends the live link in the first email
+  (everestchris6, above); the low-commitment school asks permission first ("Want me to send over the
+  campaign structure we used for {{client 1}}?",
+  [@NickAbraham12](https://x.com/NickAbraham12/status/2086451710617162198)). No source compares the
+  two; links in cold mail are also a deliverability question, which is marketing's.
+- **A scope promise.** Whatever the demo shows is what the buyer now expects at the quoted price; a
+  gap between the two becomes the first objection (`objections-and-enablement.md`) or the first
+  lost deal.
+
+## 7. Never-ship
 
 - Any bare demo-to-close or demo-attendance conversion percentage — none was found sourced
   anywhere in this research; treat one encountered elsewhere as folklore until a method is
@@ -118,6 +155,9 @@ full stage-design and stage-naming discussion lives in `crm-and-pipeline.md`.
   stage-validation distinction this pack draws everywhere.
 - The JPSP question-asking papers (§5) cited as proof that a demo methodology, script, or framework
   improves win rates — they measure liking in conversation, not sales outcomes.
+- Build-cost-versus-agency-quote posts (a few dollars of generation against a studio's five-figure
+  quote) cited as evidence that demo-first wins deals (§6) — they describe the seller's cost, not
+  the buyer's decision.
 
 ## Validation
 
@@ -127,11 +167,15 @@ full stage-design and stage-naming discussion lives in `crm-and-pipeline.md`.
   rather than implied.
 - Objection anticipation and post-demo proposal sequencing are cross-linked to their owning files,
   never restated in full here.
+- A prebuilt-demo first touch names the outside-observable need it answers, and the call that
+  follows still opens with a question (§6).
 
 ## Failure modes and handoff
 
 - **"What's the proven demo script?"** — none is evidenced; give §1's honest position and §5's
   construction method instead.
+- **"Should I send a mockup in the cold email?"** — §6: only where the need is observable from
+  outside, built from their real details; attach-versus-offer stays contested.
 - **An objection surfaces during or right after the demo** — → `objections-and-enablement.md`.
 - **What happens after a demo that lands (quote, proposal)** — →
   `proposals-pricing-and-negotiation.md`.

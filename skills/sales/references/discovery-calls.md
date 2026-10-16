@@ -33,14 +33,14 @@ Inputs: an upcoming or recent discovery call, or a discovery-call technique/scri
 proposed or evaluated.
 
 Produces: a graded read of what rapport-building question-asking is evidenced to do, a refusal to
-let that evidence validate any branded methodology's win-rate claim, and two sourced, adoptable call
+let that evidence validate any branded methodology's win-rate claim, and three sourced, adoptable call
 mechanics.
 
 ## Contents
 - [1. The precise position](#1-the-precise-position)
 - [2. What SPIN cannot borrow](#2-what-spin-cannot-borrow)
 - [3. What the practitioner surface adds](#3-what-the-practitioner-surface-adds)
-- [4. Two adoptable mechanics, sourced honestly](#4-two-adoptable-mechanics-sourced-honestly)
+- [4. Three adoptable mechanics, sourced honestly](#4-three-adoptable-mechanics-sourced-honestly)
 - [5. Naming discipline](#5-naming-discipline)
 - [Validation](#validation)
 - [Failure modes and handoff](#failure-modes-and-handoff)
@@ -103,7 +103,7 @@ A second exhibit pushes back directly on the "too many questions burns the call"
 OPINION, not a study — but it relocates the failure mode from question *volume* to *listening*,
 which is a more falsifiable and more actionable frame than "ask fewer questions."
 
-## 4. Two adoptable mechanics, sourced honestly
+## 4. Three adoptable mechanics, sourced honestly
 
 **Set an objective, not an agenda.**
 
@@ -127,6 +127,18 @@ who is on this specific call, user or payer, and which questions that person can
 The account-level version of this question — mapping a full buying group, ICP fit — is
 `icp-and-qualification.md`'s job, not this file's; this file only asks it about the person on the
 call in front of you.
+
+**Ask for an instance, not a summary.**
+
+> "Best question I ask on a Ai automation discovery call: “Can you give me an example of that?” …
+> You’d have missed it if you took the first answer and started talking about tools." —
+> @lukepierceops, 2026-06-27, https://x.com/lukepierceops/status/2070839963650802005
+
+OPINION from a seller of the service, but the mechanic does not depend on it: when a buyer states
+an abstract need ("improve operations," in his example), ask for one concrete case before answering
+it — his first answer named a category; the instance named the deal. It is also a follow-up question,
+the form Yeomans 2019 (§1) studied, which earns it the liking evidence from non-sales dyads and
+nothing about win rate.
 
 ## 5. Naming discipline
 
