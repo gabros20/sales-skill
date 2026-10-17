@@ -182,15 +182,17 @@ applies here to outbound.
 **On an AI-voice call, the disclosure is the opening line.** Whether the number may be called at all,
 and what the opening must contain and by when, is marketing's consent rule — `marketing`
 `references/lifecycle-and-email.md`, "Outbound AI-voice calls are automated calls"; cite it, never
-restate it. The craft this pack owns is three moves. **Open with who and what before the pitch:** the
-business calling, that the caller is an AI, whether the call is recorded, how to stop and how to
-reach a person — rendered before the call so it plays on answer, not composed after it. **Make stop final:** an opt-out ends the
-pitch, the call and the sequence for that number; it is never handled as an objection. **Transfer
+restate it — that rule requires legal review before any AI-calling campaign. The craft this pack
+owns is three moves. **Open with who and what before the pitch:** the business calling, that the
+caller is an AI, whether the call is recorded, how to stop and how to reach a person — rendered
+before the call (after any live announcement marketing's rule requires) so it plays on answer, not
+composed after it. **Make stop final:** an opt-out ends the pitch, the call and the sequence for
+that number; it is never handled as an objection. **Transfer
 on request, without negotiation:** an explicit ask for a person goes to one, carrying what the
 caller already said so they never repeat it — the same explicit-request trigger as `success`
 `references/ai-support-policy.md`, "Escalation is symbolic, never a confidence float". Asked
 whether it is human, the agent says no. Detection and transfer mechanics → `ai`
-`references/surface-voice.md`, "Surface: Voice (additive)".
+`references/surface-voice.md`, "Guardrails on a call".
 
 Two things the rule is not. Describing the product by its outcome instead of its technology —
 "Don't sell AI. Don't say "agent" or "open-source" or "gateway."" in a guide to selling AI
