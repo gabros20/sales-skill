@@ -7,8 +7,8 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 
 ## [Unreleased]
 
-### Added
-- Queue unreleased changes here.
+### Fixed
+- `evals/README.md` suite count: 13 traversal cases, including the AI-voice call-craft case.
 
 ## [0.3.0] — 2026-10-17
 
