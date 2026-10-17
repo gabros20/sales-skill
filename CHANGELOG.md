@@ -8,6 +8,11 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 ## [Unreleased]
 
 ### Added
+- Queue unreleased changes here.
+
+## [0.2.0] — 2026-10-17
+
+### Added
 - Practitioner outbound craft folded into the existing references, every quote re-fetched at its
   permalink and graded inline: the first touch in `outbound-and-prospecting` (an ask smaller than a
   meeting, one checkable observation, the source named, a written stop condition), check-the-
@@ -57,4 +62,5 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
   compression-ablation.
 - Research corpora + synthesis in `research/` (5 channels, date-stamped 2026-08-03).
 
+[0.2.0]: https://github.com/gabros20/sales-skill/releases/tag/v0.2.0
 [0.1.0]: https://github.com/gabros20/sales-skill/releases/tag/v0.1.0
