@@ -79,5 +79,11 @@
     "prompt": "I have 200 accounts that fit our ICP. Which ones should I email first?",
     "expected_references": ["references/icp-and-qualification.md"],
     "forbidden_references": ["references/surface-enterprise-team.md", "references/proposals-pricing-and-negotiation.md"]
+  },
+  {
+    "id": "ai-voice-outbound-call-craft",
+    "prompt": "I'm setting up an AI voice agent to cold-call SMB owners and pitch our booking tool. How should the call open, and what happens when someone says stop or asks for a person?",
+    "expected_references": ["references/outbound-and-prospecting.md"],
+    "forbidden_references": ["references/forecasting-honesty.md", "references/proposals-pricing-and-negotiation.md"]
   }
 ]

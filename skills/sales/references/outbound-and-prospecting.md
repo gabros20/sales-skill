@@ -9,7 +9,8 @@ Read when:
 - Building or running a cold outbound or prospecting motion, or evaluating funnel math for one.
 - Writing a first-touch message or a follow-up sequence, or diagnosing why replies fell.
 - Citing a Gmail/Yahoo deliverability threshold and needing the exact, non-collapsed numbers.
-- Deciding whether — and how — to disclose that an outbound message was AI-drafted or AI-sent.
+- Deciding whether — and how — to disclose that an outbound message was AI-drafted or AI-sent, or
+  that the caller on an outbound call is an AI voice.
 - Evaluating a technique that promises better deliverability and needing to know whether it's craft
   or evasion.
 
@@ -178,6 +179,19 @@ AI-drafted or AI-sent outbound to EU or California recipients is within scope on
 texts. This mirrors the family's existing AI-disclosure precedent for support agents; the same posture
 applies here to outbound.
 
+**On an AI-voice call, the disclosure is the opening line.** Whether the number may be called at all,
+and what the opening must contain and by when, is marketing's consent rule — `marketing`
+`references/lifecycle-and-email.md`, "Outbound AI-voice calls are automated calls"; cite it, never
+restate it. The craft this pack owns is three moves. **Open with who and what before the pitch:** the
+business calling, that the caller is an AI, how to stop and how to reach a person — rendered before
+the call so it plays on answer, not composed after it. **Make stop final:** an opt-out ends the
+pitch, the call and the sequence for that number; it is never handled as an objection. **Transfer
+on request, without negotiation:** an explicit ask for a person goes to one, carrying what the
+caller already said so they never repeat it — the same explicit-request trigger as `success`
+`references/ai-support-policy.md`, "Escalation is symbolic, never a confidence float". Asked
+whether it is human, the agent says no. Detection and transfer mechanics → `ai`
+`references/surface-voice.md`, "Surface: Voice (additive)".
+
 Two things the rule is not. Describing the product by its outcome instead of its technology —
 "Don't sell AI. Don't say "agent" or "open-source" or "gateway."" in a guide to selling AI
 receptionists (x.com/NickSpisak_/status/2032413860863283357, article) — is positioning, marketing's
@@ -219,6 +233,8 @@ technique**; cite the exhibits as the boundary instead.
 - [ ] The "email is cooked" thesis is presented as contested, not settled in either direction.
 - [ ] Any AI-outbound disclosure statement names both the EU AI Act Art. 50 timing rule and California
       SB 1001's safe-harbour structure, and does not repeat the false 10M-visitor exemption.
+- [ ] An AI-voice call cites marketing's consent rule, opens with business, AI and the way out,
+      treats stop as final, and transfers to a person on request.
 - [ ] The evasion-category rule is stated as a category, not tied to one prompt or vendor.
 - [ ] A first touch asks for something smaller than a meeting, carries one human-written, checkable
       observation, and names the public post when one triggered it.
@@ -227,7 +243,9 @@ technique**; cite the exhibits as the boundary instead.
 ## Failure modes and handoff
 
 - **Restating marketing's deliverability or consent doctrine instead of citing it** — cite the shipped
-  strip; this pack adds outbound practice and policy, not the underlying tutorial.
+  strip; this pack adds outbound practice and policy, not the underlying tutorial. AI-voice calling
+  included: the consent basis and timing windows stay marketing's.
+- **An opt-out on a call handled as an objection to overcome** — stop is final for that number.
 - **Shipping "20k–30k leads per deal" as a benchmark** — teach the chaining method with the reader's
   own rates instead.
 - **Collapsing the Gmail spam-rate guidance to one number**, or fusing the Google and Yahoo bulk

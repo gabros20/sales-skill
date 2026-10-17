@@ -8,7 +8,13 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 ## [Unreleased]
 
 ### Added
-- Queue unreleased changes here.
+- [outbound-and-prospecting](skills/sales/references/outbound-and-prospecting.md), the AI-outbound
+  disclosure rule: on an AI-voice call the disclosure is the opening line. Three craft moves —
+  open with the business, the AI, and the way out (rendered before the call); stop is final, never
+  an objection; transfer to a person on request with context carried. Consent basis and timing
+  windows cited to `marketing` (lifecycle-and-email, "Outbound AI-voice calls are automated
+  calls"), never restated; mechanics pointed to `ai` `surface-voice.md`.
+- Router row, `marketing` handoff row, a Validation item, a failure mode, and one traversal eval.
 
 ## [0.2.0] — 2026-10-17
 
