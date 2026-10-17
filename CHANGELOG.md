@@ -7,6 +7,11 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 
 ## [Unreleased]
 
+### Added
+- Queue unreleased changes here.
+
+## [0.3.1] — 2026-10-17
+
 ### Fixed
 - `evals/README.md` suite count: 13 traversal cases, including the AI-voice call-craft case.
 
@@ -73,6 +78,7 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
   compression-ablation.
 - Research corpora + synthesis in `research/` (5 channels, date-stamped 2026-08-03).
 
+[0.3.1]: https://github.com/gabros20/sales-skill/releases/tag/v0.3.1
 [0.3.0]: https://github.com/gabros20/sales-skill/releases/tag/v0.3.0
 [0.2.0]: https://github.com/gabros20/sales-skill/releases/tag/v0.2.0
 [0.1.0]: https://github.com/gabros20/sales-skill/releases/tag/v0.1.0
