@@ -183,8 +183,8 @@ applies here to outbound.
 and what the opening must contain and by when, is marketing's consent rule — `marketing`
 `references/lifecycle-and-email.md`, "Outbound AI-voice calls are automated calls"; cite it, never
 restate it. The craft this pack owns is three moves. **Open with who and what before the pitch:** the
-business calling, that the caller is an AI, how to stop and how to reach a person — rendered before
-the call so it plays on answer, not composed after it. **Make stop final:** an opt-out ends the
+business calling, that the caller is an AI, whether the call is recorded, how to stop and how to
+reach a person — rendered before the call so it plays on answer, not composed after it. **Make stop final:** an opt-out ends the
 pitch, the call and the sequence for that number; it is never handled as an objection. **Transfer
 on request, without negotiation:** an explicit ask for a person goes to one, carrying what the
 caller already said so they never repeat it — the same explicit-request trigger as `success`
@@ -233,8 +233,8 @@ technique**; cite the exhibits as the boundary instead.
 - [ ] The "email is cooked" thesis is presented as contested, not settled in either direction.
 - [ ] Any AI-outbound disclosure statement names both the EU AI Act Art. 50 timing rule and California
       SB 1001's safe-harbour structure, and does not repeat the false 10M-visitor exemption.
-- [ ] An AI-voice call cites marketing's consent rule, opens with business, AI and the way out,
-      treats stop as final, and transfers to a person on request.
+- [ ] An AI-voice call cites marketing's consent rule, opens with business, AI, recording and the
+      way out, treats stop as final, and transfers to a person on request.
 - [ ] The evasion-category rule is stated as a category, not tied to one prompt or vendor.
 - [ ] A first touch asks for something smaller than a meeting, carries one human-written, checkable
       observation, and names the public post when one triggered it.
@@ -243,8 +243,7 @@ technique**; cite the exhibits as the boundary instead.
 ## Failure modes and handoff
 
 - **Restating marketing's deliverability or consent doctrine instead of citing it** — cite the shipped
-  strip; this pack adds outbound practice and policy, not the underlying tutorial. AI-voice calling
-  included: the consent basis and timing windows stay marketing's.
+  strip; this pack adds outbound practice and policy, not the underlying tutorial.
 - **An opt-out on a call handled as an objection to overcome** — stop is final for that number.
 - **Shipping "20k–30k leads per deal" as a benchmark** — teach the chaining method with the reader's
   own rates instead.
