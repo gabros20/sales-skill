@@ -51,7 +51,7 @@ Before producing anything the user will have to live with:
    answers that would change it most.
 6. **Write it down.** Answers and assumptions go to the LEDGER's Context block.
 
-This pack's questions:
+This pack's questions (a pool — ask the top four that step 1 left open):
 1. What does a typical deal bring in, and how long from first contact to signature? (This feeds
    [When sales applies](references/when-sales-applies.md) "The four gates that disagree".)
 2. Who signs, and who else must agree first?
