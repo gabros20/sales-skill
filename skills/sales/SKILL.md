@@ -15,15 +15,10 @@ description: >-
 ## Mission and boundary
 
 **Win the deal, and be honest about whether you can actually predict winning it.** Sales owns the
-buying conversation and the deal system — whether an assisted sales motion should exist at all,
-account selection and qualification, cold outbound, discovery calls, demos, objection handling and
-enablement, proposal/pricing presentation and negotiation, CRM structure and deal-pipeline
-hygiene, forecasting, win/loss learning, and the expansion-sale close — and it owns the epistemics
-that come with them: which forecast signals can be trusted, and which cannot.
+buying conversation and the deal system (the Jobs table below), and the epistemics that come with
+them: which forecast signals can be trusted, and which cannot.
 
-**What makes this pack different: it asks the question the genre's best incumbent never asks.** The
-largest open sales corpus in this research (11,105 lines) cites zero permalinks to any figure and
-executes an unlinked stage-conversion table as code. The flagship,
+**What makes this pack different: it asks the question the genre's best incumbent never asks.** The flagship,
 [forecasting-honesty](references/forecasting-honesty.md) ⭐, states plainly what nobody in the
 genre states: forecast *method* is publishable and widely published; forecast *accuracy* is
 published by no one — vendor, analyst, or academic — and teaches what to do at n=1 instead of
@@ -32,36 +27,46 @@ pretending a small pipeline can be calibrated.
 **The default reader is a founder selling their own product, not an AE carrying a quota.** So the
 front door is a gate, not a playbook:
 [when-sales-applies](references/when-sales-applies.md) decides whether an assisted motion is worth
-running at all and which of four incompatible practitioner gates actually binds — because no
-source in the canon resolves that disagreement, and picking one silently will misfire for a reader
-who fits a different gate.
+running at all and which of four incompatible practitioner gates binds — never one picked silently.
 
 `sales` writes gates, playbooks, policies, pipeline structures, forecasts, and handoffs — **no
-production code**. Named methodologies (MEDDIC, MEDDPICC, SPIN, Challenger, Sandler) are cited and
-taught by their evidence, never reproduced. See "Not this skill" below.
+production code**; see "Not this skill" below.
 
 Use compatible upstream artifacts without silently overriding established decisions. Do not invoke
 adjacent skills automatically unless the user explicitly requested a composition workflow.
 
+## Standalone context check
+
+Before producing anything the user will have to live with:
+1. **Look first.** Read `digital-product/LEDGER.md` (Context), `digital-product/<pack>/`, upstream
+   artifacts, the repo and this conversation. A fact found is never asked; a fact recorded is never
+   re-asked.
+2. **Size it.** Reversible and small → proceed, stating assumptions. New, costly or hard to undo →
+   check.
+3. **Ask only what the owner alone knows**, in their words: one round, at most four, highest
+   leverage first, each with a recommended answer ("ok" accepts all). Two rounds at most.
+4. **No or thin answers → decide as the expert.** Record each assumption with its basis and cost to
+   reverse; prefer the reversible option; show the cheapest proof early.
+5. **No way to ask → never block.** Proceed, and open the artifact with the assumptions and the
+   answers that would change it most.
+6. **Write it down.** Answers and assumptions go to the LEDGER's Context block.
+
+This pack's questions:
+1. What does a typical deal bring in, and how long from first contact to signature? (This feeds
+   [When sales applies](references/when-sales-applies.md) "The four gates that disagree".)
+2. Who signs, and who else must agree first?
+3. Where do leads come from today, and how many a month? (Read the CRM first, if there is one.)
+4. Who sells: you, or someone hired? (Recommended: you, until the gate says otherwise.)
+
 ## Route before acting
 
-1. **Run the existence gate first** whenever the request assumes a sales motion exists and hasn't
-   justified it — read [when-sales-applies](references/when-sales-applies.md) before building
-   outbound infrastructure, a CRM, or a forecast.
-2. Identify the **one primary job** and the **one base surface**. Read one of each. **If the
-   request names no business model, do not stall** — assume the default surface (founder-led
-   solo) and say which you assumed.
-3. Add the **agentic overlay on top of** a base surface, never instead of one:
-   [agentic](references/agentic.md) when a model runs outbound, qualification, or a deal step
-   without a human reviewing that instance.
-4. **Grade every figure inline** — primary > practitioner-report > vendor-claim, and mark
-   FOLKLORE/CONTESTED/CONFOUNDED explicitly. A vendor number stays vendor-claim even when quoted to
-   refute it. Check any figure against "Universal invariants" and the never-ship table below.
-5. **Never re-teach a sibling's owned mechanic.** ICP is inherited from `marketing`, not redefined;
-   deliverability doctrine is `marketing`'s, cited not restated; agent mechanics and evals are
-   `ai`'s; CRM sync/write-path mechanics are `automation`'s.
-6. Read every selected reference completely before producing the affected artifact.
-7. Do not load unrelated references.
+1. **Run the existence gate first** ([when-sales-applies](references/when-sales-applies.md))
+   unless the request has already justified a sales motion.
+2. Identify the **one primary job** and the **one base surface**. Read one of each. **No business
+   model named → do not stall:** assume founder-led solo and say so.
+3. Add the **agentic overlay on top of** a base surface, never instead of one (Surfaces table).
+4. Read every selected reference completely before producing the affected artifact; load nothing
+   unrelated.
 
 ### Jobs
 
@@ -114,8 +119,10 @@ and `success`, and a note that `product`'s and `automation`'s silence on sales i
   holds three different subjects behind that one number.
 - **KBCM/KeyBanc quota-attainment figures ship nowhere in this pack.** The subject was verified
   once; the value never was — verified-subject is not verified-value.
-- **Grade every figure inline** and carry the method with the number, or say "method unknown."
-  Vendor AI-SDR claims (Gong, 11x, Aviso) are VENDOR-SELF-REPORTED and never cited without the
+- **Grade every figure inline** — primary > practitioner-report > vendor-claim, marking
+  FOLKLORE/CONTESTED/CONFOUNDED explicitly; a vendor number stays vendor-claim even when quoted to
+  refute it. Carry the method with the number, or say "method unknown," and check the figure
+  against the never-ship table below. Vendor AI-SDR claims (Gong, 11x, Aviso) are VENDOR-SELF-REPORTED and never cited without the
   method-absence statement attached; contested pairs (11x's ARR/retention figures) never ship one
   side alone.
 - **A disclaimed figure is still a figure.** In working prose, never name a never-ship number in
@@ -189,17 +196,12 @@ support (a forecast with no backtest, a win rate with no denominator, a methodol
 outcome study) · and, where a ruling is provisional or contested (the `success` expansion-sale
 seam), that label carried forward rather than flattened into confidence it does not have.
 
-Gates, playbooks, policies, pipeline structures, forecasts, and handoffs are delivered as
-documents. None is delivered as production code.
-
 ## Completion and handoff
 
 Before completion:
 
 - Confirm every requested artifact exists and every claim in it has a proof source — an unsourced
   percentage is not a finished line.
-- Confirm no figure travels without its method, its evidence grade, or an explicit "method unknown."
-- State plainly what this artifact will and will not be able to prove — especially any forecast.
 - When downstream work is expected, provide artifact paths, owners, residual risk, and a
   recommended next skill — typically `marketing` for a qualified-demand handoff, `growth` to test
   a funnel-stage change, `success` for the (contested) expansion-sale-to-renewal handoff, `product`
@@ -214,8 +216,7 @@ without the user's own win rate and denominator statement ·
 log scorer that refuses a calibration verdict below an honest sample size ·
 [loss_prediction_log.md](assets/loss_prediction_log.md) — patio11's prediction-then-score template,
 with example rows · [stage_exit_criteria_audit.md](assets/stage_exit_criteria_audit.md) — an audit
-sheet for per-stage exit criteria and negative disqualifiers. Eval suites live in the repository's
-`evals/` directory.
+sheet for per-stage exit criteria and negative disqualifiers.
 
 Attribution, licences, and what this pack claims for itself — `SOURCES.md` at the repository root.
 

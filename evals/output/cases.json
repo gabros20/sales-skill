@@ -91,5 +91,15 @@
       "output must not print 'GitLab's forecast is 33% accurate'",
       "carry the caveat verbatim in README.md: this cases file is not agent-loaded, so quoting the banned figures inside it is not a shipping violation"
     ]
+  },
+  {
+    "id": "standalone-context-check",
+    "prompt": "Build me a sales process for my B2B tool \u2014 pipeline, outreach, the lot.",
+    "assertions": [
+      "Before producing anything it reads any digital-product/LEDGER.md Context, an existing CRM if there is one and the conversation, and asks nothing already answered there.",
+      "It asks at most four questions in one round (for example typical deal size and time to signature, who signs, where leads come from and how many, who sells), each with a recommended answer \u2014 or, if it cannot ask, proceeds on the founder-led solo default and opens with the assumptions that would change it most.",
+      "It runs the Existence Gate on the answers before building outbound, a CRM or a forecast, and names which gate binds.",
+      "Answers and assumptions are recorded in the LEDGER's Context block, each assumption with its basis and cost to reverse."
+    ]
   }
 ]

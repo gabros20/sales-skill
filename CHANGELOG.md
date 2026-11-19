@@ -8,7 +8,17 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 ## [Unreleased]
 
 ### Added
-- Queue unreleased changes here.
+- SKILL.md **Standalone context check** (before routing): the family's common core (look first,
+  size it, ask at most four owner-only questions with recommended answers, decide as the expert,
+  never block, record in the LEDGER) and four sales questions (deal size and cycle, who signs, where
+  leads come from, who sells); the first feeds `when-sales-applies.md` "The four gates that
+  disagree". SKILL.md was already over the 3,500-token threshold; offset so it shrinks (4901 → 4879,
+  229 lines, under the 250-line review threshold) by cutting text SKILL.md states elsewhere: the
+  mission's job list (the Jobs table), its corpus sentence (the never-ship stage-table row) and its
+  methodology sentence (the trademark invariant), route steps 4–5 (the grading invariant, which now
+  carries the FOLKLORE/CONTESTED/CONFOUNDED marking and the vendor-claim clause, and the
+  Not-this-skill rows), the no-code sentence and two completion bullets; route steps 1–3 tightened.
+  Output eval `standalone-context-check`; evals README count updated.
 
 ## [0.3.1] — 2026-10-17
 
